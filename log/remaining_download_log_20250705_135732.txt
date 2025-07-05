@@ -1,0 +1,1106 @@
+Download started at 2025-07-05 13:57:32.658020
+Remaining objects to download: 979
+
+Progress: 1/979 (0.1%) - Rate: 0.0 req/sec
+✅ 216147: Downloaded successfully
+✅ 229379: Downloaded successfully
+✅ 444426: Downloaded successfully
+✅ 448524: Downloaded successfully
+✅ 229391: Downloaded successfully
+✅ 888847: Downloaded successfully
+❌ 845841: Not found (404)
+❌ 845842: Not found (404)
+❌ 845843: Not found (404)
+❌ 845845: Not found (404)
+Progress: 11/979 (1.1%) - Rate: 2.0 req/sec
+❌ 845848: Not found (404)
+✅ 32794: Downloaded successfully
+✅ 215074: Downloaded successfully
+✅ 217135: Downloaded successfully
+✅ 219183: Downloaded successfully
+✅ 651331: Downloaded successfully
+✅ 24647: Downloaded successfully
+✅ 213064: Downloaded successfully
+✅ 219214: Downloaded successfully
+✅ 229454: Downloaded successfully
+Progress: 21/979 (2.1%) - Rate: 2.1 req/sec
+✅ 227415: Downloaded successfully
+✅ 229463: Downloaded successfully
+✅ 229464: Downloaded successfully
+✅ 448604: Downloaded successfully
+✅ 225378: Downloaded successfully
+✅ 223332: Downloaded successfully
+✅ 227434: Downloaded successfully
+✅ 225391: Downloaded successfully
+✅ 229489: Downloaded successfully
+❌ 845945: Not found (404)
+Progress: 31/979 (3.2%) - Rate: 2.1 req/sec
+✅ 226347: Downloaded successfully
+✅ 227450: Downloaded successfully
+✅ 229497: Downloaded successfully
+❌ 845952: Not found (404)
+✅ 223360: Downloaded successfully
+✅ 215175: Downloaded successfully
+✅ 217226: Downloaded successfully
+✅ 223376: Downloaded successfully
+✅ 217234: Downloaded successfully
+❌ 629745: Not found (404)
+Progress: 41/979 (4.2%) - Rate: 0.6 req/sec
+✅ 221340: Downloaded successfully
+❌ 700574: Not found (404)
+✅ 69793: Downloaded successfully
+✅ 217251: Downloaded successfully
+✅ 225446: Downloaded successfully
+✅ 34984: Downloaded successfully
+✅ 227499: Downloaded successfully
+❌ 479404: Not found (404)
+✅ 229560: Downloaded successfully
+✅ 229561: Downloaded successfully
+💾 Saved 40 objects to remaining_textiles_batch_50_20250705_135846.json
+Progress: 51/979 (5.2%) - Rate: 0.7 req/sec
+✅ 217275: Downloaded successfully
+✅ 213185: Downloaded successfully
+✅ 215234: Downloaded successfully
+❌ 841923: Not found (404)
+✅ 225474: Downloaded successfully
+✅ 446662: Downloaded successfully
+✅ 227526: Downloaded successfully
+❌ 841930: Not found (404)
+✅ 30925: Downloaded successfully
+✅ 22739: Downloaded successfully
+Progress: 61/979 (6.2%) - Rate: 0.5 req/sec
+✅ 225491: Downloaded successfully
+✅ 456920: Downloaded successfully
+✅ 227546: Downloaded successfully
+✅ 446684: Downloaded successfully
+✅ 229602: Downloaded successfully
+✅ 221411: Downloaded successfully
+✅ 223462: Downloaded successfully
+✅ 227558: Downloaded successfully
+✅ 28904: Downloaded successfully
+✅ 698600: Downloaded successfully
+Progress: 71/979 (7.3%) - Rate: 0.5 req/sec
+✅ 225512: Downloaded successfully
+❌ 760046: Not found (404)
+❌ 760050: Not found (404)
+✅ 698611: Downloaded successfully
+✅ 224336: Downloaded successfully
+❌ 760051: Not found (404)
+❌ 760052: Not found (404)
+✅ 69879: Downloaded successfully
+✅ 486481: Downloaded successfully
+✅ 227577: Downloaded successfully
+Progress: 81/979 (8.3%) - Rate: 0.6 req/sec
+❌ 760053: Not found (404)
+❌ 760055: Not found (404)
+✅ 219388: Downloaded successfully
+❌ 760056: Not found (404)
+❌ 760057: Not found (404)
+❌ 760058: Not found (404)
+❌ 760059: Not found (404)
+❌ 760060: Not found (404)
+✅ 227586: Downloaded successfully
+❌ 893189: Not found (404)
+Progress: 91/979 (9.3%) - Rate: 0.5 req/sec
+❌ 893190: Not found (404)
+✅ 221448: Downloaded successfully
+✅ 30987: Downloaded successfully
+❌ 719115: Not found (404)
+✅ 307471: Downloaded successfully
+✅ 225556: Downloaded successfully
+✅ 223510: Downloaded successfully
+✅ 456988: Downloaded successfully
+✅ 213276: Downloaded successfully
+✅ 221470: Downloaded successfully
+💾 Saved 74 objects to remaining_textiles_batch_100_20250705_140051.json
+Progress: 101/979 (10.3%) - Rate: 0.5 req/sec
+✅ 223516: Downloaded successfully
+✅ 698659: Downloaded successfully
+✅ 213286: Downloaded successfully
+❌ 856359: Not found (404)
+✅ 698664: Downloaded successfully
+✅ 71981: Downloaded successfully
+✅ 215344: Downloaded successfully
+✅ 222313: Downloaded successfully
+✅ 215349: Downloaded successfully
+✅ 219447: Downloaded successfully
+Progress: 111/979 (11.3%) - Rate: 0.5 req/sec
+✅ 225601: Downloaded successfully
+❌ 477508: Not found (404)
+✅ 222317: Downloaded successfully
+✅ 227657: Downloaded successfully
+✅ 227658: Downloaded successfully
+✅ 65870: Downloaded successfully
+✅ 221521: Downloaded successfully
+❌ 477526: Not found (404)
+✅ 219481: Downloaded successfully
+✅ 22874: Downloaded successfully
+Progress: 121/979 (12.4%) - Rate: 0.5 req/sec
+❌ 479578: Not found (404)
+✅ 319836: Downloaded successfully
+✅ 224357: Downloaded successfully
+✅ 227676: Downloaded successfully
+✅ 224358: Downloaded successfully
+✅ 224360: Downloaded successfully
+✅ 227694: Downloaded successfully
+✅ 217457: Downloaded successfully
+❌ 477556: Not found (404)
+✅ 229749: Downloaded successfully
+Progress: 131/979 (13.4%) - Rate: 0.5 req/sec
+✅ 217465: Downloaded successfully
+✅ 223610: Downloaded successfully
+✅ 227710: Downloaded successfully
+✅ 229766: Downloaded successfully
+✅ 905613: Downloaded successfully
+❌ 696720: Not found (404)
+✅ 72080: Downloaded successfully
+❌ 696722: Not found (404)
+❌ 696723: Not found (404)
+❌ 573842: Not found (404)
+Progress: 141/979 (14.4%) - Rate: 0.5 req/sec
+❌ 477584: Not found (404)
+✅ 229776: Downloaded successfully
+✅ 221593: Downloaded successfully
+❌ 696730: Not found (404)
+✅ 199070: Downloaded successfully
+✅ 319903: Downloaded successfully
+❌ 477605: Not found (404)
+❌ 477606: Not found (404)
+✅ 448940: Downloaded successfully
+✅ 317869: Downloaded successfully
+💾 Saved 111 objects to remaining_textiles_batch_150_20250705_140255.json
+Progress: 151/979 (15.4%) - Rate: 0.5 req/sec
+❌ 752046: Not found (404)
+✅ 623025: Downloaded successfully
+✅ 219570: Downloaded successfully
+✅ 217538: Downloaded successfully
+✅ 217541: Downloaded successfully
+✅ 25030: Downloaded successfully
+✅ 451020: Downloaded successfully
+❌ 643550: Not found (404)
+✅ 227807: Downloaded successfully
+✅ 307680: Downloaded successfully
+Progress: 161/979 (16.4%) - Rate: 0.5 req/sec
+✅ 221665: Downloaded successfully
+✅ 446957: Downloaded successfully
+✅ 213490: Downloaded successfully
+❌ 696821: Not found (404)
+❌ 696822: Not found (404)
+✅ 215914: Downloaded successfully
+✅ 230901: Downloaded successfully
+✅ 217600: Downloaded successfully
+✅ 315908: Downloaded successfully
+✅ 231940: Downloaded successfully
+Progress: 171/979 (17.5%) - Rate: 0.5 req/sec
+❌ 643597: Not found (404)
+❌ 643600: Not found (404)
+✅ 68120: Downloaded successfully
+✅ 228465: Downloaded successfully
+✅ 217629: Downloaded successfully
+✅ 215591: Downloaded successfully
+✅ 229931: Downloaded successfully
+❌ 639533: Not found (404)
+✅ 213550: Downloaded successfully
+✅ 213551: Downloaded successfully
+Progress: 181/979 (18.5%) - Rate: 0.5 req/sec
+✅ 223793: Downloaded successfully
+❌ 639543: Not found (404)
+❌ 846394: Not found (404)
+❌ 846396: Not found (404)
+✅ 213564: Downloaded successfully
+✅ 444991: Downloaded successfully
+✅ 68160: Downloaded successfully
+✅ 213573: Downloaded successfully
+✅ 217688: Downloaded successfully
+✅ 442971: Downloaded successfully
+Progress: 191/979 (19.5%) - Rate: 0.5 req/sec
+❌ 668255: Not found (404)
+✅ 236137: Downloaded successfully
+✅ 236138: Downloaded successfully
+❌ 643691: Not found (404)
+❌ 643692: Not found (404)
+❌ 21107: Not found (404)
+✅ 221811: Downloaded successfully
+✅ 318069: Downloaded successfully
+✅ 479864: Downloaded successfully
+✅ 455296: Downloaded successfully
+💾 Saved 147 objects to remaining_textiles_batch_200_20250705_140449.json
+Progress: 201/979 (20.5%) - Rate: 0.5 req/sec
+✅ 215680: Downloaded successfully
+✅ 223876: Downloaded successfully
+✅ 449157: Downloaded successfully
+✅ 307846: Downloaded successfully
+❌ 635741: Not found (404)
+✅ 213649: Downloaded successfully
+✅ 479890: Downloaded successfully
+❌ 72339: Not found (404)
+✅ 318110: Downloaded successfully
+❌ 635742: Not found (404)
+Progress: 211/979 (21.6%) - Rate: 0.5 req/sec
+❌ 846499: Not found (404)
+✅ 223909: Downloaded successfully
+✅ 68262: Downloaded successfully
+✅ 453287: Downloaded successfully
+✅ 217768: Downloaded successfully
+✅ 219817: Downloaded successfully
+✅ 236199: Downloaded successfully
+✅ 479915: Downloaded successfully
+❌ 846508: Not found (404)
+❌ 846509: Not found (404)
+Progress: 221/979 (22.6%) - Rate: 0.5 req/sec
+✅ 228014: Downloaded successfully
+✅ 215729: Downloaded successfully
+✅ 228019: Downloaded successfully
+✅ 479927: Downloaded successfully
+✅ 225976: Downloaded successfully
+✅ 467642: Downloaded successfully
+✅ 228030: Downloaded successfully
+✅ 225987: Downloaded successfully
+❌ 641732: Not found (404)
+✅ 215753: Downloaded successfully
+Progress: 231/979 (23.6%) - Rate: 0.5 req/sec
+❌ 469706: Not found (404)
+❌ 469709: Not found (404)
+✅ 484048: Downloaded successfully
+✅ 453329: Downloaded successfully
+✅ 307929: Downloaded successfully
+✅ 479961: Downloaded successfully
+✅ 484058: Downloaded successfully
+✅ 70371: Downloaded successfully
+✅ 223972: Downloaded successfully
+✅ 215781: Downloaded successfully
+Progress: 241/979 (24.6%) - Rate: 0.5 req/sec
+✅ 307944: Downloaded successfully
+✅ 307946: Downloaded successfully
+❌ 477931: Not found (404)
+❌ 477934: Not found (404)
+✅ 215793: Downloaded successfully
+✅ 219889: Downloaded successfully
+✅ 307956: Downloaded successfully
+✅ 213749: Downloaded successfully
+❌ 477940: Not found (404)
+❌ 477941: Not found (404)
+💾 Saved 184 objects to remaining_textiles_batch_250_20250705_140643.json
+Progress: 251/979 (25.6%) - Rate: 0.5 req/sec
+❌ 477942: Not found (404)
+✅ 217844: Downloaded successfully
+✅ 223988: Downloaded successfully
+❌ 477949: Not found (404)
+❌ 477950: Not found (404)
+✅ 223999: Downloaded successfully
+✅ 224004: Downloaded successfully
+✅ 480005: Downloaded successfully
+✅ 226052: Downloaded successfully
+❌ 725768: Not found (404)
+Progress: 261/979 (26.7%) - Rate: 0.5 req/sec
+✅ 224009: Downloaded successfully
+✅ 228106: Downloaded successfully
+✅ 654089: Downloaded successfully
+✅ 68364: Downloaded successfully
+✅ 480013: Downloaded successfully
+✅ 221966: Downloaded successfully
+✅ 224017: Downloaded successfully
+✅ 215826: Downloaded successfully
+✅ 219924: Downloaded successfully
+✅ 215834: Downloaded successfully
+Progress: 271/979 (27.7%) - Rate: 0.5 req/sec
+✅ 224032: Downloaded successfully
+✅ 217935: Downloaded successfully
+✅ 217897: Downloaded successfully
+✅ 228139: Downloaded successfully
+✅ 215861: Downloaded successfully
+✅ 226103: Downloaded successfully
+✅ 226105: Downloaded successfully
+✅ 222012: Downloaded successfully
+✅ 445249: Downloaded successfully
+✅ 224072: Downloaded successfully
+Progress: 281/979 (28.7%) - Rate: 0.4 req/sec
+✅ 213834: Downloaded successfully
+✅ 467788: Downloaded successfully
+✅ 215885: Downloaded successfully
+✅ 213838: Downloaded successfully
+✅ 213839: Downloaded successfully
+✅ 213840: Downloaded successfully
+✅ 480081: Downloaded successfully
+✅ 213841: Downloaded successfully
+✅ 213842: Downloaded successfully
+✅ 213843: Downloaded successfully
+Progress: 291/979 (29.7%) - Rate: 0.5 req/sec
+✅ 213844: Downloaded successfully
+✅ 213845: Downloaded successfully
+✅ 213846: Downloaded successfully
+✅ 213847: Downloaded successfully
+✅ 213848: Downloaded successfully
+✅ 213849: Downloaded successfully
+✅ 213850: Downloaded successfully
+✅ 213851: Downloaded successfully
+✅ 213852: Downloaded successfully
+✅ 213853: Downloaded successfully
+💾 Saved 230 objects to remaining_textiles_batch_300_20250705_140838.json
+Progress: 301/979 (30.7%) - Rate: 0.5 req/sec
+✅ 213854: Downloaded successfully
+✅ 213855: Downloaded successfully
+✅ 213856: Downloaded successfully
+✅ 213857: Downloaded successfully
+✅ 213858: Downloaded successfully
+✅ 213859: Downloaded successfully
+✅ 447333: Downloaded successfully
+✅ 213860: Downloaded successfully
+✅ 213861: Downloaded successfully
+✅ 213862: Downloaded successfully
+Progress: 311/979 (31.8%) - Rate: 0.5 req/sec
+✅ 443241: Downloaded successfully
+✅ 213863: Downloaded successfully
+✅ 213864: Downloaded successfully
+✅ 213865: Downloaded successfully
+✅ 213867: Downloaded successfully
+✅ 213868: Downloaded successfully
+✅ 213869: Downloaded successfully
+✅ 213870: Downloaded successfully
+✅ 213871: Downloaded successfully
+✅ 213872: Downloaded successfully
+Progress: 321/979 (32.8%) - Rate: 0.5 req/sec
+✅ 213873: Downloaded successfully
+✅ 213874: Downloaded successfully
+✅ 213875: Downloaded successfully
+✅ 213876: Downloaded successfully
+✅ 213877: Downloaded successfully
+✅ 480120: Downloaded successfully
+✅ 213878: Downloaded successfully
+✅ 453498: Downloaded successfully
+❌ 328570: Not found (404)
+✅ 213879: Downloaded successfully
+Progress: 331/979 (33.8%) - Rate: 0.5 req/sec
+✅ 213880: Downloaded successfully
+✅ 445310: Downloaded successfully
+✅ 213881: Downloaded successfully
+✅ 213882: Downloaded successfully
+✅ 213884: Downloaded successfully
+✅ 213885: Downloaded successfully
+✅ 213886: Downloaded successfully
+❌ 838532: Not found (404)
+✅ 213887: Downloaded successfully
+✅ 213888: Downloaded successfully
+Progress: 341/979 (34.8%) - Rate: 0.5 req/sec
+❌ 736135: Not found (404)
+✅ 451464: Downloaded successfully
+✅ 213889: Downloaded successfully
+✅ 213892: Downloaded successfully
+✅ 213894: Downloaded successfully
+✅ 68493: Downloaded successfully
+✅ 217997: Downloaded successfully
+✅ 213905: Downloaded successfully
+✅ 213907: Downloaded successfully
+✅ 213908: Downloaded successfully
+💾 Saved 277 objects to remaining_textiles_batch_350_20250705_141021.json
+Progress: 351/979 (35.9%) - Rate: 0.5 req/sec
+✅ 213909: Downloaded successfully
+✅ 215956: Downloaded successfully
+✅ 213911: Downloaded successfully
+✅ 213912: Downloaded successfully
+✅ 213914: Downloaded successfully
+✅ 213917: Downloaded successfully
+✅ 213918: Downloaded successfully
+✅ 213920: Downloaded successfully
+✅ 213931: Downloaded successfully
+✅ 213933: Downloaded successfully
+Progress: 361/979 (36.9%) - Rate: 0.4 req/sec
+✅ 213936: Downloaded successfully
+✅ 222128: Downloaded successfully
+✅ 215986: Downloaded successfully
+✅ 226224: Downloaded successfully
+✅ 443316: Downloaded successfully
+✅ 215992: Downloaded successfully
+✅ 318397: Downloaded successfully
+✅ 318398: Downloaded successfully
+✅ 213950: Downloaded successfully
+✅ 213951: Downloaded successfully
+Progress: 371/979 (37.9%) - Rate: 0.5 req/sec
+✅ 213952: Downloaded successfully
+✅ 213954: Downloaded successfully
+✅ 213955: Downloaded successfully
+✅ 213956: Downloaded successfully
+✅ 213957: Downloaded successfully
+✅ 224190: Downloaded successfully
+✅ 213959: Downloaded successfully
+✅ 213960: Downloaded successfully
+✅ 213961: Downloaded successfully
+✅ 213962: Downloaded successfully
+Progress: 381/979 (38.9%) - Rate: 0.4 req/sec
+✅ 216011: Downloaded successfully
+✅ 213964: Downloaded successfully
+✅ 213965: Downloaded successfully
+✅ 213966: Downloaded successfully
+✅ 230346: Downloaded successfully
+✅ 480213: Downloaded successfully
+✅ 480214: Downloaded successfully
+✅ 213975: Downloaded successfully
+❌ 748501: Not found (404)
+✅ 480218: Downloaded successfully
+Progress: 391/979 (39.9%) - Rate: 0.4 req/sec
+✅ 443358: Downloaded successfully
+✅ 213987: Downloaded successfully
+✅ 213988: Downloaded successfully
+✅ 213989: Downloaded successfully
+✅ 213990: Downloaded successfully
+✅ 213991: Downloaded successfully
+✅ 213992: Downloaded successfully
+✅ 213993: Downloaded successfully
+✅ 443370: Downloaded successfully
+✅ 213994: Downloaded successfully
+💾 Saved 326 objects to remaining_textiles_batch_400_20250705_141216.json
+Progress: 401/979 (41.0%) - Rate: 0.5 req/sec
+✅ 213995: Downloaded successfully
+✅ 213996: Downloaded successfully
+✅ 213997: Downloaded successfully
+✅ 213998: Downloaded successfully
+✅ 213999: Downloaded successfully
+✅ 214000: Downloaded successfully
+✅ 480242: Downloaded successfully
+✅ 214001: Downloaded successfully
+✅ 214002: Downloaded successfully
+✅ 214003: Downloaded successfully
+Progress: 411/979 (42.0%) - Rate: 0.5 req/sec
+✅ 318454: Downloaded successfully
+✅ 214004: Downloaded successfully
+✅ 214005: Downloaded successfully
+✅ 480249: Downloaded successfully
+✅ 447482: Downloaded successfully
+✅ 214006: Downloaded successfully
+✅ 214007: Downloaded successfully
+✅ 214008: Downloaded successfully
+✅ 214009: Downloaded successfully
+✅ 214010: Downloaded successfully
+Progress: 421/979 (43.0%) - Rate: 0.5 req/sec
+✅ 214011: Downloaded successfully
+✅ 214012: Downloaded successfully
+✅ 480258: Downloaded successfully
+✅ 214013: Downloaded successfully
+✅ 214014: Downloaded successfully
+✅ 214015: Downloaded successfully
+✅ 216063: Downloaded successfully
+✅ 218122: Downloaded successfully
+✅ 214029: Downloaded successfully
+✅ 447503: Downloaded successfully
+Progress: 431/979 (44.0%) - Rate: 0.5 req/sec
+✅ 214031: Downloaded successfully
+✅ 224272: Downloaded successfully
+✅ 224273: Downloaded successfully
+✅ 224274: Downloaded successfully
+✅ 224276: Downloaded successfully
+✅ 224277: Downloaded successfully
+❌ 748569: Not found (404)
+✅ 214043: Downloaded successfully
+✅ 214045: Downloaded successfully
+✅ 224285: Downloaded successfully
+Progress: 441/979 (45.0%) - Rate: 0.4 req/sec
+✅ 480287: Downloaded successfully
+✅ 214047: Downloaded successfully
+✅ 222055: Downloaded successfully
+✅ 214050: Downloaded successfully
+✅ 224286: Downloaded successfully
+✅ 224287: Downloaded successfully
+✅ 224288: Downloaded successfully
+✅ 224289: Downloaded successfully
+✅ 224291: Downloaded successfully
+✅ 224292: Downloaded successfully
+💾 Saved 375 objects to remaining_textiles_batch_450_20250705_141410.json
+Progress: 451/979 (46.1%) - Rate: 0.5 req/sec
+✅ 447529: Downloaded successfully
+✅ 33834: Downloaded successfully
+✅ 480297: Downloaded successfully
+❌ 861228: Not found (404)
+✅ 480301: Downloaded successfully
+✅ 224294: Downloaded successfully
+✅ 214063: Downloaded successfully
+✅ 224296: Downloaded successfully
+✅ 224301: Downloaded successfully
+✅ 224302: Downloaded successfully
+Progress: 461/979 (47.1%) - Rate: 0.4 req/sec
+✅ 224303: Downloaded successfully
+✅ 224304: Downloaded successfully
+✅ 224306: Downloaded successfully
+✅ 224307: Downloaded successfully
+✅ 224309: Downloaded successfully
+✅ 224310: Downloaded successfully
+✅ 224311: Downloaded successfully
+✅ 224312: Downloaded successfully
+✅ 224313: Downloaded successfully
+✅ 214076: Downloaded successfully
+Progress: 471/979 (48.1%) - Rate: 0.4 req/sec
+✅ 224314: Downloaded successfully
+✅ 224315: Downloaded successfully
+✅ 224316: Downloaded successfully
+✅ 214080: Downloaded successfully
+✅ 224097: Downloaded successfully
+✅ 224317: Downloaded successfully
+✅ 224319: Downloaded successfully
+✅ 224320: Downloaded successfully
+✅ 220231: Downloaded successfully
+✅ 486474: Downloaded successfully
+Progress: 481/979 (49.1%) - Rate: 0.5 req/sec
+✅ 226378: Downloaded successfully
+❌ 648267: Not found (404)
+✅ 480334: Downloaded successfully
+✅ 214095: Downloaded successfully
+✅ 214096: Downloaded successfully
+✅ 214097: Downloaded successfully
+✅ 214098: Downloaded successfully
+✅ 447571: Downloaded successfully
+✅ 214099: Downloaded successfully
+✅ 214100: Downloaded successfully
+Progress: 491/979 (50.2%) - Rate: 0.5 req/sec
+✅ 214101: Downloaded successfully
+✅ 214102: Downloaded successfully
+✅ 214103: Downloaded successfully
+✅ 214104: Downloaded successfully
+❌ 789594: Not found (404)
+❌ 789595: Not found (404)
+✅ 480348: Downloaded successfully
+✅ 214105: Downloaded successfully
+✅ 214106: Downloaded successfully
+✅ 214107: Downloaded successfully
+💾 Saved 421 objects to remaining_textiles_batch_500_20250705_141603.json
+Progress: 501/979 (51.2%) - Rate: 0.4 req/sec
+✅ 214108: Downloaded successfully
+✅ 214109: Downloaded successfully
+✅ 214110: Downloaded successfully
+✅ 214111: Downloaded successfully
+✅ 214112: Downloaded successfully
+✅ 214113: Downloaded successfully
+✅ 214114: Downloaded successfully
+✅ 214115: Downloaded successfully
+✅ 214116: Downloaded successfully
+✅ 214117: Downloaded successfully
+Progress: 511/979 (52.2%) - Rate: 0.5 req/sec
+✅ 214118: Downloaded successfully
+✅ 214119: Downloaded successfully
+✅ 35948: Downloaded successfully
+✅ 214120: Downloaded successfully
+✅ 214121: Downloaded successfully
+✅ 214122: Downloaded successfully
+✅ 320624: Downloaded successfully
+✅ 214123: Downloaded successfully
+❌ 746610: Not found (404)
+✅ 447603: Downloaded successfully
+Progress: 521/979 (53.2%) - Rate: 0.4 req/sec
+✅ 214124: Downloaded successfully
+✅ 214125: Downloaded successfully
+✅ 214126: Downloaded successfully
+✅ 214127: Downloaded successfully
+✅ 214128: Downloaded successfully
+✅ 214131: Downloaded successfully
+❌ 746615: Not found (404)
+✅ 216194: Downloaded successfully
+✅ 224517: Downloaded successfully
+✅ 480391: Downloaded successfully
+Progress: 531/979 (54.2%) - Rate: 0.4 req/sec
+✅ 42123: Downloaded successfully
+✅ 224519: Downloaded successfully
+✅ 224400: Downloaded successfully
+✅ 224520: Downloaded successfully
+✅ 449682: Downloaded successfully
+✅ 218259: Downloaded successfully
+✅ 310420: Downloaded successfully
+✅ 228501: Downloaded successfully
+❌ 736408: Not found (404)
+✅ 214170: Downloaded successfully
+Progress: 541/979 (55.3%) - Rate: 0.4 req/sec
+✅ 480414: Downloaded successfully
+✅ 224417: Downloaded successfully
+✅ 214183: Downloaded successfully
+✅ 480424: Downloaded successfully
+❌ 699561: Not found (404)
+✅ 224525: Downloaded successfully
+❌ 722092: Not found (404)
+✅ 228524: Downloaded successfully
+✅ 66737: Downloaded successfully
+✅ 310450: Downloaded successfully
+💾 Saved 466 objects to remaining_textiles_batch_550_20250705_141808.json
+Progress: 551/979 (56.3%) - Rate: 0.4 req/sec
+✅ 312499: Downloaded successfully
+✅ 228967: Downloaded successfully
+✅ 214197: Downloaded successfully
+✅ 214198: Downloaded successfully
+✅ 214202: Downloaded successfully
+✅ 214203: Downloaded successfully
+✅ 224444: Downloaded successfully
+✅ 214205: Downloaded successfully
+✅ 214206: Downloaded successfully
+✅ 226564: Downloaded successfully
+Progress: 561/979 (57.3%) - Rate: 0.4 req/sec
+✅ 214209: Downloaded successfully
+✅ 214210: Downloaded successfully
+✅ 214211: Downloaded successfully
+❌ 722116: Not found (404)
+✅ 214215: Downloaded successfully
+✅ 214219: Downloaded successfully
+✅ 214221: Downloaded successfully
+❌ 629966: Not found (404)
+❌ 722127: Not found (404)
+✅ 214224: Downloaded successfully
+Progress: 571/979 (58.3%) - Rate: 0.4 req/sec
+❌ 722129: Not found (404)
+❌ 722130: Not found (404)
+✅ 214228: Downloaded successfully
+✅ 480469: Downloaded successfully
+✅ 34006: Downloaded successfully
+✅ 220374: Downloaded successfully
+✅ 224469: Downloaded successfully
+✅ 445660: Downloaded successfully
+❌ 722143: Not found (404)
+✅ 214240: Downloaded successfully
+Progress: 581/979 (59.3%) - Rate: 0.4 req/sec
+✅ 226571: Downloaded successfully
+❌ 736484: Not found (404)
+❌ 736485: Not found (404)
+❌ 736486: Not found (404)
+❌ 736487: Not found (404)
+❌ 748418: Not found (404)
+❌ 769261: Not found (404)
+❌ 642585: Not found (404)
+✅ 228594: Downloaded successfully
+✅ 443635: Downloaded successfully
+Progress: 591/979 (60.4%) - Rate: 0.5 req/sec
+✅ 68853: Downloaded successfully
+✅ 228598: Downloaded successfully
+✅ 226551: Downloaded successfully
+✅ 447737: Downloaded successfully
+✅ 218363: Downloaded successfully
+❌ 212220: Not found (404)
+❌ 212221: Not found (404)
+❌ 212223: Not found (404)
+❌ 212224: Not found (404)
+❌ 212225: Not found (404)
+💾 Saved 498 objects to remaining_textiles_batch_600_20250705_142001.json
+Progress: 601/979 (61.4%) - Rate: 0.4 req/sec
+✅ 445698: Downloaded successfully
+❌ 212226: Not found (404)
+❌ 212227: Not found (404)
+❌ 212228: Not found (404)
+❌ 212229: Not found (404)
+❌ 212230: Not found (404)
+❌ 212231: Not found (404)
+❌ 212232: Not found (404)
+❌ 212233: Not found (404)
+❌ 212234: Not found (404)
+Progress: 611/979 (62.4%) - Rate: 0.4 req/sec
+❌ 212235: Not found (404)
+❌ 212236: Not found (404)
+❌ 212237: Not found (404)
+❌ 212238: Not found (404)
+❌ 212239: Not found (404)
+❌ 212240: Not found (404)
+❌ 212242: Not found (404)
+❌ 212243: Not found (404)
+❌ 699668: Not found (404)
+❌ 212244: Not found (404)
+Progress: 621/979 (63.4%) - Rate: 0.4 req/sec
+❌ 212245: Not found (404)
+❌ 212246: Not found (404)
+❌ 212247: Not found (404)
+❌ 212248: Not found (404)
+❌ 212249: Not found (404)
+❌ 212250: Not found (404)
+❌ 212251: Not found (404)
+✅ 173341: Downloaded successfully
+❌ 212252: Not found (404)
+❌ 212253: Not found (404)
+Progress: 631/979 (64.5%) - Rate: 0.4 req/sec
+❌ 212254: Not found (404)
+✅ 214301: Downloaded successfully
+❌ 699682: Not found (404)
+✅ 224544: Downloaded successfully
+❌ 722213: Not found (404)
+✅ 173350: Downloaded successfully
+✅ 214309: Downloaded successfully
+✅ 222507: Downloaded successfully
+✅ 226586: Downloaded successfully
+✅ 447790: Downloaded successfully
+Progress: 641/979 (65.5%) - Rate: 0.4 req/sec
+❌ 746799: Not found (404)
+❌ 746800: Not found (404)
+✅ 222510: Downloaded successfully
+✅ 230706: Downloaded successfully
+✅ 445750: Downloaded successfully
+❌ 632122: Not found (404)
+✅ 212283: Downloaded successfully
+✅ 212290: Downloaded successfully
+✅ 222531: Downloaded successfully
+❌ 699716: Not found (404)
+💾 Saved 513 objects to remaining_textiles_batch_650_20250705_142155.json
+Progress: 651/979 (66.5%) - Rate: 0.4 req/sec
+✅ 445772: Downloaded successfully
+❌ 230734: Not found (404)
+❌ 230735: Not found (404)
+✅ 443728: Downloaded successfully
+❌ 230736: Not found (404)
+❌ 230737: Not found (404)
+❌ 230738: Not found (404)
+❌ 230739: Not found (404)
+❌ 238935: Not found (404)
+❌ 238936: Not found (404)
+Progress: 661/979 (67.5%) - Rate: 0.4 req/sec
+❌ 238937: Not found (404)
+❌ 238938: Not found (404)
+❌ 238940: Not found (404)
+✅ 32105: Downloaded successfully
+✅ 32106: Downloaded successfully
+✅ 222572: Downloaded successfully
+✅ 447855: Downloaded successfully
+✅ 222586: Downloaded successfully
+✅ 447868: Downloaded successfully
+✅ 226692: Downloaded successfully
+Progress: 671/979 (68.5%) - Rate: 0.4 req/sec
+✅ 226701: Downloaded successfully
+❌ 769425: Not found (404)
+❌ 746899: Not found (404)
+❌ 746900: Not found (404)
+✅ 218517: Downloaded successfully
+✅ 157078: Downloaded successfully
+❌ 746902: Not found (404)
+✅ 445848: Downloaded successfully
+✅ 445852: Downloaded successfully
+✅ 21919: Downloaded successfully
+Progress: 681/979 (69.6%) - Rate: 0.4 req/sec
+✅ 447904: Downloaded successfully
+✅ 218531: Downloaded successfully
+✅ 228775: Downloaded successfully
+✅ 224682: Downloaded successfully
+✅ 445867: Downloaded successfully
+✅ 230831: Downloaded successfully
+✅ 216496: Downloaded successfully
+❌ 708023: Not found (404)
+❌ 77239: Not found (404)
+❌ 77240: Not found (404)
+Progress: 691/979 (70.6%) - Rate: 0.4 req/sec
+❌ 77241: Not found (404)
+❌ 77242: Not found (404)
+✅ 230843: Downloaded successfully
+✅ 218561: Downloaded successfully
+✅ 24007: Downloaded successfully
+✅ 468424: Downloaded successfully
+✅ 224712: Downloaded successfully
+✅ 490955: Downloaded successfully
+✅ 468428: Downloaded successfully
+✅ 216525: Downloaded successfully
+💾 Saved 543 objects to remaining_textiles_batch_700_20250705_142330.json
+Progress: 701/979 (71.6%) - Rate: 0.4 req/sec
+✅ 230863: Downloaded successfully
+❌ 708048: Not found (404)
+✅ 312785: Downloaded successfully
+✅ 445907: Downloaded successfully
+✅ 312790: Downloaded successfully
+✅ 69082: Downloaded successfully
+✅ 220634: Downloaded successfully
+✅ 228830: Downloaded successfully
+✅ 222688: Downloaded successfully
+✅ 316901: Downloaded successfully
+Progress: 711/979 (72.6%) - Rate: 0.4 req/sec
+✅ 214502: Downloaded successfully
+✅ 218597: Downloaded successfully
+✅ 222700: Downloaded successfully
+✅ 316910: Downloaded successfully
+❌ 708079: Not found (404)
+✅ 214513: Downloaded successfully
+✅ 312819: Downloaded successfully
+✅ 312820: Downloaded successfully
+✅ 34291: Downloaded successfully
+✅ 214517: Downloaded successfully
+Progress: 721/979 (73.6%) - Rate: 0.4 req/sec
+✅ 312823: Downloaded successfully
+❌ 708088: Not found (404)
+✅ 312824: Downloaded successfully
+✅ 312826: Downloaded successfully
+❌ 708091: Not found (404)
+✅ 445947: Downloaded successfully
+✅ 312825: Downloaded successfully
+✅ 312827: Downloaded successfully
+✅ 312831: Downloaded successfully
+✅ 312832: Downloaded successfully
+Progress: 731/979 (74.7%) - Rate: 0.4 req/sec
+❌ 701953: Not found (404)
+✅ 214522: Downloaded successfully
+✅ 312835: Downloaded successfully
+✅ 214524: Downloaded successfully
+✅ 312837: Downloaded successfully
+✅ 312840: Downloaded successfully
+✅ 460296: Downloaded successfully
+✅ 312842: Downloaded successfully
+✅ 67083: Downloaded successfully
+✅ 312849: Downloaded successfully
+Progress: 741/979 (75.7%) - Rate: 0.4 req/sec
+❌ 630024: Not found (404)
+✅ 216595: Downloaded successfully
+✅ 312852: Downloaded successfully
+✅ 222741: Downloaded successfully
+✅ 312856: Downloaded successfully
+✅ 312857: Downloaded successfully
+✅ 222746: Downloaded successfully
+✅ 228889: Downloaded successfully
+✅ 312860: Downloaded successfully
+✅ 468508: Downloaded successfully
+💾 Saved 587 objects to remaining_textiles_batch_750_20250705_142534.json
+Progress: 751/979 (76.7%) - Rate: 0.4 req/sec
+❌ 626204: Not found (404)
+✅ 448031: Downloaded successfully
+✅ 312864: Downloaded successfully
+✅ 308046: Downloaded successfully
+✅ 312866: Downloaded successfully
+✅ 316962: Downloaded successfully
+✅ 448034: Downloaded successfully
+✅ 312869: Downloaded successfully
+✅ 312870: Downloaded successfully
+✅ 312875: Downloaded successfully
+Progress: 761/979 (77.7%) - Rate: 0.4 req/sec
+✅ 312876: Downloaded successfully
+✅ 316972: Downloaded successfully
+✅ 214582: Downloaded successfully
+✅ 316987: Downloaded successfully
+✅ 218686: Downloaded successfully
+❌ 321103: Not found (404)
+✅ 312912: Downloaded successfully
+✅ 312913: Downloaded successfully
+✅ 312914: Downloaded successfully
+❌ 321105: Not found (404)
+Progress: 771/979 (78.8%) - Rate: 0.4 req/sec
+❌ 321106: Not found (404)
+❌ 321107: Not found (404)
+❌ 321109: Not found (404)
+❌ 321110: Not found (404)
+❌ 321111: Not found (404)
+✅ 214612: Downloaded successfully
+✅ 214618: Downloaded successfully
+✅ 214620: Downloaded successfully
+✅ 452189: Downloaded successfully
+✅ 218716: Downloaded successfully
+Progress: 781/979 (79.8%) - Rate: 0.4 req/sec
+✅ 214625: Downloaded successfully
+❌ 321123: Not found (404)
+✅ 448100: Downloaded successfully
+✅ 312933: Downloaded successfully
+✅ 480870: Downloaded successfully
+✅ 214629: Downloaded successfully
+❌ 321128: Not found (404)
+✅ 214630: Downloaded successfully
+✅ 214633: Downloaded successfully
+✅ 228964: Downloaded successfully
+Progress: 791/979 (80.8%) - Rate: 0.4 req/sec
+✅ 214636: Downloaded successfully
+✅ 214637: Downloaded successfully
+✅ 480878: Downloaded successfully
+❌ 321135: Not found (404)
+✅ 214638: Downloaded successfully
+✅ 214639: Downloaded successfully
+✅ 214640: Downloaded successfully
+✅ 214641: Downloaded successfully
+✅ 214642: Downloaded successfully
+✅ 214644: Downloaded successfully
+💾 Saved 626 objects to remaining_textiles_batch_800_20250705_142728.json
+Progress: 801/979 (81.8%) - Rate: 0.4 req/sec
+✅ 214645: Downloaded successfully
+✅ 214646: Downloaded successfully
+✅ 214647: Downloaded successfully
+✅ 214648: Downloaded successfully
+✅ 214649: Downloaded successfully
+❌ 700028: Not found (404)
+✅ 214652: Downloaded successfully
+❌ 321150: Not found (404)
+✅ 214653: Downloaded successfully
+✅ 214661: Downloaded successfully
+Progress: 811/979 (82.8%) - Rate: 0.4 req/sec
+✅ 214662: Downloaded successfully
+✅ 228999: Downloaded successfully
+✅ 214664: Downloaded successfully
+✅ 214667: Downloaded successfully
+✅ 214668: Downloaded successfully
+✅ 214669: Downloaded successfully
+✅ 218108: Downloaded successfully
+❌ 757394: Not found (404)
+✅ 216724: Downloaded successfully
+❌ 239278: Not found (404)
+Progress: 821/979 (83.9%) - Rate: 0.4 req/sec
+✅ 229021: Downloaded successfully
+❌ 321183: Not found (404)
+✅ 226975: Downloaded successfully
+❌ 814753: Not found (404)
+❌ 321189: Not found (404)
+✅ 448166: Downloaded successfully
+❌ 321191: Not found (404)
+❌ 321192: Not found (404)
+❌ 321193: Not found (404)
+❌ 321194: Not found (404)
+Progress: 831/979 (84.9%) - Rate: 0.4 req/sec
+✅ 85673: Downloaded successfully
+✅ 229035: Downloaded successfully
+❌ 321197: Not found (404)
+✅ 313006: Downloaded successfully
+❌ 321198: Not found (404)
+❌ 321199: Not found (404)
+❌ 321201: Not found (404)
+❌ 321200: Not found (404)
+❌ 321203: Not found (404)
+❌ 321204: Not found (404)
+Progress: 841/979 (85.9%) - Rate: 0.4 req/sec
+❌ 321205: Not found (404)
+❌ 321202: Not found (404)
+✅ 452279: Downloaded successfully
+✅ 224949: Downloaded successfully
+❌ 239280: Not found (404)
+✅ 831162: Downloaded successfully
+❌ 239282: Not found (404)
+❌ 239283: Not found (404)
+❌ 239284: Not found (404)
+❌ 239285: Not found (404)
+💾 Saved 651 objects to remaining_textiles_batch_850_20250705_142922.json
+Progress: 851/979 (86.9%) - Rate: 0.4 req/sec
+✅ 444095: Downloaded successfully
+✅ 216044: Downloaded successfully
+❌ 239288: Not found (404)
+❌ 239289: Not found (404)
+❌ 239290: Not found (404)
+❌ 239286: Not found (404)
+❌ 239292: Not found (404)
+❌ 239293: Not found (404)
+✅ 832366: Downloaded successfully
+❌ 239287: Not found (404)
+Progress: 861/979 (87.9%) - Rate: 0.4 req/sec
+✅ 208589: Downloaded successfully
+❌ 321230: Not found (404)
+✅ 468686: Downloaded successfully
+❌ 321232: Not found (404)
+❌ 321233: Not found (404)
+✅ 222930: Downloaded successfully
+✅ 229075: Downloaded successfully
+❌ 321239: Not found (404)
+✅ 444121: Downloaded successfully
+✅ 229085: Downloaded successfully
+Progress: 871/979 (89.0%) - Rate: 0.4 req/sec
+❌ 892643: Not found (404)
+✅ 214756: Downloaded successfully
+✅ 229092: Downloaded successfully
+❌ 321258: Not found (404)
+✅ 222477: Downloaded successfully
+✅ 460526: Downloaded successfully
+✅ 220910: Downloaded successfully
+✅ 681713: Downloaded successfully
+❌ 739062: Not found (404)
+✅ 788215: Downloaded successfully
+Progress: 881/979 (90.0%) - Rate: 0.4 req/sec
+✅ 67319: Downloaded successfully
+✅ 227067: Downloaded successfully
+✅ 224236: Downloaded successfully
+✅ 229116: Downloaded successfully
+✅ 220929: Downloaded successfully
+✅ 216834: Downloaded successfully
+✅ 22276: Downloaded successfully
+❌ 321286: Not found (404)
+❌ 478982: Not found (404)
+✅ 32521: Downloaded successfully
+Progress: 891/979 (91.0%) - Rate: 0.4 req/sec
+❌ 321289: Not found (404)
+✅ 218890: Downloaded successfully
+✅ 32529: Downloaded successfully
+❌ 321300: Not found (404)
+✅ 894743: Downloaded successfully
+✅ 229145: Downloaded successfully
+❌ 321309: Not found (404)
+✅ 214814: Downloaded successfully
+❌ 476958: Not found (404)
+✅ 216861: Downloaded successfully
+💾 Saved 681 objects to remaining_textiles_batch_900_20250705_143117.json
+Progress: 901/979 (92.0%) - Rate: 0.4 req/sec
+❌ 479007: Not found (404)
+❌ 479009: Not found (404)
+✅ 225056: Downloaded successfully
+✅ 229151: Downloaded successfully
+✅ 229153: Downloaded successfully
+❌ 648243: Not found (404)
+✅ 452603: Downloaded successfully
+❌ 321323: Not found (404)
+✅ 220980: Downloaded successfully
+❌ 739129: Not found (404)
+Progress: 911/979 (93.1%) - Rate: 0.4 req/sec
+❌ 739130: Not found (404)
+✅ 229178: Downloaded successfully
+❌ 819006: Not found (404)
+❌ 479039: Not found (404)
+❌ 479040: Not found (404)
+✅ 229185: Downloaded successfully
+✅ 214853: Downloaded successfully
+❌ 479046: Not found (404)
+✅ 448327: Downloaded successfully
+✅ 229191: Downloaded successfully
+Progress: 921/979 (94.1%) - Rate: 0.4 req/sec
+✅ 229192: Downloaded successfully
+✅ 448333: Downloaded successfully
+✅ 229199: Downloaded successfully
+❌ 648245: Not found (404)
+❌ 479058: Not found (404)
+✅ 214867: Downloaded successfully
+❌ 479059: Not found (404)
+✅ 810838: Downloaded successfully
+✅ 448343: Downloaded successfully
+✅ 229210: Downloaded successfully
+Progress: 931/979 (95.1%) - Rate: 0.4 req/sec
+✅ 32604: Downloaded successfully
+❌ 479068: Not found (404)
+✅ 448350: Downloaded successfully
+❌ 479069: Not found (404)
+❌ 479071: Not found (404)
+✅ 229213: Downloaded successfully
+❌ 757596: Not found (404)
+✅ 225123: Downloaded successfully
+✅ 218985: Downloaded successfully
+✅ 225129: Downloaded successfully
+Progress: 941/979 (96.1%) - Rate: 0.4 req/sec
+❌ 479088: Not found (404)
+✅ 229235: Downloaded successfully
+✅ 221056: Downloaded successfully
+✅ 212867: Downloaded successfully
+❌ 648247: Not found (404)
+✅ 229254: Downloaded successfully
+✅ 227207: Downloaded successfully
+✅ 227208: Downloaded successfully
+✅ 454541: Downloaded successfully
+❌ 755598: Not found (404)
+💾 Saved 711 objects to remaining_textiles_batch_950_20250705_143321.json
+Progress: 951/979 (97.1%) - Rate: 0.4 req/sec
+✅ 229267: Downloaded successfully
+✅ 853911: Downloaded successfully
+❌ 640922: Not found (404)
+✅ 219042: Downloaded successfully
+✅ 229282: Downloaded successfully
+✅ 225191: Downloaded successfully
+✅ 221099: Downloaded successfully
+❌ 827328: Not found (404)
+✅ 229317: Downloaded successfully
+❌ 767941: Not found (404)
+Progress: 961/979 (98.2%) - Rate: 0.4 req/sec
+✅ 221127: Downloaded successfully
+✅ 219082: Downloaded successfully
+❌ 767946: Not found (404)
+✅ 217036: Downloaded successfully
+✅ 214989: Downloaded successfully
+✅ 225236: Downloaded successfully
+✅ 452565: Downloaded successfully
+✅ 229334: Downloaded successfully
+✅ 219100: Downloaded successfully
+✅ 215006: Downloaded successfully
+Progress: 971/979 (99.2%) - Rate: 0.4 req/sec
+✅ 215014: Downloaded successfully
+✅ 219111: Downloaded successfully
+✅ 313324: Downloaded successfully
+✅ 681970: Downloaded successfully
+✅ 219123: Downloaded successfully
+✅ 452599: Downloaded successfully
+✅ 313339: Downloaded successfully
+✅ 229372: Downloaded successfully
+✅ 452605: Downloaded successfully
+
+=== FINAL SUMMARY ===
+Total time: 36.7 minutes
+Successfully downloaded: 736
+Not found (404): 243
+Failed after retries: 0
+Success rate: 75.2%
