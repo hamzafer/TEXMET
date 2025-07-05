@@ -1,4 +1,4 @@
-# MET Museum Textiles and Tapestries Dataset (CORRECTED)
+# MET Museum Textiles and Tapestries Dataset
 
 ## Overview
 This dataset contains textile and tapestry objects from the Metropolitan Museum of Art, collected via their public API.
@@ -11,14 +11,14 @@ This dataset contains textile and tapestry objects from the Metropolitan Museum 
 - **Failed Downloads**: 244 objects (243 textiles + 1 tapestries)
 
 ## 🎯 FINAL RESEARCH DATASET
-**27,373 objects with images** - This is your main research dataset!
+**27,373 objects with images** - This is the main research dataset!
 - Located in: `objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json`
 
 ## Directory Structure
 ```
 FINAL_CORRECTED_MET_TEXTILES_DATASET/
 ├── all_objects/                    # Complete collections (all downloaded objects)
-├── objects_with_images_only/       # 🎯 RESEARCH READY - Objects with images only
+├── objects_with_images_only/       # RESEARCH READY - Objects with images only
 ├── id_lists/                       # Object ID lists for reference
 ├── metadata/                       # Dataset documentation
 └── README.md                       # This file
@@ -34,7 +34,6 @@ FINAL_CORRECTED_MET_TEXTILES_DATASET/
 ### Breakdown by Category
 - **Textiles**: 33,194/33,437 (99.3% success)
 - **Tapestries**: 150/151 (99.3% success)
-- **Intersections**: 0 objects appear in both categories
 
 ## Files Created: 20250705_230315
 
@@ -68,4 +67,4 @@ FINAL_CORRECTED_MET_TEXTILES_DATASET/
 
 **🎯 Your final research dataset: 27,373 objects with images!**
 
-Generated: 2025-07-05 23:03:18.722178
+Updated: 2025-07-05 23:03:18.722178
