@@ -67,4 +67,31 @@ FINAL_CORRECTED_MET_TEXTILES_DATASET/
 
 **🎯 Your final research dataset: 27,373 objects with images!**
 
+## Citation and Credits
+
+### TEXMET Dataset Citation
+This dataset (TEXMET) is a curated subset of textiles and tapestries from The Metropolitan Museum of Art's Open Access collection, compiled for research purposes. To the best of our knowledge, this is the first comprehensive compilation of MET's textile and tapestry collections in this format. We share it with the research community under the same open access terms.
+
+**If you use this dataset, please cite the original MET source:**
+
+#### Original Data Source:
+```bibtex
+@misc{MET_OpenAccess_2024,
+  author       = {{The Metropolitan Museum of Art}},
+  title        = {Open Access Artworks Dataset},
+  year         = {2024},
+  howpublished = {\url{https://github.com/metmuseum/openaccess}},
+  note         = {CC0 public-domain images and metadata; accessed 4 Jul 2025},
+}
+```
+
+
+### Acknowledgments
+- **Data Source**: The Metropolitan Museum of Art Open Access Initiative
+- **License**: CC0 (public domain) - same as original MET data
+- **API Access**: MET Museum Collection API
+- **Compilation**: Research subset created July 2025
+
+**Note**: This is a research compilation of existing open access data. All rights and credits belong to The Metropolitan Museum of Art. We thank the MET for making their collection freely available for research and education.
+
 Updated: 2025-07-05 23:03:18.722178
