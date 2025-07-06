@@ -1,0 +1,248 @@
+2025-07-06 02:19:58,223 - INFO - === BULLETPROOF MET TEXTILES IMAGE DOWNLOADER STARTED ===
+2025-07-06 02:19:58,223 - INFO - Output directory: MET_TEXTILES_BULLETPROOF_DATASET
+2025-07-06 02:19:58,223 - INFO - Log file: MET_TEXTILES_BULLETPROOF_DATASET/logs/bulletproof_download_20250706_021958.log
+2025-07-06 02:19:58,223 - INFO - Max retries per image: 5
+2025-07-06 02:19:58,223 - INFO - Configured robust HTTP session with retry strategy
+2025-07-06 02:19:58,223 - INFO - === STARTING BULLETPROOF IMAGE DOWNLOAD PROCESS ===
+2025-07-06 02:19:58,223 - INFO - Loading JSON data from: /home/user1/Desktop/HAMZA/THESIS/TEXMET/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json
+2025-07-06 02:19:58,600 - INFO - Successfully loaded 27373 objects from JSON
+2025-07-06 02:19:58,604 - INFO - Found 27373 objects with images out of 27373 total objects
+2025-07-06 02:19:58,604 - INFO - === PHASE 1: MAIN DOWNLOAD ===
+2025-07-06 02:24:10,871 - WARNING - Download attempt 1 failed for 216317 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/73374.jpg
+2025-07-06 02:24:10,871 - INFO - Permanent failure for 216317: HTTP 404
+2025-07-06 02:24:10,871 - ERROR - All 6 attempts failed for 216317 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/73374.jpg
+2025-07-06 02:24:25,604 - WARNING - Download attempt 1 failed for 216582 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/6836.jpg
+2025-07-06 02:24:25,604 - INFO - Permanent failure for 216582: HTTP 404
+2025-07-06 02:24:25,604 - ERROR - All 6 attempts failed for 216582 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/6836.jpg
+2025-07-06 02:24:45,083 - WARNING - Download attempt 1 failed for 217126 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/19749.jpg
+2025-07-06 02:24:45,083 - INFO - Permanent failure for 217126: HTTP 404
+2025-07-06 02:24:45,083 - ERROR - All 6 attempts failed for 217126 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/19749.jpg
+2025-07-06 02:31:14,601 - WARNING - Download attempt 1 failed for 219540 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/17524.jpg
+2025-07-06 02:31:14,601 - INFO - Permanent failure for 219540: HTTP 404
+2025-07-06 02:31:14,601 - ERROR - All 6 attempts failed for 219540 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/17524.jpg
+2025-07-06 02:34:11,648 - WARNING - Download attempt 1 failed for 67882 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/5577.jpg
+2025-07-06 02:34:11,648 - INFO - Permanent failure for 67882: HTTP 404
+2025-07-06 02:34:11,648 - ERROR - All 6 attempts failed for 67882 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/5577.jpg
+2025-07-06 02:34:24,318 - WARNING - Download attempt 1 failed for 307957 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/75159.jpg
+2025-07-06 02:34:24,318 - INFO - Permanent failure for 307957: HTTP 404
+2025-07-06 02:34:24,318 - ERROR - All 6 attempts failed for 307957 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/75159.jpg
+2025-07-06 02:34:29,673 - WARNING - Download attempt 1 failed for 310718 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/221123.jpg
+2025-07-06 02:34:29,673 - INFO - Permanent failure for 310718: HTTP 404
+2025-07-06 02:34:29,673 - ERROR - All 6 attempts failed for 310718 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/221123.jpg
+2025-07-06 02:34:36,833 - WARNING - Download attempt 1 failed for 314685 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/250584.jpg
+2025-07-06 02:34:36,834 - INFO - Permanent failure for 314685: HTTP 404
+2025-07-06 02:34:36,834 - ERROR - All 6 attempts failed for 314685 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/250584.jpg
+2025-07-06 02:41:39,371 - WARNING - Download attempt 1 failed for 70199 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/161071.jpg
+2025-07-06 02:41:39,371 - INFO - Permanent failure for 70199: HTTP 404
+2025-07-06 02:41:39,371 - ERROR - All 6 attempts failed for 70199 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/161071.jpg
+2025-07-06 02:43:22,822 - WARNING - Download attempt 1 failed for 230686 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/TP65.jpg
+2025-07-06 02:43:22,822 - INFO - Permanent failure for 230686: HTTP 404
+2025-07-06 02:43:22,822 - ERROR - All 6 attempts failed for 230686 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/TP65.jpg
+2025-07-06 02:47:38,789 - WARNING - Download attempt 1 failed for 202139 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/SC77384.jpg
+2025-07-06 02:47:38,789 - INFO - Permanent failure for 202139: HTTP 404
+2025-07-06 02:47:38,789 - ERROR - All 6 attempts failed for 202139 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/SC77384.jpg
+2025-07-06 02:50:52,937 - WARNING - Download attempt 1 failed for 209748 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/156463.jpg
+2025-07-06 02:50:52,937 - INFO - Permanent failure for 209748: HTTP 404
+2025-07-06 02:50:52,937 - ERROR - All 6 attempts failed for 209748 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/156463.jpg
+2025-07-06 02:52:13,934 - WARNING - Download attempt 1 failed for 70484 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/188182.jpg
+2025-07-06 02:52:13,934 - INFO - Permanent failure for 70484: HTTP 404
+2025-07-06 02:52:13,934 - ERROR - All 6 attempts failed for 70484 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/188182.jpg
+2025-07-06 02:54:58,233 - WARNING - Download attempt 1 failed for 445668 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/7124.jpg
+2025-07-06 02:54:58,233 - INFO - Permanent failure for 445668: HTTP 404
+2025-07-06 02:54:58,233 - ERROR - All 6 attempts failed for 445668 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/7124.jpg
+2025-07-06 03:01:11,674 - WARNING - Download attempt 1 failed for 229704 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/226729.jpg
+2025-07-06 03:01:11,674 - INFO - Permanent failure for 229704: HTTP 404
+2025-07-06 03:01:11,674 - ERROR - All 6 attempts failed for 229704 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/226729.jpg
+2025-07-06 03:02:38,241 - WARNING - Image validation failed for 325987: Downloaded file is not a valid image
+2025-07-06 03:12:14,773 - WARNING - Image validation failed for 444308: Downloaded file is not a valid image
+2025-07-06 03:37:37,429 - WARNING - Image validation failed for 451008: Downloaded file is not a valid image
+2025-07-06 03:39:18,039 - WARNING - Download attempt 1 failed for 454567 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/AD-2002.494.789
+2025-07-06 03:39:18,039 - INFO - Permanent failure for 454567: HTTP 404
+2025-07-06 03:39:18,039 - ERROR - All 6 attempts failed for 454567 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/AD-2002.494.789
+2025-07-06 03:39:57,821 - WARNING - Download attempt 1 failed for 455299 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/82094.jpg
+2025-07-06 03:39:57,821 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 03:39:57,821 - ERROR - All 6 attempts failed for 455299 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/82094.jpg
+2025-07-06 03:39:58,280 - WARNING - Download attempt 1 failed for 455299 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/191284.jpg
+2025-07-06 03:39:58,280 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 03:39:58,280 - ERROR - All 6 attempts failed for 455299 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/191284.jpg
+2025-07-06 03:39:58,485 - WARNING - Download attempt 1 failed for 455299 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/191283.jpg
+2025-07-06 03:39:58,485 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 03:39:58,485 - ERROR - All 6 attempts failed for 455299 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/191283.jpg
+2025-07-06 03:39:58,690 - WARNING - Download attempt 1 failed for 455299 (additional_4): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT123B.jpg
+2025-07-06 03:39:58,690 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 03:39:58,690 - ERROR - All 6 attempts failed for 455299 (additional_4): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT123B.jpg
+2025-07-06 03:39:58,893 - WARNING - Download attempt 1 failed for 455299 (additional_5): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT123A.jpg
+2025-07-06 03:39:58,893 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 03:39:58,893 - ERROR - All 6 attempts failed for 455299 (additional_5): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT123A.jpg
+2025-07-06 03:39:59,096 - WARNING - Download attempt 1 failed for 455299 (additional_6): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT83.jpg
+2025-07-06 03:39:59,097 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 03:39:59,097 - ERROR - All 6 attempts failed for 455299 (additional_6): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT83.jpg
+2025-07-06 03:42:27,725 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='images.metmuseum.org', port=443): Read timed out. (read timeout=45)")': /CRDImages/is/original/DP215782.jpg
+2025-07-06 03:48:03,338 - WARNING - Download attempt 1 failed for 467363 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-001.jpg
+2025-07-06 03:48:03,338 - INFO - Permanent failure for 467363: HTTP 404
+2025-07-06 03:48:03,338 - ERROR - All 6 attempts failed for 467363 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-001.jpg
+2025-07-06 03:48:03,568 - WARNING - Download attempt 1 failed for 467363 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-003.jpg
+2025-07-06 03:48:03,569 - INFO - Permanent failure for 467363: HTTP 404
+2025-07-06 03:48:03,569 - ERROR - All 6 attempts failed for 467363 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-003.jpg
+2025-07-06 03:48:03,772 - WARNING - Download attempt 1 failed for 467363 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-002.jpg
+2025-07-06 03:48:03,772 - INFO - Permanent failure for 467363: HTTP 404
+2025-07-06 03:48:03,772 - ERROR - All 6 attempts failed for 467363 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-002.jpg
+2025-07-06 03:48:03,975 - WARNING - Download attempt 1 failed for 467363 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-004.jpg
+2025-07-06 03:48:03,975 - INFO - Permanent failure for 467363: HTTP 404
+2025-07-06 03:48:03,975 - ERROR - All 6 attempts failed for 467363 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-004.jpg
+2025-07-06 03:49:31,164 - WARNING - Download attempt 1 failed for 312805 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/220631.jpg
+2025-07-06 03:49:31,164 - INFO - Permanent failure for 312805: HTTP 404
+2025-07-06 03:49:31,164 - ERROR - All 6 attempts failed for 312805 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/220631.jpg
+2025-07-06 03:58:32,547 - WARNING - Download attempt 1 failed for 158136 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/61.65.6_back_CP4.jpg
+2025-07-06 03:58:32,547 - INFO - Permanent failure for 158136: HTTP 404
+2025-07-06 03:58:32,548 - ERROR - All 6 attempts failed for 158136 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/61.65.6_back_CP4.jpg
+2025-07-06 04:00:59,954 - WARNING - Download attempt 1 failed for 53913 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_O3.JPG
+2025-07-06 04:00:59,954 - INFO - Permanent failure for 53913: HTTP 404
+2025-07-06 04:00:59,954 - ERROR - All 6 attempts failed for 53913 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_O3.JPG
+2025-07-06 04:01:00,179 - WARNING - Download attempt 1 failed for 53913 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0864.JPG
+2025-07-06 04:01:00,179 - INFO - Permanent failure for 53913: HTTP 404
+2025-07-06 04:01:00,179 - ERROR - All 6 attempts failed for 53913 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0864.JPG
+2025-07-06 04:01:00,385 - WARNING - Download attempt 1 failed for 53913 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0861.JPG
+2025-07-06 04:01:00,385 - INFO - Permanent failure for 53913: HTTP 404
+2025-07-06 04:01:00,385 - ERROR - All 6 attempts failed for 53913 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0861.JPG
+2025-07-06 04:01:00,588 - WARNING - Download attempt 1 failed for 53913 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0860.JPG
+2025-07-06 04:01:00,588 - INFO - Permanent failure for 53913: HTTP 404
+2025-07-06 04:01:00,588 - ERROR - All 6 attempts failed for 53913 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0860.JPG
+2025-07-06 04:01:58,678 - WARNING - Download attempt 1 failed for 158347 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/11.616a-b_side1_detail_CP4.jpg
+2025-07-06 04:01:58,678 - INFO - Permanent failure for 158347: HTTP 404
+2025-07-06 04:01:58,679 - ERROR - All 6 attempts failed for 158347 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/11.616a-b_side1_detail_CP4.jpg
+2025-07-06 04:04:00,865 - WARNING - Download attempt 1 failed for 308258 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/55-111-66A.JPG
+2025-07-06 04:04:00,865 - INFO - Permanent failure for 308258: HTTP 404
+2025-07-06 04:04:00,865 - ERROR - All 6 attempts failed for 308258 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/55-111-66A.JPG
+2025-07-06 04:04:01,093 - WARNING - Download attempt 1 failed for 308258 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/55-111-66.JPG
+2025-07-06 04:04:01,093 - INFO - Permanent failure for 308258: HTTP 404
+2025-07-06 04:04:01,093 - ERROR - All 6 attempts failed for 308258 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/55-111-66.JPG
+2025-07-06 04:06:15,133 - WARNING - Download attempt 1 failed for 70224 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/DP14442.jpg%20
+2025-07-06 04:06:15,134 - INFO - Permanent failure for 70224: HTTP 404
+2025-07-06 04:06:15,134 - ERROR - All 6 attempts failed for 70224 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/DP14442.jpg%20
+2025-07-06 04:06:51,936 - WARNING - Connection pool is full, discarding connection: images.metmuseum.org. Connection pool size: 10
+2025-07-06 04:07:03,654 - WARNING - Connection pool is full, discarding connection: images.metmuseum.org. Connection pool size: 10
+2025-07-06 04:09:24,875 - INFO - === STARTING RETRY PHASE FOR 24 FAILED DOWNLOADS ===
+2025-07-06 04:09:24,994 - WARNING - Download attempt 1 failed for 216317 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/73374.jpg
+2025-07-06 04:09:24,995 - INFO - Permanent failure for 216317: HTTP 404
+2025-07-06 04:09:24,995 - ERROR - All 9 attempts failed for 216317 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/73374.jpg
+2025-07-06 04:09:24,999 - WARNING - Download attempt 1 failed for 217126 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/19749.jpg
+2025-07-06 04:09:24,999 - INFO - Permanent failure for 217126: HTTP 404
+2025-07-06 04:09:24,999 - ERROR - All 9 attempts failed for 217126 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/19749.jpg
+2025-07-06 04:09:25,001 - WARNING - Download attempt 1 failed for 216582 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/6836.jpg
+2025-07-06 04:09:25,001 - INFO - Permanent failure for 216582: HTTP 404
+2025-07-06 04:09:25,001 - ERROR - All 9 attempts failed for 216582 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/6836.jpg
+2025-07-06 04:09:25,027 - WARNING - Download attempt 1 failed for 219540 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/17524.jpg
+2025-07-06 04:09:25,028 - INFO - Permanent failure for 219540: HTTP 404
+2025-07-06 04:09:25,028 - ERROR - All 9 attempts failed for 219540 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/17524.jpg
+2025-07-06 04:09:25,124 - WARNING - Download attempt 1 failed for 314685 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/250584.jpg
+2025-07-06 04:09:25,124 - INFO - Permanent failure for 314685: HTTP 404
+2025-07-06 04:09:25,124 - ERROR - All 9 attempts failed for 314685 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/250584.jpg
+2025-07-06 04:09:25,186 - WARNING - Download attempt 1 failed for 307957 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/75159.jpg
+2025-07-06 04:09:25,186 - INFO - Permanent failure for 307957: HTTP 404
+2025-07-06 04:09:25,186 - ERROR - All 9 attempts failed for 307957 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/75159.jpg
+2025-07-06 04:09:25,279 - WARNING - Download attempt 1 failed for 310718 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/221123.jpg
+2025-07-06 04:09:25,279 - INFO - Permanent failure for 310718: HTTP 404
+2025-07-06 04:09:25,279 - ERROR - All 9 attempts failed for 310718 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/221123.jpg
+2025-07-06 04:09:25,292 - WARNING - Download attempt 1 failed for 67882 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/5577.jpg
+2025-07-06 04:09:25,292 - INFO - Permanent failure for 67882: HTTP 404
+2025-07-06 04:09:25,292 - ERROR - All 9 attempts failed for 67882 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/5577.jpg
+2025-07-06 04:09:25,306 - WARNING - Download attempt 1 failed for 230686 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/TP65.jpg
+2025-07-06 04:09:25,306 - INFO - Permanent failure for 230686: HTTP 404
+2025-07-06 04:09:25,306 - ERROR - All 9 attempts failed for 230686 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/TP65.jpg
+2025-07-06 04:09:25,355 - WARNING - Download attempt 1 failed for 202139 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/SC77384.jpg
+2025-07-06 04:09:25,355 - INFO - Permanent failure for 202139: HTTP 404
+2025-07-06 04:09:25,355 - ERROR - All 9 attempts failed for 202139 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/SC77384.jpg
+2025-07-06 04:09:25,363 - WARNING - Download attempt 1 failed for 70199 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/161071.jpg
+2025-07-06 04:09:25,363 - INFO - Permanent failure for 70199: HTTP 404
+2025-07-06 04:09:25,364 - ERROR - All 9 attempts failed for 70199 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/161071.jpg
+2025-07-06 04:09:25,401 - WARNING - Download attempt 1 failed for 209748 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/156463.jpg
+2025-07-06 04:09:25,401 - INFO - Permanent failure for 209748: HTTP 404
+2025-07-06 04:09:25,401 - ERROR - All 9 attempts failed for 209748 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/156463.jpg
+2025-07-06 04:09:25,483 - WARNING - Download attempt 1 failed for 445668 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/7124.jpg
+2025-07-06 04:09:25,484 - INFO - Permanent failure for 445668: HTTP 404
+2025-07-06 04:09:25,484 - ERROR - All 9 attempts failed for 445668 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/7124.jpg
+2025-07-06 04:09:25,487 - WARNING - Download attempt 1 failed for 70484 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/188182.jpg
+2025-07-06 04:09:25,487 - INFO - Permanent failure for 70484: HTTP 404
+2025-07-06 04:09:25,487 - ERROR - All 9 attempts failed for 70484 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/188182.jpg
+2025-07-06 04:09:25,513 - WARNING - Download attempt 1 failed for 229704 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/226729.jpg
+2025-07-06 04:09:25,513 - INFO - Permanent failure for 229704: HTTP 404
+2025-07-06 04:09:25,513 - ERROR - All 9 attempts failed for 229704 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/226729.jpg
+2025-07-06 04:09:25,564 - WARNING - Download attempt 1 failed for 455299 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/82094.jpg
+2025-07-06 04:09:25,564 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 04:09:25,564 - ERROR - All 9 attempts failed for 455299 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/82094.jpg
+2025-07-06 04:09:25,690 - WARNING - Download attempt 1 failed for 158136 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/61.65.6_back_CP4.jpg
+2025-07-06 04:09:25,690 - INFO - Permanent failure for 158136: HTTP 404
+2025-07-06 04:09:25,690 - ERROR - All 9 attempts failed for 158136 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/61.65.6_back_CP4.jpg
+2025-07-06 04:09:25,695 - WARNING - Download attempt 1 failed for 312805 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/220631.jpg
+2025-07-06 04:09:25,695 - INFO - Permanent failure for 312805: HTTP 404
+2025-07-06 04:09:25,695 - ERROR - All 9 attempts failed for 312805 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/220631.jpg
+2025-07-06 04:09:25,718 - WARNING - Download attempt 1 failed for 53913 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_O3.JPG
+2025-07-06 04:09:25,718 - INFO - Permanent failure for 53913: HTTP 404
+2025-07-06 04:09:25,718 - ERROR - All 9 attempts failed for 53913 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_O3.JPG
+2025-07-06 04:09:25,719 - WARNING - Download attempt 1 failed for 454567 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/AD-2002.494.789
+2025-07-06 04:09:25,719 - INFO - Permanent failure for 454567: HTTP 404
+2025-07-06 04:09:25,719 - ERROR - All 9 attempts failed for 454567 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/AD-2002.494.789
+2025-07-06 04:09:25,768 - WARNING - Download attempt 1 failed for 455299 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/191284.jpg
+2025-07-06 04:09:25,768 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 04:09:25,768 - ERROR - All 9 attempts failed for 455299 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/191284.jpg
+2025-07-06 04:09:25,845 - WARNING - Download attempt 1 failed for 467363 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-001.jpg
+2025-07-06 04:09:25,845 - INFO - Permanent failure for 467363: HTTP 404
+2025-07-06 04:09:25,845 - ERROR - All 9 attempts failed for 467363 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-001.jpg
+2025-07-06 04:09:25,896 - WARNING - Download attempt 1 failed for 308258 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/55-111-66A.JPG
+2025-07-06 04:09:25,896 - INFO - Permanent failure for 308258: HTTP 404
+2025-07-06 04:09:25,896 - ERROR - All 9 attempts failed for 308258 (primary): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/55-111-66A.JPG
+2025-07-06 04:09:25,922 - WARNING - Download attempt 1 failed for 70224 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/DP14442.jpg%20
+2025-07-06 04:09:25,922 - INFO - Permanent failure for 70224: HTTP 404
+2025-07-06 04:09:25,922 - ERROR - All 9 attempts failed for 70224 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/DP14442.jpg%20
+2025-07-06 04:09:25,973 - WARNING - Download attempt 1 failed for 455299 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/191283.jpg
+2025-07-06 04:09:25,973 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 04:09:25,973 - ERROR - All 9 attempts failed for 455299 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/191283.jpg
+2025-07-06 04:09:26,049 - WARNING - Download attempt 1 failed for 467363 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-003.jpg
+2025-07-06 04:09:26,049 - INFO - Permanent failure for 467363: HTTP 404
+2025-07-06 04:09:26,049 - ERROR - All 9 attempts failed for 467363 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-003.jpg
+2025-07-06 04:09:26,052 - WARNING - Download attempt 1 failed for 158347 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/11.616a-b_side1_detail_CP4.jpg
+2025-07-06 04:09:26,052 - INFO - Permanent failure for 158347: HTTP 404
+2025-07-06 04:09:26,052 - ERROR - All 9 attempts failed for 158347 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/es/original/11.616a-b_side1_detail_CP4.jpg
+2025-07-06 04:09:26,080 - WARNING - Download attempt 1 failed for 53913 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0864.JPG
+2025-07-06 04:09:26,080 - INFO - Permanent failure for 53913: HTTP 404
+2025-07-06 04:09:26,080 - ERROR - All 9 attempts failed for 53913 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0864.JPG
+2025-07-06 04:09:26,102 - WARNING - Download attempt 1 failed for 308258 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/55-111-66.JPG
+2025-07-06 04:09:26,102 - INFO - Permanent failure for 308258: HTTP 404
+2025-07-06 04:09:26,103 - ERROR - All 9 attempts failed for 308258 (additional_1): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/ao/original/55-111-66.JPG
+2025-07-06 04:09:26,178 - WARNING - Download attempt 1 failed for 455299 (additional_4): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT123B.jpg
+2025-07-06 04:09:26,179 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 04:09:26,179 - ERROR - All 9 attempts failed for 455299 (additional_4): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT123B.jpg
+2025-07-06 04:09:26,257 - WARNING - Download attempt 1 failed for 467363 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-002.jpg
+2025-07-06 04:09:26,257 - INFO - Permanent failure for 467363: HTTP 404
+2025-07-06 04:09:26,257 - ERROR - All 9 attempts failed for 467363 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-002.jpg
+2025-07-06 04:09:26,289 - WARNING - Download attempt 1 failed for 53913 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0861.JPG
+2025-07-06 04:09:26,289 - INFO - Permanent failure for 53913: HTTP 404
+2025-07-06 04:09:26,289 - ERROR - All 9 attempts failed for 53913 (additional_2): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0861.JPG
+2025-07-06 04:09:26,379 - WARNING - Download attempt 1 failed for 455299 (additional_5): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT123A.jpg
+2025-07-06 04:09:26,379 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 04:09:26,379 - ERROR - All 9 attempts failed for 455299 (additional_5): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT123A.jpg
+2025-07-06 04:09:26,462 - WARNING - Download attempt 1 failed for 467363 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-004.jpg
+2025-07-06 04:09:26,462 - INFO - Permanent failure for 467363: HTTP 404
+2025-07-06 04:09:26,462 - ERROR - All 9 attempts failed for 467363 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/md/original/DP-20642-004.jpg
+2025-07-06 04:09:26,489 - WARNING - Download attempt 1 failed for 53913 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0860.JPG
+2025-07-06 04:09:26,489 - INFO - Permanent failure for 53913: HTTP 404
+2025-07-06 04:09:26,489 - ERROR - All 9 attempts failed for 53913 (additional_3): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/as/original/1999_247_7_IMG_0860.JPG
+2025-07-06 04:09:26,589 - WARNING - Download attempt 1 failed for 455299 (additional_6): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT83.jpg
+2025-07-06 04:09:26,590 - INFO - Permanent failure for 455299: HTTP 404
+2025-07-06 04:09:26,590 - ERROR - All 9 attempts failed for 455299 (additional_6): Request error: 404 Client Error: Not Found for url: https://images.metmuseum.org/CRDImages/is/original/RT83.jpg
+2025-07-06 04:09:26,593 - INFO - === RETRY PHASE COMPLETE ===
+2025-07-06 04:09:26,594 - INFO - Retry duration: 0:00:01.718508
+2025-07-06 04:09:26,594 - INFO - Successfully recovered: 11/24 failed downloads
+2025-07-06 04:09:26,594 - INFO - === ALL PHASES COMPLETE ===
+2025-07-06 04:09:26,594 - INFO - Total duration: 1:49:28.370426
+2025-07-06 04:09:26,594 - INFO - Total objects processed: 27373
+2025-07-06 04:09:26,594 - INFO - Primary images downloaded: 27360
+2025-07-06 04:09:26,594 - INFO - Additional images downloaded: 27647
+2025-07-06 04:09:26,594 - INFO - Total retry attempts: 0
+2025-07-06 04:09:26,594 - INFO - Successful retries: 0
+2025-07-06 04:09:26,594 - INFO - Permanent failures: 72
+2025-07-06 04:09:26,594 - INFO - Total download size: 85301.31 MB
+2025-07-06 04:09:26,752 - INFO - Detailed results saved to CSV: MET_TEXTILES_BULLETPROOF_DATASET/bulletproof_download_results_20250706_040926.csv
+2025-07-06 04:09:26,752 - INFO - Bulletproof statistics saved to: MET_TEXTILES_BULLETPROOF_DATASET/bulletproof_statistics_20250706_040926.json
+2025-07-06 04:09:26,754 - INFO - Bulletproof summary report saved to: MET_TEXTILES_BULLETPROOF_DATASET/bulletproof_summary_20250706_040926.txt

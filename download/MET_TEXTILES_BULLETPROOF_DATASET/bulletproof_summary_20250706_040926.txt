@@ -1,0 +1,52 @@
+
+🛡️  BULLETPROOF MET TEXTILES DATASET DOWNLOAD SUMMARY 🛡️
+========================================================
+
+Download completed: 2025-07-06 04:09:26
+Total duration: 1:49:28.370426
+Main phase duration: 1:49:26.651661
+Retry phase duration: 0:00:01.718617
+
+📊 MAIN STATISTICS:
+------------------
+Total objects in dataset: 27,373
+Objects with images: 27,373
+Primary images downloaded: 27,360
+Additional images downloaded: 27,647
+Total images downloaded: 55,007
+Skipped existing files: 22
+
+🎯 SUCCESS RATES:
+----------------
+Primary image success rate: 99.95%
+Images per object ratio: 2.01
+
+🔄 RETRY STATISTICS:
+-------------------
+Total retry attempts: 0
+Successful retries: 0
+Retry success rate: 0.00%
+Permanent failures: 72
+
+💾 DOWNLOAD SIZE:
+----------------
+Total downloaded: 85301.31 MB
+Total downloaded: 83.30 GB
+Average per image: 1588.0 KB
+
+📁 DIRECTORY STRUCTURE:
+----------------------
+Primary images: MET_TEXTILES_BULLETPROOF_DATASET/images (27,360 files)
+Additional images: MET_TEXTILES_BULLETPROOF_DATASET/additional_images (27,647 files)
+Logs: MET_TEXTILES_BULLETPROOF_DATASET/logs
+Main log file: bulletproof_download_20250706_021958.log
+
+🎉 FINAL RESULTS:
+----------------
+✅ Successfully downloaded: 55,007 images
+✅ Success rate: 99.95%
+✅ Dataset completeness: 201.0%
+✅ Bulletproof retry recovery: 0 additional successes
+
+This download used bulletproof retry logic with exponential backoff,
+comprehensive error handling, and end-of-run failure recovery!
