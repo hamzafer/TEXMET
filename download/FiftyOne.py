@@ -1,352 +1,687 @@
-import fiftyone as fo
-import fiftyone.brain as fob  # For embeddings and clustering
-import json
+#!/usr/bin/env python3
+"""
+Complete FiftyOne setup for MET Textiles Dataset with all Brain features
+Optimized for RTX 4090 24GB - Maximum features enabled
+"""
+
 import os
-import sys
+import json
+import numpy as np
+import pandas as pd
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Optional, Any
+from tqdm import tqdm
+import logging
 
-def extract_year(date_str):
-    """Extract year from date string"""
-    import re
-    if not date_str:
+import fiftyone as fo
+import fiftyone.brain as fob
+import fiftyone.zoo as foz
+from fiftyone import ViewField as F
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Configuration
+JSON_PATH = "../FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
+IMAGES_DIR = "MET_TEXTILES_BULLETPROOF_DATASET/images"
+DATASET_NAME = "met_textiles_complete"
+BATCH_SIZE = 32  # Optimized for RTX 4090
+NUM_WORKERS = 4
+
+class METTextilesDatasetBuilder:
+    """Complete FiftyOne dataset builder with all brain features"""
+    
+    def __init__(self, json_path: str, images_dir: str, dataset_name: str):
+        self.json_path = json_path
+        self.images_dir = Path(images_dir)
+        self.dataset_name = dataset_name
+        self.dataset = None
+        
+    def load_json_data(self) -> List[Dict]:
+        """Load and validate JSON data"""
+        logger.info(f"Loading JSON data from {self.json_path}")
+        with open(self.json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        logger.info(f"Loaded {len(data)} objects from JSON")
+        return data
+    
+    def find_local_image_path(self, object_id: int, primary_image_url: str) -> Optional[str]:
+        """Find local image path for an object"""
+        # Try common naming patterns
+        possible_names = [
+            f"{object_id}.jpg",
+            f"{object_id}.png",
+            f"{object_id}.jpeg",
+            f"object_{object_id}.jpg",
+            f"met_{object_id}.jpg",
+        ]
+        
+        for name in possible_names:
+            path = self.images_dir / name
+            if path.exists():
+                return str(path)
+        
+        # Try to extract filename from URL
+        if primary_image_url:
+            url_filename = primary_image_url.split('/')[-1]
+            path = self.images_dir / url_filename
+            if path.exists():
+                return str(path)
+        
         return None
     
-    # Look for 4-digit year
-    match = re.search(r'\b(1[0-9]{3}|20[0-9]{2})\b', str(date_str))
-    if match:
-        return int(match.group(1))
-    return None
-
-def add_embeddings_and_clustering(dataset):
-    """Add embeddings and clustering to the dataset"""
-    print("🧠 Computing embeddings...")
-    
-    try:
-        # Compute image embeddings using a pre-trained model
-        fob.compute_embeddings(
-            dataset,
-            model="clip-vit-base32-torch",  # Fast and good quality
-            embeddings_field="embeddings",
-            batch_size=16  # Smaller batch size to avoid memory issues
-        )
+    def parse_date_range(self, date_str: str) -> Dict[str, Optional[int]]:
+        """Parse date strings like 'ca. 1870–75' or '1867'"""
+        if not date_str:
+            return {"start_year": None, "end_year": None}
         
-        print("🎯 Performing UMAP visualization...")
+        # Remove common prefixes
+        date_str = date_str.replace("ca. ", "").replace("c. ", "")
         
-        # Perform UMAP visualization
-        fob.compute_visualization(
-            dataset,
-            embeddings="embeddings",
-            method="umap",  # Better than t-SNE for large datasets
-            brain_key="umap_viz"
-        )
+        if "–" in date_str:
+            parts = date_str.split("–")
+            start_year = int(parts[0]) if parts[0].isdigit() else None
+            end_year = int(parts[1]) if parts[1].isdigit() else None
+            # Handle abbreviated end years like "1870–75"
+            if end_year and end_year < 100 and start_year:
+                end_year = (start_year // 100) * 100 + end_year
+        else:
+            year = int(date_str) if date_str.isdigit() else None
+            start_year = end_year = year
         
-        print("📊 Computing uniqueness scores...")
+        return {"start_year": start_year, "end_year": end_year}
+    
+    def create_sample_from_object(self, obj: Dict) -> Optional[fo.Sample]:
+        """Create FiftyOne sample from MET object"""
+        object_id = obj.get("objectID")
+        primary_image = obj.get("primaryImage", "")
         
-        # Compute uniqueness to find duplicates/similar images
-        fob.compute_uniqueness(
-            dataset,
-            embeddings="embeddings"
-        )
+        # Find local image
+        local_image_path = self.find_local_image_path(object_id, primary_image)
+        if not local_image_path:
+            logger.warning(f"No local image found for object {object_id}")
+            return None
         
-        print("✅ Embeddings and clustering complete!")
+        # Parse dates
+        date_info = self.parse_date_range(obj.get("objectDate", ""))
         
-    except Exception as e:
-        print(f"⚠️ Brain features failed: {e}")
-        print("📝 Dataset created without brain features")
-    
-    return dataset
-
-def setup_similarity_search(dataset):
-    """Setup similarity search capabilities"""
-    print("🔍 Setting up similarity search...")
-    
-    try:
-        # Build similarity index
-        fob.compute_similarity(
-            dataset,
-            embeddings="embeddings",
-            brain_key="similarity_index"
-        )
+        # Create sample
+        sample = fo.Sample(filepath=local_image_path)
         
-        print("✅ Similarity search ready!")
+        # Core metadata
+        sample["object_id"] = object_id
+        sample["accession_number"] = obj.get("accessionNumber", "")
+        sample["accession_year"] = obj.get("accessionYear", "")
+        sample["is_highlight"] = obj.get("isHighlight", False)
+        sample["is_public_domain"] = obj.get("isPublicDomain", False)
+        sample["is_timeline_work"] = obj.get("isTimelineWork", False)
         
-    except Exception as e:
-        print(f"⚠️ Similarity search setup failed: {e}")
-    
-    return dataset
-
-def create_custom_views(dataset):
-    """Create useful custom views for textile analysis"""
-    
-    print("📋 Creating custom views...")
-    
-    views = {}
-    
-    try:
-        # Group by classification
-        views["by_classification"] = dataset.group_by("classification")
+        # Object information
+        sample["title"] = obj.get("title", "")
+        sample["object_name"] = obj.get("objectName", "")
+        sample["culture"] = obj.get("culture", "")
+        sample["period"] = obj.get("period", "")
+        sample["dynasty"] = obj.get("dynasty", "")
+        sample["medium"] = obj.get("medium", "")
+        sample["dimensions"] = obj.get("dimensions", "")
+        sample["credit_line"] = obj.get("creditLine", "")
+        sample["department"] = obj.get("department", "")
+        sample["gallery_number"] = obj.get("GalleryNumber", "")
         
-        # Items with rich metadata
-        views["rich_metadata"] = dataset.match(
-            (fo.ViewField("culture") != "") & 
-            (fo.ViewField("period") != "") & 
-            (fo.ViewField("tags").length() > 2)
-        )
+        # Date information
+        sample["object_date"] = obj.get("objectDate", "")
+        sample["object_begin_date"] = obj.get("objectBeginDate")
+        sample["object_end_date"] = obj.get("objectEndDate")
+        sample["date_start_year"] = date_info["start_year"]
+        sample["date_end_year"] = date_info["end_year"]
         
-        # Recent items (if year data available)
-        if "year" in dataset.get_field_schema():
-            views["modern_items"] = dataset.match(fo.ViewField("year") > 1800)
+        # Artist information
+        sample["artist_display_name"] = obj.get("artistDisplayName", "")
+        sample["artist_display_bio"] = obj.get("artistDisplayBio", "")
+        sample["artist_nationality"] = obj.get("artistNationality", "")
+        sample["artist_gender"] = obj.get("artistGender", "")
+        sample["artist_role"] = obj.get("artistRole", "")
+        sample["artist_prefix"] = obj.get("artistPrefix", "")
+        sample["artist_begin_date"] = obj.get("artistBeginDate", "")
+        sample["artist_end_date"] = obj.get("artistEndDate", "")
         
-        # Tapestries vs Textiles
-        views["tapestries"] = dataset.match(fo.ViewField("classification").contains_str("Tapestry"))
-        views["textiles"] = dataset.match(fo.ViewField("classification").contains_str("Textile"))
+        # Geographic information
+        sample["geography_type"] = obj.get("geographyType", "")
+        sample["city"] = obj.get("city", "")
+        sample["state"] = obj.get("state", "")
+        sample["country"] = obj.get("country", "")
+        sample["region"] = obj.get("region", "")
+        sample["subregion"] = obj.get("subregion", "")
         
-        print("✅ Custom views created!")
+        # URLs and references
+        sample["object_url"] = obj.get("objectURL", "")
+        sample["object_wikidata_url"] = obj.get("objectWikidata_URL", "")
+        sample["artist_wikidata_url"] = obj.get("artistWikidata_URL", "")
+        sample["artist_ulan_url"] = obj.get("artistULAN_URL", "")
         
-    except Exception as e:
-        print(f"⚠️ Error creating views: {e}")
-    
-    return views
-
-def load_or_create_dataset():
-    """Load existing dataset or create new one if needed"""
-    
-    dataset_name = "MET_Textiles_Persistent"
-    
-    # Check if dataset already exists
-    existing_datasets = fo.list_datasets()
-    if dataset_name in existing_datasets:
-        print(f"📂 Loading existing dataset '{dataset_name}'...")
-        try:
-            dataset = fo.load_dataset(dataset_name)
-            print(f"✅ Loaded dataset with {len(dataset)} samples")
-            return dataset
-        except Exception as e:
-            print(f"⚠️ Error loading existing dataset: {e}")
-            print("🔄 Will create new dataset...")
-    
-    # Create new dataset if none exists
-    return create_new_dataset(dataset_name)
-
-def create_new_dataset(dataset_name):
-    """Create a new FiftyOne dataset with advanced features"""
-    
-    print(f"📝 Creating new dataset '{dataset_name}'...")
-    
-    # Load your data
-    with open("../FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json", "r") as f:
-        data = json.load(f)
-    
-    images_dir = "MET_TEXTILES_BULLETPROOF_DATASET/images"
-    
-    samples = []
-    print("🔄 Processing samples...")
-    
-    for i, obj in enumerate(data):
-        if i % 1000 == 0:
-            print(f"Processed {i}/{len(data)} samples")
+        # Process constituents
+        constituents = obj.get("constituents", [])
+        if constituents:
+            sample["constituents"] = fo.ListField([
+                fo.EmbeddedDocument.from_dict({
+                    "id": c.get("constituentID"),
+                    "role": c.get("role", ""),
+                    "name": c.get("name", ""),
+                    "gender": c.get("gender", ""),
+                    "ulan_url": c.get("constituentULAN_URL", ""),
+                    "wikidata_url": c.get("constituentWikidata_URL", "")
+                }) for c in constituents
+            ])
+        
+        # Process measurements
+        measurements = obj.get("measurements", [])
+        if measurements:
+            sample["measurements"] = fo.ListField([
+                fo.EmbeddedDocument.from_dict({
+                    "element_name": m.get("elementName", ""),
+                    "element_description": m.get("elementDescription", ""),
+                    "measurements": m.get("elementMeasurements", {})
+                }) for m in measurements
+            ])
+        
+        # Process tags
+        tags = obj.get("tags", [])
+        if tags:
+            sample["tags"] = fo.ListField([
+                fo.EmbeddedDocument.from_dict({
+                    "term": t.get("term", ""),
+                    "aat_url": t.get("AAT_URL", ""),
+                    "wikidata_url": t.get("Wikidata_URL", "")
+                }) for t in tags
+            ])
             
-        obj_id = str(obj['objectID'])
+            # Extract tag terms for easy filtering
+            sample["tag_terms"] = [t.get("term", "") for t in tags]
         
-        # Find image file
-        img_files = [f for f in os.listdir(images_dir) if f.startswith(obj_id)]
-        if not img_files:
-            continue
-            
-        img_path = os.path.join(images_dir, img_files[0])
+        # Additional computed fields
+        sample["has_measurements"] = len(measurements) > 0
+        sample["has_tags"] = len(tags) > 0
+        sample["has_constituents"] = len(constituents) > 0
+        sample["century"] = (date_info["start_year"] // 100 + 1) if date_info["start_year"] else None
         
-        # Check if file actually exists
-        if not os.path.exists(img_path):
-            continue
+        return sample
+    
+    def create_dataset(self) -> fo.Dataset:
+        """Create FiftyOne dataset with all samples"""
+        logger.info(f"Creating dataset: {self.dataset_name}")
         
-        # Safe handling of tags
-        tags_data = obj.get('tags', [])
-        if tags_data is None:
-            tags_data = []
-        tags = [tag.get('term', '') for tag in tags_data if tag is not None]
+        # Delete existing dataset if it exists
+        if self.dataset_name in fo.list_datasets():
+            fo.delete_dataset(self.dataset_name)
+        
+        # Create new dataset
+        dataset = fo.Dataset(self.dataset_name)
+        dataset.persistent = True
+        
+        # Load JSON data
+        json_data = self.load_json_data()
+        
+        # Create samples
+        samples = []
+        failed_count = 0
+        
+        logger.info("Creating samples...")
+        for obj in tqdm(json_data, desc="Processing objects"):
+            try:
+                sample = self.create_sample_from_object(obj)
+                if sample:
+                    samples.append(sample)
+                else:
+                    failed_count += 1
+            except Exception as e:
+                logger.error(f"Error processing object {obj.get('objectID')}: {e}")
+                failed_count += 1
+        
+        # Add samples to dataset
+        if samples:
+            dataset.add_samples(samples)
+            logger.info(f"Added {len(samples)} samples to dataset")
+            logger.info(f"Failed to process {failed_count} objects")
+        else:
+            logger.error("No samples created!")
+            return None
+        
+        # Add dataset info
+        dataset.info = {
+            "description": "MET Museum Textiles and Tapestries Dataset",
+            "created": datetime.now().isoformat(),
+            "total_objects": len(json_data),
+            "successful_samples": len(samples),
+            "failed_samples": failed_count,
+            "source": "Metropolitan Museum of Art API"
+        }
+        
+        self.dataset = dataset
+        return dataset
+    
+    def compute_embeddings(self, model_name: str = "clip-vit-base32-torch") -> None:
+        """Compute image embeddings using CLIP"""
+        logger.info(f"Computing embeddings using {model_name}")
         
         try:
-            sample = fo.Sample(
-                filepath=img_path,
-                object_id=obj['objectID'],
-                title=obj.get('title', ''),
-                classification=obj.get('classification', ''),
-                department=obj.get('department', ''),
-                culture=obj.get('culture', ''),
-                period=obj.get('period', ''),
-                date=obj.get('objectDate', ''),
-                medium=obj.get('medium', ''),
-                tags=tags,
-                # Add metadata for better analysis
-                has_primary_image=bool(obj.get('primaryImage', '')),
-                year=extract_year(obj.get('objectDate', '')),
-                country=obj.get('country', ''),
+            # Compute embeddings
+            embeddings = fob.compute_embeddings(
+                self.dataset,
+                model=model_name,
+                batch_size=BATCH_SIZE,
+                num_workers=NUM_WORKERS,
+                embeddings_field="embeddings",
+                progress=True
             )
-            samples.append(sample)
+            
+            logger.info(f"Computed embeddings for {len(embeddings)} samples")
+            
         except Exception as e:
-            print(f"Error creating sample for {obj_id}: {e}")
-            continue
+            logger.error(f"Error computing embeddings: {e}")
+            raise
     
-    print(f"✅ Created {len(samples)} samples")
-    
-    if not samples:
-        print("❌ No valid samples found!")
-        return None
-    
-    try:
-        # Create dataset
-        dataset = fo.Dataset(dataset_name)
-        dataset.persistent = True  # Make it persistent
+    def compute_similarity(self, brain_key: str = "similarity") -> None:
+        """Compute image similarity using embeddings"""
+        logger.info("Computing similarity index...")
         
-        print("📦 Adding samples to dataset...")
-        # Add samples in batches
-        batch_size = 500
-        for i in range(0, len(samples), batch_size):
-            batch = samples[i:i+batch_size]
-            dataset.add_samples(batch)
-            print(f"Added batch {i//batch_size + 1}/{(len(samples)-1)//batch_size + 1}")
+        try:
+            similarity_index = fob.compute_similarity(
+                self.dataset,
+                embeddings="embeddings",
+                brain_key=brain_key,
+                progress=True
+            )
+            
+            logger.info(f"Created similarity index with key: {brain_key}")
+            
+        except Exception as e:
+            logger.error(f"Error computing similarity: {e}")
+            raise
+    
+    def compute_uniqueness(self, brain_key: str = "uniqueness") -> None:
+        """Compute image uniqueness scores"""
+        logger.info("Computing uniqueness scores...")
+        
+        try:
+            uniqueness_scores = fob.compute_uniqueness(
+                self.dataset,
+                embeddings="embeddings",
+                brain_key=brain_key,
+                progress=True
+            )
+            
+            logger.info(f"Computed uniqueness scores with key: {brain_key}")
+            
+        except Exception as e:
+            logger.error(f"Error computing uniqueness: {e}")
+            raise
+    
+    def compute_visualization(self, brain_key: str = "visualization") -> None:
+        """Compute 2D visualization using embeddings"""
+        logger.info("Computing visualization...")
+        
+        try:
+            # Compute visualization
+            results = fob.compute_visualization(
+                self.dataset,
+                embeddings="embeddings",
+                brain_key=brain_key,
+                method="umap",  # or "tsne", "pca"
+                progress=True
+            )
+            
+            logger.info(f"Computed visualization with key: {brain_key}")
+            
+        except Exception as e:
+            logger.error(f"Error computing visualization: {e}")
+            raise
+    
+    def compute_hardness(self, brain_key: str = "hardness") -> None:
+        """Compute hardness scores if we have labels"""
+        logger.info("Computing hardness scores...")
+        
+        try:
+            # For unsupervised hardness, we can use culture or period as pseudo-labels
+            # First, let's create a simple classification field
+            self.dataset.compute_metadata()
+            
+            # Use culture as labels for hardness computation
+            view = self.dataset.match(F("culture") != "")
+            
+            if len(view) > 0:
+                hardness_scores = fob.compute_hardness(
+                    view,
+                    label_field="culture",
+                    embeddings="embeddings",
+                    brain_key=brain_key,
+                    progress=True
+                )
+                
+                logger.info(f"Computed hardness scores with key: {brain_key}")
+            else:
+                logger.warning("No culture labels found for hardness computation")
+                
+        except Exception as e:
+            logger.error(f"Error computing hardness: {e}")
+            # Don't raise, as this is optional
+    
+    def setup_advanced_indexing(self) -> None:
+        """Set up advanced indexing for better performance"""
+        logger.info("Setting up advanced indexing...")
+        
+        try:
+            # Create indexes for common fields
+            index_fields = [
+                "object_id",
+                "culture",
+                "period",
+                "artist_display_name",
+                "country",
+                "century",
+                "object_name",
+                "medium",
+                "is_highlight",
+                "is_public_domain",
+                "department"
+            ]
+            
+            for field in index_fields:
+                try:
+                    self.dataset.create_index(field)
+                    logger.info(f"Created index for {field}")
+                except Exception as e:
+                    logger.warning(f"Could not create index for {field}: {e}")
+                    
+        except Exception as e:
+            logger.error(f"Error setting up indexing: {e}")
+    
+    def generate_dataset_stats(self) -> Dict[str, Any]:
+        """Generate comprehensive dataset statistics"""
+        logger.info("Generating dataset statistics...")
+        
+        stats = {
+            "total_samples": len(self.dataset),
+            "schema": self.dataset.get_field_schema(),
+            "field_counts": {},
+            "value_counts": {},
+            "date_range": {},
+            "geographic_distribution": {},
+            "media_stats": {}
+        }
+        
+        # Field counts
+        for field_name in self.dataset.get_field_schema():
+            try:
+                non_null_count = len(self.dataset.match(F(field_name).exists()))
+                stats["field_counts"][field_name] = non_null_count
+            except:
+                pass
+        
+        # Value counts for categorical fields
+        categorical_fields = ["culture", "period", "artist_display_name", "country", "object_name", "department"]
+        for field in categorical_fields:
+            try:
+                values = self.dataset.values(field)
+                stats["value_counts"][field] = len(set(v for v in values if v))
+            except:
+                pass
+        
+        # Date range
+        try:
+            begin_dates = [d for d in self.dataset.values("object_begin_date") if d]
+            end_dates = [d for d in self.dataset.values("object_end_date") if d]
+            if begin_dates and end_dates:
+                stats["date_range"] = {
+                    "earliest": min(begin_dates),
+                    "latest": max(end_dates),
+                    "span_years": max(end_dates) - min(begin_dates)
+                }
+        except:
+            pass
+        
+        # Geographic distribution
+        try:
+            countries = [c for c in self.dataset.values("country") if c]
+            stats["geographic_distribution"] = {
+                "unique_countries": len(set(countries)),
+                "top_countries": list(pd.Series(countries).value_counts().head(10).to_dict().keys())
+            }
+        except:
+            pass
+        
+        return stats
+    
+    def create_useful_views(self) -> Dict[str, fo.DatasetView]:
+        """Create useful dataset views for exploration"""
+        logger.info("Creating useful dataset views...")
+        
+        views = {}
+        
+        # Highlights only
+        views["highlights"] = self.dataset.match(F("is_highlight") == True)
+        
+        # Public domain only
+        views["public_domain"] = self.dataset.match(F("is_public_domain") == True)
+        
+        # Timeline works
+        views["timeline_works"] = self.dataset.match(F("is_timeline_work") == True)
+        
+        # By century
+        for century in range(15, 22):  # 15th to 21st century
+            century_view = self.dataset.match(F("century") == century)
+            if len(century_view) > 0:
+                views[f"century_{century}"] = century_view
+        
+        # By culture (top cultures)
+        try:
+            cultures = [c for c in self.dataset.values("culture") if c]
+            top_cultures = pd.Series(cultures).value_counts().head(10).index.tolist()
+            for culture in top_cultures:
+                safe_name = culture.replace(" ", "_").replace("(", "").replace(")", "").lower()
+                views[f"culture_{safe_name}"] = self.dataset.match(F("culture") == culture)
+        except:
+            pass
+        
+        # By object type
+        try:
+            object_names = [o for o in self.dataset.values("object_name") if o]
+            top_objects = pd.Series(object_names).value_counts().head(10).index.tolist()
+            for obj_name in top_objects:
+                safe_name = obj_name.replace(" ", "_").replace("(", "").replace(")", "").lower()
+                views[f"object_{safe_name}"] = self.dataset.match(F("object_name") == obj_name)
+        except:
+            pass
+        
+        # With measurements
+        views["with_measurements"] = self.dataset.match(F("has_measurements") == True)
+        
+        # With tags
+        views["with_tags"] = self.dataset.match(F("has_tags") == True)
+        
+        logger.info(f"Created {len(views)} useful views")
+        return views
+    
+    def run_complete_pipeline(self) -> fo.Dataset:
+        """Run the complete pipeline with all brain features"""
+        logger.info("Starting complete FiftyOne pipeline...")
+        
+        # Create dataset
+        dataset = self.create_dataset()
+        if not dataset:
+            raise Exception("Failed to create dataset")
+        
+        # Compute all brain features
+        try:
+            self.compute_embeddings()
+            self.compute_similarity()
+            self.compute_uniqueness()
+            self.compute_visualization()
+            self.compute_hardness()
+        except Exception as e:
+            logger.error(f"Error in brain computation: {e}")
+            # Continue anyway, some features might have worked
+        
+        # Setup advanced features
+        self.setup_advanced_indexing()
+        
+        # Generate stats
+        stats = self.generate_dataset_stats()
+        dataset.info["stats"] = stats
+        
+        # Create views
+        views = self.create_useful_views()
         
         # Save dataset
-        print("💾 Saving dataset...")
         dataset.save()
         
-        print(f"📊 Dataset '{dataset_name}' created with {len(dataset)} samples")
-        
-        # Add brain features
-        print("\n🧠 Adding AI-powered features...")
-        dataset = add_embeddings_and_clustering(dataset)
-        dataset = setup_similarity_search(dataset)
-        
-        # Create custom views
-        views = create_custom_views(dataset)
+        logger.info("="*50)
+        logger.info("PIPELINE COMPLETE!")
+        logger.info("="*50)
+        logger.info(f"Dataset name: {self.dataset_name}")
+        logger.info(f"Total samples: {len(dataset)}")
+        logger.info(f"Brain features computed: embeddings, similarity, uniqueness, visualization, hardness")
+        logger.info(f"Created {len(views)} useful views")
+        logger.info("="*50)
         
         return dataset
-        
-    except Exception as e:
-        print(f"❌ Error creating dataset: {e}")
-        raise
 
-def launch_app_only():
-    """Just launch the app with existing dataset"""
+
+def main():
+    """Main function to run the complete pipeline"""
     
-    dataset_name = "MET_Textiles_Persistent"
+    # Verify paths exist
+    if not os.path.exists(JSON_PATH):
+        logger.error(f"JSON file not found: {JSON_PATH}")
+        return
     
+    if not os.path.exists(IMAGES_DIR):
+        logger.error(f"Images directory not found: {IMAGES_DIR}")
+        return
+    
+    # Create builder and run pipeline
+    builder = METTextilesDatasetBuilder(JSON_PATH, IMAGES_DIR, DATASET_NAME)
+    dataset = builder.run_complete_pipeline()
+    
+    # Launch FiftyOne App
+    print("\n" + "="*60)
+    print("READY TO EXPLORE!")
+    print("="*60)
+    print(f"Dataset: {DATASET_NAME}")
+    print(f"Samples: {len(dataset)}")
+    print("\nUseful commands:")
+    print("# Load dataset")
+    print(f"dataset = fo.load_dataset('{DATASET_NAME}')")
+    print("\n# Launch app")
+    print("session = fo.launch_app(dataset)")
+    print("\n# Find similar images")
+    print("sample = dataset.first()")
+    print("similar_view = dataset.sort_by_similarity(sample, k=20)")
+    print("\n# Most unique images")
+    print("unique_view = dataset.sort_by('uniqueness', reverse=True)")
+    print("\n# Visualize embeddings")
+    print("session.show_embeddings()")
+    print("="*60)
+    
+    # Optionally launch the app
     try:
-        dataset = fo.load_dataset(dataset_name)
-        print(f"📂 Loaded dataset '{dataset_name}' with {len(dataset)} samples")
+        import webbrowser
+        session = fo.launch_app(dataset)
+        print(f"\nFiftyOne App launched at: {session.url}")
         
-        print("🚀 Launching FiftyOne App...")
-        session = fo.launch_app(dataset, port=5151)
-        
-        print("🎯 FiftyOne launched at http://localhost:5151")
-        print("📋 Use the interface to:")
-        print("  - Browse by department/classification")
-        print("  - Tag keepers vs rejects")
-        print("  - Filter by date, culture, etc.")
-        print("  - Create custom views")
-        print("  - Use similarity search (click on an image)")
-        print("  - Explore UMAP clustering visualization")
-        print("  - Find duplicate/similar images")
-        print()
-        print("💡 Server is running. Press Ctrl+C to stop...")
-        
-        session.wait()
-        
+        # Show some example similar images
+        if len(dataset) > 0:
+            sample = dataset.first()
+            similar_view = dataset.sort_by_similarity(sample, k=20)
+            print(f"\nShowing 20 most similar images to: {sample.title}")
+            session.view = similar_view
+            
     except Exception as e:
-        print(f"❌ Error: {e}")
-        print("🔄 Dataset not found. Run with --create to create new dataset.")
+        logger.error(f"Could not launch app: {e}")
+        print("You can launch the app manually with:")
+        print(f"fo.launch_app(fo.load_dataset('{DATASET_NAME}'))")
 
-def cleanup_fiftyone():
-    """Clean up all FiftyOne datasets"""
-    print("🧹 Cleaning up existing datasets...")
-    datasets = fo.list_datasets()
-    for name in datasets:
-        try:
-            dataset = fo.load_dataset(name)
-            dataset.delete()
-            print(f"Deleted dataset: {name}")
-        except Exception as e:
-            print(f"Error deleting {name}: {e}")
-
-def analyze_dataset(dataset):
-    """Analyze the dataset and show brain feature results"""
-    
-    print("\n📊 DATASET ANALYSIS")
-    print("=" * 50)
-    
-    # Basic stats
-    print(f"Total samples: {len(dataset)}")
-    
-    # Check for brain features
-    brain_info = dataset.get_brain_info()
-    
-    if brain_info:
-        print(f"Brain features available: {list(brain_info.keys())}")
-        
-        # Show embedding info
-        if "embeddings" in dataset.get_field_schema():
-            print("✅ Embeddings computed")
-        
-        # Show visualization info
-        if "umap_viz" in brain_info:
-            print("✅ UMAP visualization available")
-        
-        # Show similarity index
-        if "similarity_index" in brain_info:
-            print("✅ Similarity search ready")
-    else:
-        print("⚠️ No brain features found")
-    
-    # Department breakdown
-    dept_counts = dataset.count_values("department")
-    print(f"\nTop departments:")
-    for dept, count in sorted(dept_counts.items(), key=lambda x: x[1], reverse=True)[:5]:
-        print(f"  {dept}: {count}")
-    
-    # Classification breakdown
-    class_counts = dataset.count_values("classification")
-    print(f"\nTop classifications:")
-    for cls, count in sorted(class_counts.items(), key=lambda x: x[1], reverse=True)[:5]:
-        print(f"  {cls}: {count}")
 
 if __name__ == "__main__":
+    main()
+
+
+# Additional utility functions for exploration
+def explore_dataset(dataset_name: str = DATASET_NAME):
+    """Utility function to explore the dataset"""
+    dataset = fo.load_dataset(dataset_name)
     
-    if "--cleanup" in sys.argv:
-        cleanup_fiftyone()
-        
-    elif "--create" in sys.argv:
-        # Force create new dataset with brain features
-        cleanup_fiftyone()
-        dataset = create_new_dataset("MET_Textiles_Persistent")
-        if dataset:
-            print("\n🚀 Launching app with brain features...")
-            session = fo.launch_app(dataset, port=5151)
-            session.wait()
-            
-    elif "--launch" in sys.argv:
-        # Just launch app with existing dataset
-        launch_app_only()
-        
-    elif "--analyze" in sys.argv:
-        # Analyze existing dataset
-        try:
-            dataset = fo.load_dataset("MET_Textiles_Persistent")
-            analyze_dataset(dataset)
-            
-            print("\n🚀 Launching app for analysis...")
-            session = fo.launch_app(dataset, port=5151)
-            session.wait()
-            
-        except Exception as e:
-            print(f"❌ Error: {e}")
-            print("🔄 Dataset not found. Run with --create first.")
-        
-    else:
-        # Default: load existing or create new
-        dataset = load_or_create_dataset()
-        if dataset:
-            print("🚀 Launching app...")
-            session = fo.launch_app(dataset, port=5151)
-            print("🎯 FiftyOne launched at http://localhost:5151")
-            print("💡 Server is running. Press Ctrl+C to stop...")
-            print(f"session: {session}")
-            session.wait()
+    print(f"Dataset: {dataset_name}")
+    print(f"Total samples: {len(dataset)}")
+    print(f"Brain keys: {list(dataset.list_brain_runs().keys())}")
+    print(f"Schema: {dataset.get_field_schema()}")
+    
+    # Show some stats
+    print("\nTop cultures:")
+    cultures = [c for c in dataset.values("culture") if c]
+    print(pd.Series(cultures).value_counts().head(10))
+    
+    print("\nTop object types:")
+    objects = [o for o in dataset.values("object_name") if o]
+    print(pd.Series(objects).value_counts().head(10))
+    
+    print("\nDate range:")
+    dates = [d for d in dataset.values("object_begin_date") if d]
+    if dates:
+        print(f"From {min(dates)} to {max(dates)}")
+    
+    return dataset
+
+
+def find_similar_objects(dataset_name: str, object_id: int, k: int = 20):
+    """Find similar objects to a given object ID"""
+    dataset = fo.load_dataset(dataset_name)
+    
+    # Find the sample
+    sample = dataset.match(F("object_id") == object_id).first()
+    if not sample:
+        print(f"Object {object_id} not found")
+        return None
+    
+    # Find similar
+    similar_view = dataset.sort_by_similarity(sample, k=k)
+    
+    print(f"Found {len(similar_view)} similar objects to '{sample.title}'")
+    for s in similar_view:
+        print(f"- {s.title} (Culture: {s.culture}, Period: {s.period})")
+    
+    return similar_view
+
+
+def explore_by_culture(dataset_name: str, culture: str):
+    """Explore objects from a specific culture"""
+    dataset = fo.load_dataset(dataset_name)
+    
+    culture_view = dataset.match(F("culture") == culture)
+    print(f"Found {len(culture_view)} objects from {culture}")
+    
+    # Get most unique objects from this culture
+    if len(culture_view) > 0:
+        unique_view = culture_view.sort_by("uniqueness", reverse=True).limit(10)
+        print(f"\nMost unique {culture} objects:")
+        for s in unique_view:
+            print(f"- {s.title} (uniqueness: {s.uniqueness:.3f})")
+    
+    return culture_view
+
+
+def launch_exploration_session(dataset_name: str = DATASET_NAME):
+    """Launch FiftyOne with the dataset ready for exploration"""
+    dataset = fo.load_dataset(dataset_name)
+    session = fo.launch_app(dataset)
+    
+    print("FiftyOne App launched!")
+    print("\nTry these in the app:")
+    print("1. Click 'Embeddings' to see the 2D visualization")
+    print("2. Select an image and click 'Similarity' to find similar images")
+    print("3. Sort by 'uniqueness' to see the most unique images")
+    print("4. Use the sidebar to filter by culture, period, etc.")
+    
+    return session, dataset
