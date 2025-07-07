@@ -119,8 +119,12 @@ class METTextilesDatasetBuilder:
         sample["is_public_domain"] = obj.get("isPublicDomain", False)
         sample["is_timeline_work"] = obj.get("isTimelineWork", False)
         
-        # Object information
+        # Object information - PRIORITY FIELDS
         sample["title"] = obj.get("title", "")
+        sample["department"] = obj.get("department", "")
+        sample["classification"] = obj.get("classification", "")
+        
+        # Additional object details
         sample["object_name"] = obj.get("objectName", "")
         sample["culture"] = obj.get("culture", "")
         sample["period"] = obj.get("period", "")
@@ -128,7 +132,6 @@ class METTextilesDatasetBuilder:
         sample["medium"] = obj.get("medium", "")
         sample["dimensions"] = obj.get("dimensions", "")
         sample["credit_line"] = obj.get("creditLine", "")
-        sample["department"] = obj.get("department", "")
         sample["gallery_number"] = obj.get("GalleryNumber", "")
         
         # Date information
@@ -373,9 +376,12 @@ class METTextilesDatasetBuilder:
         logger.info("Setting up advanced indexing...")
         
         try:
-            # Create indexes for common fields
+            # Create indexes for common fields - PRIORITY FIELDS FIRST
             index_fields = [
                 "object_id",
+                "title",              # PRIORITY
+                "department",         # PRIORITY  
+                "classification",     # PRIORITY
                 "culture",
                 "period",
                 "artist_display_name",
@@ -384,8 +390,7 @@ class METTextilesDatasetBuilder:
                 "object_name",
                 "medium",
                 "is_highlight",
-                "is_public_domain",
-                "department"
+                "is_public_domain"
             ]
             
             for field in index_fields:
@@ -420,8 +425,11 @@ class METTextilesDatasetBuilder:
             except:
                 pass
         
-        # Value counts for categorical fields
-        categorical_fields = ["culture", "period", "artist_display_name", "country", "object_name", "department"]
+        # Value counts for categorical fields - PRIORITY FIELDS FIRST
+        categorical_fields = [
+            "title", "department", "classification",  # PRIORITY FIELDS
+            "culture", "period", "artist_display_name", "country", "object_name"
+        ]
         for field in categorical_fields:
             try:
                 values = self.dataset.values(field)
@@ -468,6 +476,28 @@ class METTextilesDatasetBuilder:
         
         # Timeline works
         views["timeline_works"] = self.dataset.match(F("is_timeline_work") == True)
+        
+        # PRIORITY FIELD VIEWS
+        
+        # By department (PRIORITY)
+        try:
+            departments = [d for d in self.dataset.values("department") if d]
+            unique_departments = list(set(departments))
+            for dept in unique_departments:
+                safe_name = dept.replace(" ", "_").replace("The ", "").replace("(", "").replace(")", "").lower()
+                views[f"dept_{safe_name}"] = self.dataset.match(F("department") == dept)
+        except:
+            pass
+        
+        # By classification (PRIORITY)
+        try:
+            classifications = [c for c in self.dataset.values("classification") if c]
+            unique_classifications = list(set(classifications))
+            for classif in unique_classifications:
+                safe_name = classif.replace(" ", "_").replace("(", "").replace(")", "").lower()
+                views[f"class_{safe_name}"] = self.dataset.match(F("classification") == classif)
+        except:
+            pass
         
         # By century
         for century in range(15, 22):  # 15th to 21st century
@@ -544,6 +574,7 @@ class METTextilesDatasetBuilder:
         logger.info(f"Total samples: {len(dataset)}")
         logger.info(f"Brain features computed: embeddings, similarity, uniqueness, visualization, hardness")
         logger.info(f"Created {len(views)} useful views")
+        logger.info("PRIORITY FIELDS INDEXED: title, department, classification")
         logger.info("="*50)
         
         return dataset
@@ -571,9 +602,17 @@ def main():
     print("="*60)
     print(f"Dataset: {DATASET_NAME}")
     print(f"Samples: {len(dataset)}")
+    print("\nPRIORITY FIELDS (fully indexed):")
+    print("📝 titles - Object titles")
+    print("📚 departments - Museum departments") 
+    print("🏷️ classifications - Object classifications")
     print("\nUseful commands:")
     print("# Load dataset")
     print(f"dataset = fo.load_dataset('{DATASET_NAME}')")
+    print("\n# Explore priority fields")
+    print("explore_dataset()")
+    print("explore_by_department('The American Wing')")
+    print("explore_by_classification('Furniture')")
     print("\n# Launch app")
     print("session = fo.launch_app(dataset)")
     print("\n# Find similar images")
@@ -581,8 +620,10 @@ def main():
     print("similar_view = dataset.sort_by_similarity(sample, k=20)")
     print("\n# Most unique images")
     print("unique_view = dataset.sort_by('uniqueness', reverse=True)")
-    print("\n# Visualize embeddings")
-    print("session.show_embeddings()")
+    print("\n# Filter by priority fields in UI sidebar:")
+    print("- Department dropdown")
+    print("- Classification dropdown") 
+    print("- Title search box")
     print("="*60)
     
     # Optionally launch the app
@@ -616,18 +657,53 @@ def explore_dataset(dataset_name: str = DATASET_NAME):
     print(f"Dataset: {dataset_name}")
     print(f"Total samples: {len(dataset)}")
     print(f"Brain keys: {list(dataset.list_brain_runs().keys())}")
-    print(f"Schema: {dataset.get_field_schema()}")
     
-    # Show some stats
-    print("\nTop cultures:")
+    # PRIORITY FIELDS ANALYSIS
+    print("\n" + "="*50)
+    print("PRIORITY FIELDS ANALYSIS")
+    print("="*50)
+    
+    print("\n📚 DEPARTMENTS:")
+    departments = [d for d in dataset.values("department") if d]
+    if departments:
+        print(pd.Series(departments).value_counts().head(10))
+    else:
+        print("No departments found")
+    
+    print("\n🏷️ CLASSIFICATIONS:")
+    classifications = [c for c in dataset.values("classification") if c]
+    if classifications:
+        print(pd.Series(classifications).value_counts().head(10))
+    else:
+        print("No classifications found")
+    
+    print("\n📝 TITLES (Top patterns):")
+    titles = [t for t in dataset.values("title") if t]
+    if titles:
+        # Show common words in titles
+        title_words = []
+        for title in titles:
+            title_words.extend(title.split())
+        print("Most common words in titles:")
+        print(pd.Series(title_words).value_counts().head(15))
+    else:
+        print("No titles found")
+    
+    print("\n" + "="*50)
+    print("ADDITIONAL ANALYSIS")
+    print("="*50)
+    
+    print("\n🌍 Top cultures:")
     cultures = [c for c in dataset.values("culture") if c]
-    print(pd.Series(cultures).value_counts().head(10))
+    if cultures:
+        print(pd.Series(cultures).value_counts().head(10))
     
-    print("\nTop object types:")
+    print("\n🎨 Top object types:")
     objects = [o for o in dataset.values("object_name") if o]
-    print(pd.Series(objects).value_counts().head(10))
+    if objects:
+        print(pd.Series(objects).value_counts().head(10))
     
-    print("\nDate range:")
+    print("\n📅 Date range:")
     dates = [d for d in dataset.values("object_begin_date") if d]
     if dates:
         print(f"From {min(dates)} to {max(dates)}")
@@ -653,6 +729,56 @@ def find_similar_objects(dataset_name: str, object_id: int, k: int = 20):
         print(f"- {s.title} (Culture: {s.culture}, Period: {s.period})")
     
     return similar_view
+
+
+def explore_by_department(dataset_name: str, department: str):
+    """Explore objects from a specific department"""
+    dataset = fo.load_dataset(dataset_name)
+    
+    dept_view = dataset.match(F("department") == department)
+    print(f"Found {len(dept_view)} objects from {department}")
+    
+    if len(dept_view) > 0:
+        # Show classifications within this department
+        classifications = [c for c in dept_view.values("classification") if c]
+        if classifications:
+            print(f"\nClassifications in {department}:")
+            print(pd.Series(classifications).value_counts().head(10))
+        
+        # Show most unique objects from this department
+        unique_view = dept_view.sort_by("uniqueness", reverse=True).limit(10)
+        print(f"\nMost unique objects in {department}:")
+        for s in unique_view:
+            title = s.title if s.title else "Untitled"
+            classif = s.classification if s.classification else "Unclassified"
+            print(f"- {title} ({classif})")
+    
+    return dept_view
+
+
+def explore_by_classification(dataset_name: str, classification: str):
+    """Explore objects from a specific classification"""
+    dataset = fo.load_dataset(dataset_name)
+    
+    class_view = dataset.match(F("classification") == classification)
+    print(f"Found {len(class_view)} objects classified as {classification}")
+    
+    if len(class_view) > 0:
+        # Show departments that have this classification
+        departments = [d for d in class_view.values("department") if d]
+        if departments:
+            print(f"\nDepartments with {classification}:")
+            print(pd.Series(departments).value_counts().head(10))
+        
+        # Show most unique objects from this classification
+        unique_view = class_view.sort_by("uniqueness", reverse=True).limit(10)
+        print(f"\nMost unique {classification} objects:")
+        for s in unique_view:
+            title = s.title if s.title else "Untitled"
+            dept = s.department if s.department else "Unknown Department"
+            print(f"- {title} ({dept})")
+    
+    return class_view
 
 
 def explore_by_culture(dataset_name: str, culture: str):
