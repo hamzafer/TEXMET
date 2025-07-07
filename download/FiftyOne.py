@@ -6,6 +6,8 @@ Met Textiles × FiftyOne – end-to-end pipeline
 import os, json, fiftyone as fo, fiftyone.brain as fob
 import glob
 import fiftyone as fo
+# Import the model properly
+import fiftyone.zoo as foz
 
 print("🧹 Cleaning up existing dataset...")
 # fo.delete_dataset("met_textiles_27k")      # wipes the empty set
@@ -124,8 +126,11 @@ if EMB_FIELD not in ds.get_field_schema():
     print("⚡ Computing CLIP embeddings – grab a coffee ☕")
     print("   Using model: clip-vit-base32-torch")
     print("   Batch size: 64, Workers: 8")
+
+    model = foz.load_zoo_model("clip-vit-base32-torch")
+    
     ds.compute_embeddings(                      
-        model="clip-vit-base32-torch",          # choose another CLIP variant if desired
+        model=model,                            # use model object instead of string
         embeddings_field=EMB_FIELD,
         batch_size=64,                          # tune for your GPU
         num_workers=8,
