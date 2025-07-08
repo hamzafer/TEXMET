@@ -129,7 +129,6 @@ This dataset (TeXMET) is a curated subset of textiles and tapestries from The Me
 - **Created**: July 2025
 
 ## Performance & Quality Metrics
-- **Curation Ratio**: 1,697/27,373 = 6.2% (highly selective)
 - **Image Quality**: 100% JPEG, high resolution
 - **Duplicate Removal**: CLIP similarity + manual verification
 - **Manual Validation**: Visual inspection of all selected objects
@@ -139,6 +138,7 @@ This dataset (TeXMET) is a curated subset of textiles and tapestries from The Me
 
 ---
 **🎯 TeXMET Final: 1,697 Premium Objects, 18,644 High-Quality Images**
+Total Dataset Size: 26.5 GB.
 **Ready for Computer Vision and Machine Learning Applications!**
 
 *Last Updated: July 8, 2025*
