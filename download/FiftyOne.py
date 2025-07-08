@@ -3,96 +3,66 @@
 Met Textiles × FiftyOne – end-to-end pipeline
 """
 
-import os, json, fiftyone as fo, fiftyone.brain as fob
-import glob
-import fiftyone as fo
-# Import the model properly
+import os, json, glob, argparse
+import fiftyone as fo, fiftyone.brain as fob
 import fiftyone.zoo as foz
+from fiftyone import ViewField as F
+from PIL import Image                # NEW
 
-print("🧹 Cleaning up existing dataset...")
-# fo.delete_dataset("met_textiles_27k")      # wipes the empty set
+# --------------------------- CLI flag -------------------------------- #
+parser = argparse.ArgumentParser()
+parser.add_argument("--rebuild", action="store_true",
+                    help="Delete existing dataset before running")
+args = parser.parse_args()
 
-# ---------------------------------------------------------------------- #
-# Paths – adjust if you've moved things
-# ---------------------------------------------------------------------- #
+Image.MAX_IMAGE_PIXELS = None        # disable Pillow size limit
+
 JSON_PATH  = (
     "../FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/"
     "ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
 )
-IMAGES_DIR = "MET_TEXTILES_BULLETPROOF_DATASET/images"
+IMAGES_DIR   = "MET_TEXTILES_BULLETPROOF_DATASET/images"
 DATASET_NAME = "met_textiles_27k"
+EMB_FIELD    = "clip_emb"
 
-print(f"📂 JSON Path: {JSON_PATH}")
-print(f"🖼️  Images Directory: {IMAGES_DIR}")
-print(f"🏷️  Dataset Name: {DATASET_NAME}")
-print()
-
-# ---------------------------------------------------------------------- #
-# Helper – map a JSON object → local image path
-# ---------------------------------------------------------------------- #
+# --------------------------- helper ---------------------------------- #
 def resolve_image_path(obj):
-    """
-    Return a matching local image filepath for this Met object, or None.
-
-    Look for:
-      1.  <IMAGES_DIR>/<objectID>.<jpg|png>
-      2.  <IMAGES_DIR>/<objectID>_*_primary.<jpg|png>
-      3.  A file whose basename matches the remote primary image URL
-      4.  The web-large fallback
-    """
     oid = obj["objectID"]
-
-    # 1. Straight ID
-    basics = [
+    cand = [
         os.path.join(IMAGES_DIR, f"{oid}.jpg"),
         os.path.join(IMAGES_DIR, f"{oid}.png"),
+        *glob.glob(os.path.join(IMAGES_DIR, f"{oid}_*_primary.*")),
+        *(os.path.join(IMAGES_DIR, os.path.basename(u))
+          for u in (obj.get("primaryImage"), obj.get("primaryImageSmall")) if u),
     ]
+    return next((p for p in cand if os.path.exists(p)), None)
 
-    # 2. Your "*_primary" naming pattern
-    primary_glob = glob.glob(os.path.join(IMAGES_DIR, f"{oid}_*_primary.*"))
-    basics.extend(primary_glob)
+# --------------------------- dataset --------------------------------- #
+if args.rebuild and fo.dataset_exists(DATASET_NAME):
+    print("🗑️  Deleting existing dataset …")
+    fo.delete_dataset(DATASET_NAME)
 
-    # 3 & 4. Basenames from remote URLs (handles any residual file names)
-    url_names = [
-        os.path.basename(obj.get("primaryImage", "")),
-        os.path.basename(obj.get("primaryImageSmall", "")),
-    ]
-    basics.extend(os.path.join(IMAGES_DIR, n) for n in url_names if n)
-
-    # return the first path that exists
-    for path in basics:
-        if path and os.path.exists(path):
-            return path
-
-    return None
-
-# ---------------------------------------------------------------------- #
-# (Re)create the dataset
-# ---------------------------------------------------------------------- #
-print("🔍 Checking if dataset exists...")
 if fo.dataset_exists(DATASET_NAME):
-    print(f"✅ Loading existing dataset: {DATASET_NAME}")
+    print("✅ Loading existing dataset")
     ds = fo.load_dataset(DATASET_NAME)
 else:
-    print(f"🚀 Creating new dataset: {DATASET_NAME}")
-    print("📖 Loading JSON metadata...")
+    print("🚀 Creating dataset from JSON")
+    print(f"📂 JSON Path: {JSON_PATH}")
+    print(f"🖼️  Images Directory: {IMAGES_DIR}")
     with open(JSON_PATH, encoding="utf-8") as f:
         objects = json.load(f)
     
     print(f"📊 Found {len(objects)} objects in JSON")
     print("🔗 Resolving image paths...")
-    
-    samples = []
-    missing_images = 0
-    for i, obj in enumerate(objects):
-        if i % 1000 == 0 and i > 0:
-            print(f"   Processed {i}/{len(objects)} objects...")
-        
-        fp = resolve_image_path(obj)
-        if fp is None:
-            missing_images += 1
-            continue  # skip if image missing
 
+    samples, miss = [], 0
+    for i, obj in enumerate(objects):
+        if i % 5000 == 0 and i > 0:
+            print(f"   Processed {i}/{len(objects)} objects...")
+        fp = resolve_image_path(obj)
+        if not fp:
+            miss += 1
+            continue
         samples.append(
             fo.Sample(
                 filepath=fp,
@@ -100,87 +70,97 @@ else:
                 department=obj.get("department", ""),
                 classification=obj.get("classification", ""),
                 title=obj.get("title", ""),
-                met_raw=obj,  # keep full metadata for convenience
+                tags=[obj.get("department", ""), obj.get("classification", "")],  # NEW
+                met_raw=obj,
             )
         )
-
-    print(f"✅ Created {len(samples)} samples")
-    print(f"⚠️  Skipped {missing_images} objects with missing images")
+    print(f"   → {len(samples)} samples | {miss} missing images")
     print("💾 Adding samples to dataset...")
-    
+
     ds = fo.Dataset(DATASET_NAME, overwrite=True)
     ds.add_samples(samples)
-    ds.persistent = True  # dataset survives Python restarts
+    ds.persistent = True
     print("✅ Dataset created and saved!")
 
 print(f"\n📈 Dataset Overview:")
-print(ds)  # sanity-check (should show 27 k samples)
-print()
+print(ds, "\n")
 
-# ---------------------------------------------------------------------- #
-# Compute CLIP embeddings once (GPU-accelerated)
-# ---------------------------------------------------------------------- #
-EMB_FIELD = "clip_emb"
-print(f"🧠 Checking for CLIP embeddings in field '{EMB_FIELD}'...")
+# --------------------------- embeddings ------------------------------ #
+print(f"🧠 Loading CLIP model...")
+model = foz.load_zoo_model("clip-vit-base32-torch")
+print(f"🔍 Checking for embeddings in field '{EMB_FIELD}'...")
+
 if EMB_FIELD not in ds.get_field_schema():
-    print("⚡ Computing CLIP embeddings – grab a coffee ☕")
-    print("   Using model: clip-vit-base32-torch")
+    print("⚡ Computing CLIP embeddings (full set)…")
     print("   Batch size: 64, Workers: 8")
-
-    model = foz.load_zoo_model("clip-vit-base32-torch")
-    
-    ds.compute_embeddings(                      
-        model=model,                            # use model object instead of string
+    ds.compute_embeddings(
+        model,
         embeddings_field=EMB_FIELD,
-        batch_size=64,                          # tune for your GPU
+        batch_size=64,
         num_workers=8,
+        skip_failures=True,          # NEW
     )
     ds.save()
     print("✅ CLIP embeddings computed and saved!")
-else:
-    print("✅ CLIP embeddings already exist!")
-print()
 
-# ---------------------------------------------------------------------- #
-# FiftyOne Brain goodies
-# ---------------------------------------------------------------------- #
+# second pass for any that still failed
+missing = ds.match(F(EMB_FIELD) == None)
+if len(missing):
+    print(f"🔄 Filling {len(missing)} missing embeddings …")
+    missing.compute_embeddings(
+        model,
+        embeddings_field=EMB_FIELD,
+        batch_size=64,
+        num_workers=8,
+        skip_failures=True,
+    )
+    ds.save()
+    print("✅ Missing embeddings filled!")
+
+# --------------------------- Brain goodies --------------------------- #
 print("🧠 Computing FiftyOne Brain features...")
 print("   🎯 Computing uniqueness...")
-fob.compute_uniqueness(ds, embeddings=EMB_FIELD)                 
+fob.compute_uniqueness(ds, embeddings=EMB_FIELD)
 print("   📊 Computing representativeness...")
-fob.compute_representativeness(ds, embeddings=EMB_FIELD)         
 
+fob.compute_representativeness(ds, embeddings=EMB_FIELD)
 print("   🗺️  Computing 3D UMAP visualization...")
-fob.compute_visualization(                                       # 3-D UMAP for App
-    ds,
-    embeddings=EMB_FIELD,
-    brain_key="clip_umap",
-    method="umap",
-    dim=3,
-)                                                               
 
-print("   🔍 Setting up similarity search (LanceDB)...")
-fob.compute_similarity(                                          # fast NN search
-    ds,
-    embeddings=EMB_FIELD,
-    brain_key="clip_sim",
-    backend="lancedb",
-)                                                               
+fob.compute_visualization(
+    ds, embeddings=EMB_FIELD, brain_key="clip_umap", method="umap", dim=3
+)
+
+# single similarity run
+if "clip_sim" in ds.list_brain_runs():
+    print("   🧹 Cleaning up existing similarity index...")
+    ds.delete_brain_run("clip_sim")
+
+print("   🔍 Setting up similarity search...")
+try:
+    fob.compute_similarity(
+        ds, embeddings=EMB_FIELD, brain_key="clip_sim", backend="lancedb"
+    )
+    print("   ✅ LanceDB similarity backend ready!")
+except Exception as e:
+    print(f"   ⚠️  LanceDB missing → falling back to sklearn: {e}")
+    fob.compute_similarity(
+        ds, embeddings=EMB_FIELD, brain_key="clip_sim", backend="sklearn"
+    )
+    print("   ✅ Sklearn similarity backend ready!")
 
 print("   🔍 Finding near-duplicates...")
-dup_results = fob.compute_near_duplicates(
-    ds, embeddings=EMB_FIELD, threshold=0.18
-)
-print(f"   📋 Near-duplicate sets found: {len(dup_results.duplicate_ids)}")
+dup = fob.compute_near_duplicates(ds, embeddings=EMB_FIELD, threshold=0.18)
+print(f"   📋 Found {len(dup.duplicate_ids)} near-duplicate sets")
 print("✅ All Brain features computed!")
 print()
 
+# 
 # ---------------------------------------------------------------------- #
 # Launch interactive UI
 # ---------------------------------------------------------------------- #
 print("🚀 Launching FiftyOne App...")
-print("   Port: 5151")
-print("   Opening browser tab...")
+print("   📍 Port: 5151")
+print("   🌐 Opening browser tab...")
 session = fo.launch_app(ds, port=5151)
 session.open_tab()
 session.wait()
