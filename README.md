@@ -1,10 +1,9 @@
 # TeXMET: Curated Textile Dataset from the Metropolitan Museum of Art
 
 ## Overview
-**TeXMET** is a high-quality, manually curated dataset of textile and tapestry objects from the Metropolitan Museum of Art's Open Access collection. This dataset has been carefully cleaned, validated, and optimized for computer vision and machine learning applications.
+**TeXMET** is a high-quality, manually curated dataset of textile and tapestry objects from the Metropolitan Museum of Art's Open Access collection. This dataset has been carefully cleaned, validated, and optimized for computer vision and deep learning applications.
 
 ## 🎯 TEXMET FINAL - CURATED DATASET
-**1,697 premium quality objects** - Manually curated and validated!
 - **Total Images**: 18,644 high-resolution images
 - **Unique Objects**: 1,697 textile/tapestry objects  
 - **Average Resolution**: 3.3 MP (1557 x 1631 pixels)
@@ -14,7 +13,7 @@
 
 ## Dataset Statistics
 - **Curation Method**: Manual validation using FiftyOne + CLIP embeddings
-- **Original Collection**: 27,373 objects → **Curated to 1,697 premium objects**
+- **Original Collection**: 27,373 objects → **Curated to 18,644 premium samples**
 - **Quality Control**: Similarity analysis, duplicate removal, visual inspection
 - **Coverage**: Global textile traditions spanning 4000+ years
 - **Image Quality**: High-resolution, suitable for ML/CV applications
