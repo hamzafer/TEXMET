@@ -1,9 +1,17 @@
+# Ignore all JSON files except specific ones
 *.json
+!clean_dataset/clean_textiles_dataset.json
+!clean_dataset/texmet_metadata.json
+
+# Ignore image files
 *.png
 *.jpg
 *.jpeg
+
+# Ignore everything in the latex folder except .gitkeep
 latex/*
 !latex/.gitkeep
+
+# Ignore everything in FINAL_CORRECTED_MET_TEXTILES_DATASET except .gitkeep
 FINAL_CORRECTED_MET_TEXTILES_DATASET/**
-!FINAL_CORRECTED_MET_TEXTILES_DATASET/**/
 !FINAL_CORRECTED_MET_TEXTILES_DATASET/**/.gitkeep
