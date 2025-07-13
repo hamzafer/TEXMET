@@ -15,4 +15,10 @@ latex/*
 # Ignore everything in FINAL_CORRECTED_MET_TEXTILES_DATASET except .gitkeep
 FINAL_CORRECTED_MET_TEXTILES_DATASET/**
 !FINAL_CORRECTED_MET_TEXTILES_DATASET/**/.gitkeep
-sam/
+
+# Ignore everything in the sam folder except .gitkeep
+sam/*
+!sam/.gitkeep
+
+# Allow all .gitkeep files
+!**/.gitkeep
