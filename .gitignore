@@ -23,3 +23,9 @@ sam/*
 
 # Allow all .gitkeep files
 !**/.gitkeep
+
+# Gemini CLI temporary files
+glob
+np
+os
+plt
