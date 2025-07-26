@@ -1,14 +1,14 @@
-# TeXMET: Curated Textile Dataset from the Metropolitan Museum of Art
+# TEXMET: Curated Textile Dataset from the Metropolitan Museum of Art
 
 ## Overview
-**TeXMET** is a high-quality, manually curated dataset of textile and tapestry objects from the Metropolitan Museum of Art's Open Access collection. This dataset has been carefully cleaned, validated, and optimized for computer vision and deep learning applications.
+**TEXMET** is a high-quality, manually curated dataset of textile and tapestry objects from the Metropolitan Museum of Art's Open Access collection. This dataset has been carefully cleaned, validated, and optimized for computer vision and deep learning applications.
 
 ## Dataset Access
 🤗 A sample of the curated dataset is available on Hugging Face.
 
 **[Explore the sample on Hugging Face Datasets](https://huggingface.co/datasets/hzafar/TEXMET)**
 
-## 🎯 TEXMET FINAL - CURATED DATASET
+## TEXMET FINAL - CURATED DATASET
 - **Total Images**: 18,644 high-resolution images
 - **Unique Objects**: 1,697 textile/tapestry objects  
 - **Average Resolution**: 3.3 MP (1557 x 1631 pixels)
@@ -27,7 +27,7 @@
 ```
 TEXMET/
 ├── data/                     # All data-related files and scripts
-│   ├── clean_dataset/        # --> The final, curated TeXMET dataset
+│   ├── clean_dataset/        # --> The final, curated TEXMET dataset
 │   ├── download/             # Scripts and logs for downloading data
 │   ├── processing/           # Data processing and cleaning scripts
 │   └── ...                   # (bad_dataset, raw data, etc.)
@@ -83,7 +83,7 @@ with open('data/clean_dataset/clean_textiles_dataset.json', 'r') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
-print(f"TeXMET Final: {len(df)} curated objects")
+print(f"TEXMET Final: {len(df)} curated objects")
 
 # Load metadata
 with open('data/clean_dataset/texmet_metadata.json', 'r') as f:
@@ -92,7 +92,7 @@ print(f"Total images: {metadata['image_statistics']['total_images']}")
 ```
 
 ## Version History
-- **TeXMET Final v1.0** (July 2025): **1,697 curated objects, 18,644 images**
+- **TEXMET Final v1.0** (July 2025): **1,697 curated objects, 18,644 images**
 - **Raw Collection** (July 2025): 27,373 objects collected from MET API
 
 ## Technical Specifications
@@ -104,10 +104,10 @@ print(f"Total images: {metadata['image_statistics']['total_images']}")
 
 ## Citation and Credits
 
-### TeXMET Dataset Citation
+### TEXMET Dataset Citation
 ```bibtex
 @dataset{texmet2025,
-  title={TeXMET: Curated Textile Images from the Metropolitan Museum of Art},
+  title={TEXMET: Curated Textile Images from the Metropolitan Museum of Art},
   author={HAMZA},
   year={2025},
   publisher={Thesis Project},
@@ -117,7 +117,7 @@ print(f"Total images: {metadata['image_statistics']['total_images']}")
 ```
 
 ### Original Data Source
-This dataset (TeXMET) is a curated subset of textiles and tapestries from The Metropolitan Museum of Art's Open Access collection, compiled for research purposes. To the best of our knowledge, this is the first comprehensive compilation of MET's textile and tapestry collections in this format, manually curated and optimized for computer vision applications.
+This dataset (TEXMET) is a curated subset of textiles and tapestries from The Metropolitan Museum of Art's Open Access collection, compiled for research purposes. To the best of our knowledge, this is the first comprehensive compilation of MET's textile and tapestry collections in this format, manually curated and optimized for computer vision applications.
 
 ```bibtex
 @misc{MET_OpenAccess_2024,
@@ -139,7 +139,7 @@ This dataset (TeXMET) is a curated subset of textiles and tapestries from The Me
 - **Data Source**: The Metropolitan Museum of Art Open Access Initiative
 - **Curation Tools**: FiftyOne, CLIP embeddings, manual validation
 - **API Access**: MET Museum Collection API
-- **Project**: TeXMET - Textile Analysis Thesis Project
+- **Project**: TEXMET - Textile Analysis Thesis Project
 - **Created**: July 2025
 
 ## Performance & Quality Metrics
@@ -151,7 +151,7 @@ This dataset (TeXMET) is a curated subset of textiles and tapestries from The Me
 **Note**: This is a research compilation and curation of existing open access data. All rights and credits belong to The Metropolitan Museum of Art. We thank the MET for making their collection freely available for research and education.
 
 ---
-**🎯 TeXMET Final: 1,697 Premium Objects, 18,644 High-Quality Images**
+**🎯 TEXMET Final: 1,697 Premium Objects, 18,644 High-Quality Images**
 Total Dataset Size: 26.5 GB.
 **Ready for Computer Vision and Machine Learning Applications!**
 
