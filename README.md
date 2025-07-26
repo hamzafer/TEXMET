@@ -3,6 +3,11 @@
 ## Overview
 **TeXMET** is a high-quality, manually curated dataset of textile and tapestry objects from the Metropolitan Museum of Art's Open Access collection. This dataset has been carefully cleaned, validated, and optimized for computer vision and deep learning applications.
 
+## Dataset Access
+The curated dataset, including all 18,644 high-resolution images and metadata, is available on Hugging Face:
+
+**[Download from Hugging Face Datasets](https://huggingface.co/datasets/hzafar/TEXMET)**
+
 ## 🎯 TEXMET FINAL - CURATED DATASET
 - **Total Images**: 18,644 high-resolution images
 - **Unique Objects**: 1,697 textile/tapestry objects  
