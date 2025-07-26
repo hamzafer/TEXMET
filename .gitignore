@@ -18,8 +18,8 @@ data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**
 !data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/.gitkeep
 
 # Ignore everything in the sam folder except .gitkeep
-sam/*
-!sam/.gitkeep
+experiments/sam/*
+!experiments/sam/.gitkeep
 
 # Allow all .gitkeep files
 !**/.gitkeep
