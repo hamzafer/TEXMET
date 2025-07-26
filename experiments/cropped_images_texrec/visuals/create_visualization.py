@@ -4,7 +4,7 @@ import re
 import matplotlib.image as mpimg
 
 # Define the directory and file paths
-image_dir = '/home/user1/Desktop/HAMZA/THESIS/TEXMET/cropped_images_texrec'
+image_dir = '/home/user1/Desktop/HAMZA/THESIS/TEXMET/experiments/cropped_images_texrec'
 success_original = os.path.join(image_dir, 'img_002_(j)_img_002_original.png')
 success_random = os.path.join(image_dir, 'img_002_(j)_img_002_random.png')
 success_reconstructed_path = os.path.join(image_dir, 'img_002_(j)_img_002_reconstructed_pAcc=1_patchAcc=1.00.png')

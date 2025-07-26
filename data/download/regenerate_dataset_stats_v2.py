@@ -42,7 +42,7 @@ clean_samples = total_samples - n_bad - n_noise
 clean_view = ds.match(~F("tags").contains("bad")).match(~F("tags").contains("noise"))
 
 # Load original JSON data for detailed analysis
-json_path = "/home/user1/Desktop/HAMZA/THESIS/TEXMET/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
+json_path = "/home/user1/Desktop/HAMZA/THESIS/TEXMET/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
 with open(json_path, "r", encoding="utf-8") as f:
     all_data = json.load(f)
 df_original = pd.DataFrame(all_data)

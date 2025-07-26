@@ -18,7 +18,7 @@ args = parser.parse_args()
 Image.MAX_IMAGE_PIXELS = None        # disable Pillow size limit
 
 JSON_PATH  = (
-    "../FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/"
+    "../data/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/"
     "ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
 )
 IMAGES_DIR   = "MET_TEXTILES_BULLETPROOF_DATASET/images"

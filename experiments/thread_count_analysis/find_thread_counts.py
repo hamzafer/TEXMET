@@ -4,7 +4,7 @@ import json
 
 def find_textiles_with_thread_count():
     results = []
-    with open('/home/user1/Desktop/HAMZA/THESIS/TEXMET/clean_dataset/clean_textiles_dataset.json', 'r') as f:
+    with open('/home/user1/Desktop/HAMZA/THESIS/TEXMET/data/clean_dataset/clean_textiles_dataset.json', 'r') as f:
         data = json.load(f)
 
     for item in data:

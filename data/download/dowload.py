@@ -625,7 +625,7 @@ def main():
     print("=" * 60)
     
     # Configuration
-    JSON_FILE = "/home/user1/Desktop/HAMZA/THESIS/TEXMET/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
+    JSON_FILE = "/home/user1/Desktop/HAMZA/THESIS/TEXMET/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
     OUTPUT_DIR = "MET_TEXTILES_BULLETPROOF_DATASET"
     MAX_WORKERS = 12  # Slightly reduced for more stable downloads
     

@@ -6,7 +6,7 @@ def create_html_gallery():
     """Create simple HTML gallery for quick review"""
     
     # Load your dataset
-    with open("/home/user1/Desktop/HAMZA/THESIS/TEXMET/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json", "r") as f:
+    with open("/home/user1/Desktop/HAMZA/THESIS/TEXMET/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json", "r") as f:
         data = json.load(f)
     
     images_dir = "/home/user1/Desktop/HAMZA/THESIS/TEXMET/download/MET_TEXTILES_BULLETPROOF_DATASET/images"

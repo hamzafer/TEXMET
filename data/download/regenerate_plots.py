@@ -11,7 +11,7 @@ print("="*80)
 
 # Define paths
 base_dir = "/home/user1/Desktop/HAMZA/THESIS/TEXMET"
-clean_dataset_dir = os.path.join(base_dir, "clean_dataset")
+clean_dataset_dir = os.path.join(base_dir, "data/clean_dataset")
 
 # Load the clean dataset
 clean_json_path = os.path.join(clean_dataset_dir, "clean_textiles_dataset.json")

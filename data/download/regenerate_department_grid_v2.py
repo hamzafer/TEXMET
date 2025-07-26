@@ -15,7 +15,7 @@ font_no_image = {'fontsize': 16, 'fontweight': 'bold', 'color': 'red'}
 
 # --- Data Loading ---
 print("📊 Loading data...")
-json_path = "../FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
+json_path = "../data/FINAL_CORRECTED_MET_TEXTILES_DATASET/objects_with_images_only/ALL_TEXTILES_AND_TAPESTRIES_WITH_IMAGES_20250705_230315.json"
 try:
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)

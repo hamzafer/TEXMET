@@ -20,7 +20,7 @@ font_bar_label = {'fontsize': 12, 'fontweight': 'bold'}
 
 # Load clean dataset
 base_dir = "/home/user1/Desktop/HAMZA/THESIS/TEXMET"
-clean_dataset_dir = os.path.join(base_dir, "clean_dataset")
+clean_dataset_dir = os.path.join(base_dir, "data/clean_dataset")
 
 with open(os.path.join(clean_dataset_dir, "clean_textiles_dataset.json"), "r") as f:
     clean_data = json.load(f)
