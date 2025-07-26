@@ -21,14 +21,23 @@
 ## Directory Structure
 ```
 TEXMET/
-├── clean_dataset/                   # 🎯 TEXMET FINAL CURATED DATASET
-│   ├── clean_textiles_dataset.json  # Main dataset (1,697 objects)
-│   ├── texmet_metadata.json         # Comprehensive metadata
-│   ├── images/                      # Primary images (~1,697 images)
-│   └── additional_images/           # Additional views (~17K images)
-├── FINAL_CORRECTED_MET_TEXTILES_DATASET/  # Original raw data (27,373 objects)
-│   └── objects_with_images_only/    # Complete raw collection
-└── README.md                        # This file
+├── data/                     # All data-related files and scripts
+│   ├── clean_dataset/        # --> The final, curated TeXMET dataset
+│   ├── download/             # Scripts and logs for downloading data
+│   ├── processing/           # Data processing and cleaning scripts
+│   └── ...                   # (bad_dataset, raw data, etc.)
+│
+├── experiments/              # Self-contained research experiments
+│   ├── inpainting-exp/       # Image inpainting experiments
+│   ├── sam/                  # Segment Anything Model experiments
+│   └── thread_count_analysis/ # Scripts for the thread count analysis
+│
+├── visuals/                  # Visualization scripts and results
+│   └── osebergvisuals/
+│
+├── logs/                     # Log files from various processes
+├── website/                  # Code for the project website/filter
+└── README.md                 # Project overview
 ```
 
 ## Data Quality & Curation Process
@@ -65,14 +74,14 @@ import json
 import pandas as pd
 
 # Load the curated dataset
-with open('clean_dataset/clean_textiles_dataset.json', 'r') as f:
+with open('data/clean_dataset/clean_textiles_dataset.json', 'r') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
 print(f"TeXMET Final: {len(df)} curated objects")
 
 # Load metadata
-with open('clean_dataset/texmet_metadata.json', 'r') as f:
+with open('data/clean_dataset/texmet_metadata.json', 'r') as f:
     metadata = json.load(f)
 print(f"Total images: {metadata['image_statistics']['total_images']}")
 ```
