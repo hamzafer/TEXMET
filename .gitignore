@@ -13,12 +13,16 @@
 latex/*
 !latex/.gitkeep
 
-# Ignore everything in FINAL_CORRECTED_MET_TEXTILES_DATASET except .gitkeep
-data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**
+# Ignore specific data and image files in FINAL_CORRECTED_MET_TEXTILES_DATASET
+data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.json
+data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.csv
+data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.txt
+data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.jpg
+data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.png
 !data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/.gitkeep
 
-# Ignore everything in the sam folder except .gitkeep
-experiments/sam/*
+# Ignore large model files in the sam folder
+experiments/sam/*.pth
 !experiments/sam/.gitkeep
 
 # Allow all .gitkeep files
