@@ -1,0 +1,9 @@
+++++ True +++
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: ckpt/alex.pth
+asuka
+PSNR: 31.594122
+SSIM: 0.9346431001943311
+LPIPS: 0.122584134
+31.594 0.935 0.123
+Individual results saved to /cluster/home/akmarala/Models/asuka-misato/irregular-results/imgs_individual_metrics.csv
