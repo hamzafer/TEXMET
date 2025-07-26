@@ -7,6 +7,7 @@
 *.png
 *.jpg
 *.jpeg
+*.JPEG
 
 # Ignore everything in the latex folder except .gitkeep
 latex/*
