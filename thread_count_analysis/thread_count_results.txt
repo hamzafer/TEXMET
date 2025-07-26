@@ -1,0 +1,4234 @@
+Found 750 objects with potential thread count information:
+
+ObjectID: 229452
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: H. 68 x W. 164 inches
+172.7 x 416.6 cm
+--------------------
+ObjectID: 229763
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18 warps per inch, 6–7 per cm.)
+  Dimensions: H. 150 x W. 101 inches (381 x 256.5 cm)
+--------------------
+ObjectID: 229762
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18 warps per inch, 6–7 per cm.)
+  Dimensions: H. 152 x W. 91 1/2 inches (386.1 x 232.4 cm)
+--------------------
+ObjectID: 229761
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18 warps per inch, 6–7 per cm.)
+  Dimensions: H. 152 1/2 x W. 91 1/4 inches (387.4 x 231.8 cm)
+--------------------
+ObjectID: 229764
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18 warps per inch, 6–7 per cm.)
+  Dimensions: H. 151 x W. 127 inches (383.5 x 322.6 cm)
+--------------------
+ObjectID: 229765
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18 warps per inch, 6–7 per cm.)
+  Dimensions: H. 150 x W. 79 inches (381 x 200.7 cm)
+--------------------
+ObjectID: 226602
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver and silver-gilt thread (21 warps per inch, 9 per cm.)
+  Dimensions: H. 20 x W. 20 inches (50.8 x 50.8 cm)
+--------------------
+ObjectID: 226603
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (17 warps per inch, 7 per cm)
+  Dimensions: H. 20 3/4 x W. 20 3/4 inches (52.7 x 52.7 cm)
+--------------------
+ObjectID: 231896
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and wool (20-25 warps per inch, 8-11 per centimeter)
+  Dimensions: H. 19 × L. 70 in. (48.3 × 177.8 cm)
+--------------------
+ObjectID: 231895
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and wool (20-25 warps per inch, 8-11 per centimeter)
+  Dimensions: Overall:: 10 ft. 10 in. × 10 ft. 2 in. (330.2 × 309.9 cm)
+Central Tapestry Panel: 85 × 65 in. (215.9 × 165.1 cm)
+--------------------
+ObjectID: 231894
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and wool (20-25 warps per inch, 8-11 per centimeter)
+  Dimensions: 8 ft. 3 1/2 in. × 72 in. (252.7 × 182.9 cm)
+--------------------
+ObjectID: 229355
+  Department: European Sculpture and Decorative Arts
+  Medium: Cotton, linen warp
+  Dimensions: L. 30 x W. 20 3/4 inches
+76.2 x 52.7 cm
+--------------------
+ObjectID: 214321
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, silver and silver-gilt thread (38-40 warp threads per inch, 15-16 per cm.)
+  Dimensions: H. 8 1/2 x W. 6 1/2 inches (21.6 x 16.5 cm)
+--------------------
+ObjectID: 221426
+  Department: European Sculpture and Decorative Arts
+  Medium: Warp and weft wool, pile wool
+Spanish knot, 110 to sq. in., four red weft threads inserted after each row of knots; selvage weft
+  Dimensions: H. 213 x W. 94 inches
+541 x 238.8 cm
+--------------------
+ObjectID: 221427
+  Department: European Sculpture and Decorative Arts
+  Medium: Warp and weft, linen; pile wool. (Ghiordes knot, 56 to sq. in.; three yellow weft threads inserted after each row of knots; selvage weft)
+  Dimensions: H. 132 x W. 67 inches
+335.3 x 170.2 cm
+--------------------
+ObjectID: 221444
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool and cotton warp
+  Dimensions: Overall: 57 1/2 x 40 in. (146.1 x 101.6 cm)
+--------------------
+ObjectID: 221495
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (Spanish knot, 64 to sq. in.; six weft threads inserted after each row of knots)
+  Dimensions: 3 x 3 in. (7.6 x 7.6 cm)
+--------------------
+ObjectID: 221494
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (Spanish knot, 80 to sq. in.; each knot tied on alternate warp thread with six weft threads inserted after each row of knots)
+  Dimensions: 5 x 5 in. (12.7 x 12.7 cm)
+--------------------
+ObjectID: 221489
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (Spanish knot, 72 to sq. in.; 3 weft threads inserted after each row of knots)
+  Dimensions: 9 x 4 in. (22.9 x 10.2 cm)
+--------------------
+ObjectID: 221794
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool and linen (Weft consists of three rows of linen thread alternating with three rows of wool looped)
+  Dimensions: H. 87 1/2 x W. 69 1/2 inches
+222.3 x 176.5 cm
+--------------------
+ObjectID: 228808
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-17 warps per inch, 7 per cm.)
+  Dimensions: 9 ft. 7 in. × 88 in. (292.1 × 223.5 cm)
+--------------------
+ObjectID: 222131
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (Ghiordes knot: ca. 100 to the sq. in., held with 3-ply alternating weft)
+  Dimensions: 27 1/4 x 17 in. (69.2 x 43.2 cm)
+--------------------
+ObjectID: 224460
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and metal thread; ribbed plain weave with supplementary flat metal weft, brocaded with metal filé; supplementary silk weft floats
+  Dimensions: L. 9 1/4 x W. 9 inches (23.5 x 22.9 cm)
+--------------------
+ObjectID: 219361
+  Department: European Sculpture and Decorative Arts
+  Medium: Cotton foundation warp and weft, wool supplementary weft; weft loop pile weave
+  Dimensions: 84 × 60 in. (213.4 × 152.4 cm)
+--------------------
+ObjectID: 219754
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (17-18 warps per inch, 8 per cm.)
+  Dimensions: 8 ft. 9 in. × 12 ft. 5 in. (266.7 × 378.5 cm)
+--------------------
+ObjectID: 219756
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-21 warps per inch, 9-10 per cm.)
+  Dimensions: 8 ft. 9 in. × 13 ft. 1 in. (266.7 × 398.8 cm)
+--------------------
+ObjectID: 219755
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-21 warps per inch, 9-10 per cm.)
+  Dimensions: 8 ft. 9 in. × 12 ft. 11 in. (266.7 × 393.7 cm)
+--------------------
+ObjectID: 212997
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (11-12 warps per inch, 5 per cm.)
+  Dimensions: a.): H. 139 x W. 89 in. (353.1 x 226.1 cm); b.): H. 124 x W. 57 in. (315 x 144.8 cm)
+--------------------
+ObjectID: 45406
+  Department: Asian Art
+  Medium: Plain-weave cotton with warp and weft kasuri (ikat) patterning
+  Dimensions: 32 1/4 x 8 3/4 in. (81.9 x 22.2 cm)
+--------------------
+ObjectID: 68298
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 42 x 41 in. (106.68 x 104.14 cm)
+--------------------
+ObjectID: 68301
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 32 x 29 in. (81.28 x 73.66 cm)
+--------------------
+ObjectID: 451170
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: H. 9 in. (22.9 cm)
+W. 3 1/2 in. (8.9 cm)
+--------------------
+ObjectID: 461248
+  Department: Robert Lehman Collection
+  Medium: Pieced of 6 fragments of dark blue silk warp-float faced 3/1 broken warp chevron twill weave with supplementary pile warps forming cut voided velvet.
+  Dimensions: 104 x 23 in. (264.2 x 58.4 cm) with fringe
+--------------------
+ObjectID: 461426
+  Department: Robert Lehman Collection
+  Medium: Linen, wool, and silk in a slit tapestry weave; Backing: cotton weft-float and silk in slit tapestry weave; Cord edging: wool z ply
+  Dimensions: 20 15/16 x 21 3/16 in. (53.2 x 53.8cm) without cord bows at corners
+--------------------
+ObjectID: 461406
+  Department: Robert Lehman Collection
+  Medium: Linen, silk, and wool in dovetailed tapestry weave; Backing: rayon and cotton warp-faced weft-ribbed pa;in weave, moiré; modern
+  Dimensions: 20 11/16 x 20 11/16 in. (52.6 x 52.5cm)
+--------------------
+ObjectID: 460288
+  Department: Robert Lehman Collection
+  Medium: Dark red silk warp-float faced 3/1 broken warp chevron twill weave with supplementary pile warps forming cut solid velvet.
+  Dimensions: 14 x 11 in. (35.6 x 27.9 cm)
+--------------------
+ObjectID: 447730
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: H. 7 1/4 in. (18.4 cm)
+W. 4 1/4 in. (10.8 cm)
+--------------------
+ObjectID: 461356
+  Department: Robert Lehman Collection
+  Medium: Cope:  silk warp-float faced 4/1 satin weave with linen plain weave lining.
+Orphrey:  linen plain weave with silk and gilt- and silvered- metal strip wrapped silk in satin and split stitches, laid work, couching, and padded couching.  Fringe:  silk, gilt-metal-strip-wrapped silk.  Lining: cotton plain weave.
+Hood:  linen plain weave embroidered with silk, gilt- and silvered- metal-strip-wrapped silk, and silvered-metal strips and coils , couching and couching padded with hemp; metal spangles.  Fringe: silk plain weave.  Lining: linen plain weave.
+  Dimensions: 56 x 185 in. (circumference of hem) (142.2 x 469.9 cm)
+--------------------
+ObjectID: 45694
+  Department: Asian Art
+  Medium: Silk, metallic thread
+  Dimensions: Warp 19 11/16 (50 cm); Weft 19 5/16 in. ( 49 cm)
+--------------------
+ObjectID: 229166
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, hemp (paired ground wefts)
+  Dimensions: H. 54 3/4 x W. 113 3/4 inches (139.1 x 288.9 cm)
+--------------------
+ObjectID: 39710
+  Department: Asian Art
+  Medium: Warp and weft cotton; pole silk;
+Sehna knot
+  Dimensions: 25 1/2 x 26 1/4 in. (64.8 x 66.7 cm)
+--------------------
+ObjectID: 40108
+  Department: Asian Art
+  Medium: Silk
+  Dimensions: Max height (warp): 18 1/8 in. (46 cm)
+Max width (weft): 24 7/16 in. (62.1 cm)
+--------------------
+ObjectID: 50231
+  Department: Asian Art
+  Medium: Silk
+  Dimensions: Overall (warp) 27-9/16 x overall weft: 21-5/8 in. (70.0 x 54.9 cm)
+--------------------
+ObjectID: 445868
+  Department: Islamic Art
+  Medium: Cotton (warp), wool (weft and pile); symmetrically knotted pile
+  Dimensions: H. 5 5/8 in. (14.3 cm)
+W. 8 1/4 in. (21 cm)
+--------------------
+ObjectID: 68294
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 76 × 52 in. (193 × 132.1 cm)
+--------------------
+ObjectID: 68440
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 97 x 61 in. (246.38 x 154.94 cm)
+--------------------
+ObjectID: 446956
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: L. 65 in. (165.1 cm)
+W. 47 in. (119.38 cm)
+--------------------
+ObjectID: 69951
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 142 x 135 in. (360.68 x 342.90 cm)
+--------------------
+ObjectID: 69749
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  silk, metallic thread
+  Dimensions: 10 x 10 in. (25.40 x 25.40 cm)
+--------------------
+ObjectID: 69543
+  Department: Asian Art
+  Medium: Silk, metallic thread, and feather-thread supplementary weft-patterned silk satin
+  Dimensions: 13 x 11 1/2 in. (33.02 x 29.21 cm)
+--------------------
+ObjectID: 75912
+  Department: Asian Art
+  Medium: Mordant- and resist-dyed plain-weave cotton
+  Dimensions: Warp 137 in. (348 cm); weft 40 1/2 in. (102.9 cm)
+--------------------
+ObjectID: 65667
+  Department: Asian Art
+  Medium: Silk pile, wrapped metal on cotton warp and weft
+  Dimensions: Overall: 156 x 111in. (396.2 x 281.9cm)
+--------------------
+ObjectID: 74537
+  Department: Asian Art
+  Medium: Silk twill with silk brocading wefts and supplementary-weft patterning in metallic thread
+  Dimensions: Sight: 11 1/4 x 2 11/16 in. (28.6 x 6.8 cm)
+--------------------
+ObjectID: 74552
+  Department: Asian Art
+  Medium: Resist-dyed warp-patterned plain-weave silk (saya), embroidered with silk and metallic thread
+  Dimensions: Sight: 9 1/2 x 9 1/4 in. (24.1 x 23.5 cm)
+--------------------
+ObjectID: 74541
+  Department: Asian Art
+  Medium: Silk twill with silk brocading wefts and gold leaf
+  Dimensions: Sight: 4 1/4 x 7 13/16 in. (10.8 x 19.8 cm)
+--------------------
+ObjectID: 74567
+  Department: Asian Art
+  Medium: Silk twill with silk brocading wefts and supplementary-weft patterning in metallic thread
+  Dimensions: Sight: 7 11/16 x 3 5/16 in. (19.5 x 8.4 cm)
+--------------------
+ObjectID: 74365
+  Department: Asian Art
+  Medium: Silk
+  Dimensions: Overall: H. 7 in. (17.8 cm); Warp 26 3/8 in. (67 cm); Weft 6 3/4 in. (17.2 cm)
+--------------------
+ObjectID: 68275
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 120 x 47 in. (304.80 x 119.38 cm)
+--------------------
+ObjectID: 68436
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 47 x 26 in. (119.38 x 66.04 cm)
+--------------------
+ObjectID: 68437
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 51 x 27 in. (129.54 x 68.58 cm)
+--------------------
+ObjectID: 68438
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 61 x 29 in. (154.94 x 73.66 cm)
+--------------------
+ObjectID: 68445
+  Department: Asian Art
+  Medium: Foundation: cotton, warp and weft;  wool knotting
+  Dimensions: 39 1/2 x 3 1/2 in. (100.33 x 8.89 cm)
+--------------------
+ObjectID: 68446
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 8 1/4 x 7 1/2 in. (20.95 x 19.05 cm)
+--------------------
+ObjectID: 68434
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  sheep or goat hair knotting
+  Dimensions: 53 x 27 in. (134.62 x 68.58 cm)
+--------------------
+ObjectID: 68435
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 95 x 23 in. (241.30 x 58.42 cm)
+--------------------
+ObjectID: 68433
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 30 x 32 in. (76.20 x 81.28 cm)
+--------------------
+ObjectID: 68550
+  Department: Asian Art
+  Medium: Silk / Compound weave: satin ground, broché pattern wefts in basket weave
+  Dimensions: 42 x 42 in. (106.68 x 106.68 cm)
+--------------------
+ObjectID: 68444
+  Department: Asian Art
+  Medium: Foundation: undegummed wilk silk warp, cotton weft;  wool or silk knotting
+  Dimensions: 11 x 5 1/2 in. (27.94 x 13.97 cm)
+--------------------
+ObjectID: 72582
+  Department: Asian Art
+  Medium: Silk split-stitch embroidery on plain-weave silk
+  Dimensions: Warp 22 1/16 in. (56 cm); weft (selvedge to selvedge) 18 7/8 in. (48 cm)
+--------------------
+ObjectID: 227729
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 50 × 42 in. (127 × 106.7 cm)
+--------------------
+ObjectID: 227728
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: H. 48 x W. 43 inches (121.9 x 109.2 cm)
+--------------------
+ObjectID: 227734
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 58 × 45 in. (147.3 × 114.3 cm)
+--------------------
+ObjectID: 227735
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: H. 48 x W. 34 inches (109.2 x 116.8 cm)
+--------------------
+ObjectID: 70592
+  Department: Asian Art
+  Medium: Foundation: silk and cotton warp, cotton weft;  silk pile;  metallic thread ground
+  Dimensions: 84 x 50 in. (213.36 x 127 cm)
+--------------------
+ObjectID: 70488
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 62 x 30 in. (157.48 x 76.20 cm)
+--------------------
+ObjectID: 70492
+  Department: Asian Art
+  Medium: Foundation: bast fiber warp, cotton weft;  wool knotting
+  Dimensions: 165 x 60 in. (419.10 x 152.40 cm)
+--------------------
+ObjectID: 70308
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 30 x 31 in. (76.20 x 78.74 cm)
+--------------------
+ObjectID: 70313
+  Department: Asian Art
+  Medium: Silk; gold on salmon silk / Compound,weft patterning
+  Dimensions: 23 1/2 x 53 1/2 in. (59.69 x 135.89 cm)
+--------------------
+ObjectID: 70375
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 76 x 51 in. (193.04 x 129.54 cm)
+--------------------
+ObjectID: 70380
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 23 x 64 in. (58.42 x 162.56 cm)
+--------------------
+ObjectID: 70368
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 82 x 54 in. (208.28 x 137.16 cm)
+--------------------
+ObjectID: 70450
+  Department: Asian Art
+  Medium: Cotton warp, wool or hair weft
+  Dimensions: 131 x 46 in. (332.74 x 116.84 cm)
+--------------------
+ObjectID: 70452
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 152 x 79 in. (386.08 x 200.66 cm)
+--------------------
+ObjectID: 70449
+  Department: Asian Art
+  Medium: Cotton warp, wool or hair weft
+  Dimensions: 131 x 46 in. (332.74 x 116.84 cm)
+--------------------
+ObjectID: 443208
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Textile: H. 18 7/8 in. (48 cm)
+             W. 16 3/4 in. (42.6 cm)
+Storage mount: H. 25 in. (63.5 cm)
+                             W. 24 1/2 in. (62.2 cm)
+--------------------
+ObjectID: 227733
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 51 × 43 in. (129.5 × 109.2 cm)
+--------------------
+ObjectID: 227737
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 48 × 35 in. (121.9 × 88.9 cm)
+--------------------
+ObjectID: 227732
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 49 × 43 in. (124.5 × 109.2 cm)
+--------------------
+ObjectID: 227727
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: H. 56 x W. 43 inches (142.2 x 109.2 cm)
+--------------------
+ObjectID: 227731
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 41 × 45 in. (104.1 × 114.3 cm)
+--------------------
+ObjectID: 52523
+  Department: Asian Art
+  Medium: Silk satin with supplementary-weft patterning, brocaded with metallic thread
+  Dimensions: 30 1/2 x 16 1/4 in. (77.5 x 41.3 cm)
+Mount: 35 × 21 in. (88.9 × 53.3 cm)
+--------------------
+ObjectID: 229095
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 3 1/2 in. × 13 ft. 4 1/2 in. (283.2 × 407.7 cm)
+--------------------
+ObjectID: 229568
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-27 warps per inch, 8-9 per cm.)
+  Dimensions: Overall (confirmed): 115 x 196 1/2 in. (292.1 x 499.1 cm)
+--------------------
+ObjectID: 229933
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (27 warps per inch, 10-11 per cm.)
+  Dimensions: Overall (confirmed): 28 3/4 × 21 1/4 in. (73 × 54 cm)
+--------------------
+ObjectID: 227485
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 10 ft. 2 in. × 17 ft. 4 in. (309.9 × 528.3 cm)
+--------------------
+ObjectID: 227603
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-21 warps per inch, 8 per cm.)
+  Dimensions: 12 ft. 3 in. × 15 ft. 9 in. (373.4 × 480.1 cm)
+--------------------
+ObjectID: 227029
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt, silver thread (18-19 warps per inch, 7-8 per cm.)
+  Dimensions: H. 120 x W. 115 inches (304.8 x 292.1 cm)
+--------------------
+ObjectID: 227028
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt, silver thread (18-19 warps per inch, 7-8 per cm.)
+  Dimensions: H. 123 x W. 115 inches (312.4 x 292.1 cm)
+--------------------
+ObjectID: 227486
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 10 ft. 2 in. × 21 ft. 6 in. (309.9 × 655.3 cm)
+--------------------
+ObjectID: 227487
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 10 ft. 4 in. × 14 ft. 2 in. (315 × 431.8 cm)
+--------------------
+ObjectID: 227730
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 43 × 46 in. (109.2 × 116.8 cm)
+--------------------
+ObjectID: 230685
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 8 per cm.)
+  Dimensions: 11 × 6 in. (27.9 × 15.2 cm)
+--------------------
+ObjectID: 230684
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 8 per cm.)
+  Dimensions: 11 × 6 in. (27.9 × 15.2 cm)
+--------------------
+ObjectID: 219367
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20 warp threads per inch, 8 per cm.)
+  Dimensions: 39 1/4 x 29 3/4 in. (99.7 x 75.6 cm)
+--------------------
+ObjectID: 219369
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20 warp threads per inch, 8 per cm.)
+  Dimensions: 39 1/2 x 29 3/4 in. (100.3 x 75.6 cm)
+--------------------
+ObjectID: 219370
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20 warp threads per inch, 8 per cm.)
+  Dimensions: 39 1/2 x 29 3/4 in. (100.3 x 75.6 cm)
+--------------------
+ObjectID: 230688
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 8 per cm.)
+  Dimensions: 11 × 6 in. (27.9 × 15.2 cm)
+--------------------
+ObjectID: 230687
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 8 per cm.)
+  Dimensions: 11 × 6 in. (27.9 × 15.2 cm)
+--------------------
+ObjectID: 221950
+  Department: European Sculpture and Decorative Arts
+  Medium: Linen warp, cotton weft
+  Dimensions: L. 68 x W. 47 inches
+172.7 x 119.4 cm
+--------------------
+ObjectID: 226932
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-23 warps per inch, 9-10 per cm.)
+  Dimensions: 12 ft. 4 in. × 8 ft. 6 in. (375.9 × 259.1 cm)
+--------------------
+ObjectID: 226958
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-22 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 8 in. × 10 ft. (294.6 × 304.8 cm)
+--------------------
+ObjectID: 223047
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 8-9 per cm.)
+  Dimensions: Overall: 169 1/2 x 207 in. (430.5 x 525.8 cm)
+--------------------
+ObjectID: 226933
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-23 warps per inch, 9-10 per cm.)
+  Dimensions: 12 ft. 2 in. × 10 ft. (370.8 × 304.8 cm)
+--------------------
+ObjectID: 192746
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver, silver-gilt thread (20 warps per inch, 8 per cm.)
+  Dimensions: H. 4 ft. 2 in. (1.27 m.), W. 5 ft. (1.52 m.)
+--------------------
+ObjectID: 238942
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 8 per cm.)
+  Dimensions: 29 × 31 in. (73.7 × 78.7 cm)
+--------------------
+ObjectID: 238941
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 8 per cm.)
+  Dimensions: 29 × 31 in. (73.7 × 78.7 cm)
+--------------------
+ObjectID: 67880
+  Department: Asian Art
+  Medium: Foundation: cotton warp, bast fiber weft;  tussah silk knotting
+  Dimensions: 115 x 115 in. (292.10 x 292.10 cm)
+--------------------
+ObjectID: 67875
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 70 x 44 in. (177.80 x 111.76 cm)
+--------------------
+ObjectID: 67878
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 38 x 23 in. (96.52 x 58.42 cm)
+--------------------
+ObjectID: 67873
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft, wool knotting
+  Dimensions: 77 x 51 in. (195.58 x 129.54 cm)
+--------------------
+ObjectID: 67872
+  Department: Asian Art
+  Medium: Foundation: cotton warp, wool weft;  wool knotting
+  Dimensions: 69 x 54 in. (175.26 x 137.16 cm)
+--------------------
+ObjectID: 67877
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 25 x 27 in. (63.50 x 68.58 cm)
+--------------------
+ObjectID: 67876
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft; wool knotting
+  Dimensions: 30 x 31 in. (76.20 x 78.74 cm)
+--------------------
+ObjectID: 67879
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 105 x 68 in. (266.70 x 172.72 cm)
+--------------------
+ObjectID: 67874
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 68 x 48 in. (172.72 x 121.92 cm)
+--------------------
+ObjectID: 52098
+  Department: Asian Art
+  Medium: Weft-faced compound twill
+  Dimensions: 7 1/4 x 7 3/4 in. (18.4 x 19.7 cm)
+--------------------
+ObjectID: 228793
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and wool (23-25 warps per inch, 9-11 per cm.)
+  Dimensions: Back (a): 28 1/2 × 69 1/2 in. (72.4 × 176.5 cm)
+Seat (b): 33 × 78 in. (83.8 × 198.1 cm)
+--------------------
+ObjectID: 219372
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20 warp threads per inch, 8 per cm.)
+  Dimensions: 39 1/2 x 29 3/4 in. (100.3 x 75.6 cm)
+--------------------
+ObjectID: 219368
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20 warp threads per inch, 8 per cm.)
+  Dimensions: 39 1/2 x 29 3/4 in. (100.3 x 75.6 cm)
+--------------------
+ObjectID: 222312
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-26 warps per inch, 9-10 per cm.)
+  Dimensions: 38 × 30 1/2 in. (96.5 × 77.5 cm)
+--------------------
+ObjectID: 228851
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 10 per cm.)
+  Dimensions: H. 42 1/2 x W. 34 inches (108 x 86.4 cm)
+--------------------
+ObjectID: 220126
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20 warps per inch, 8 per cm.)
+  Dimensions: 15 ft. 8 in. × 13 ft. 11 in. (477.5 × 424.2 cm)
+--------------------
+ObjectID: 219371
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20 warp threads per inch, 8 per cm.)
+  Dimensions: 39 1/2 x 29 3/4 in. (100.3 x 75.6 cm)
+--------------------
+ObjectID: 227720
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-20 warps per inch, 6-8 per cm.)
+  Dimensions: H. 163 x W. 284 inches (414 x 721.4 cm)
+--------------------
+ObjectID: 65128
+  Department: Asian Art
+  Medium: Silk, metallic thread
+  Dimensions: H. (warp) 8 9/16 in. (21.7 cm); W. (weft) 8 in. (20.3 cm)
+--------------------
+ObjectID: 65129
+  Department: Asian Art
+  Medium: Silk, metallic thread, perhaps ramie
+  Dimensions: H. (warp) 18 1/16 in. (45.8 cm); W. (weft) 11 5/16 in. (28.7 cm)
+--------------------
+ObjectID: 65127
+  Department: Asian Art
+  Medium: Silk, metallic thread
+  Dimensions: H. (warp) 17 11/16 in. (45 cm); W. (weft) 8 1/8 in. (20.7 cm)
+--------------------
+ObjectID: 65126
+  Department: Asian Art
+  Medium: Silk, metallic thread
+  Dimensions: H. (warp) 8 3/8 in. (21.2 cm); W. (weft) 22 5/16 in. (56.7 cm)
+--------------------
+ObjectID: 78284
+  Department: Asian Art
+  Medium: Silk kesi tapestry; dyed polychrome silk yarns and gold-wrapped yarns in weft-faced tabby-weave fabric
+  Dimensions: Overall: 5 3/4 × 20 5/8 in. (14.6 × 52.4 cm)
+--------------------
+ObjectID: 226809
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18 warps per inch, 6-7 per cm.)
+  Dimensions: 11 ft. 5 1/2 in. × 17 ft. 3 in. (349.3 × 525.8 cm)
+--------------------
+ObjectID: 226697
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver thread, silver-gilt thread (20-21 warps per inch, 7-8 per cm.)
+  Dimensions: Overall (confirmed 11/13/07): 98 1/2 x 100 3/4 in. (250.2 x 255.9 cm);
+Overall (unknown date): 99 x 98 in. (251.5 x 248.9 cm);
+Slat: 100” x 3 ½” x 1” with Velcro/webbing, security straps
+--------------------
+ObjectID: 197750
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20 warps per inch, 9 per cm.)
+  Dimensions: H. 117 x W. 91 inches (297.2 x 231.1 cm)
+--------------------
+ObjectID: 227160
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, metal thread
+  Dimensions: Overall: 13 1/2 x 12 5/8 in. (34.3 x 32.1 cm); including fringe; greatest dimension in warp direction
+--------------------
+ObjectID: 195545
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (17-19 warps per inch, 7-8 per cm.)
+  Dimensions: 12 ft. 6 in. × 13 ft. 3 in. (381 × 403.9 cm)
+--------------------
+ObjectID: 229156
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (18-20 warps per inch, 8 per cm.)
+  Dimensions: H. 106 1/2 x W. 73 inches (270.5 x 185.4 cm)
+--------------------
+ObjectID: 230011
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (6-7 warp threads per cm.)
+  Dimensions: Overall: 141 1/2 x 132 in. (359.4 x 335.3 cm)
+--------------------
+ObjectID: 228722
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool (22-25 warps per inch, 9-10 per cm.)
+  Dimensions: 32 × 25 in. (81.3 × 63.5 cm)
+--------------------
+ObjectID: 76595
+  Department: Asian Art
+  Medium: Satin weave in silk with supplementary metal-thread weft patterning
+  Dimensions: Overall: 13 11/16 x 4 13/16 x 1/8 in. (34.8 x 12.2 x 0.3 cm)
+--------------------
+ObjectID: 229569
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-27 warps per inch, 8-9 per cm.)
+  Dimensions: Overall (confirmed): 116 x 181 in. (294.6 x 459.7 cm)
+--------------------
+ObjectID: 227503
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool, silver-gilt thread (18-22 warps per inch, 7-8 per cm.)
+  Dimensions: H. 20 x W. 43 5/8 inches (50.8 x 110.8 cm); Framed: H. 22 x W. 44 1/2 inches (55.9 x 113 cm)
+--------------------
+ObjectID: 227894
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (9-11 warps per inch, 4-5 per cm.)
+  Dimensions: H. 86 x W. 85 inches (218.4 x 215.9 cm)
+--------------------
+ObjectID: 227893
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (9-11 warps per inch, 4-5 per cm.)
+  Dimensions: H. 88 x W. 88 inches (223.5 x 223.5 cm)
+--------------------
+ObjectID: 226814
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 10 ft. 7 in. × 95 in. (322.6 × 241.3 cm)
+--------------------
+ObjectID: 226983
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool (24-26 warps per inch, 9-11 per cm.)
+  Dimensions: H. 25 1/2 x W. 22 1/4 inches (64.8 x 56.5 cm)
+--------------------
+ObjectID: 211511
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 49 × 38 in. (124.5 × 96.5 cm)
+--------------------
+ObjectID: 213249
+  Department: European Sculpture and Decorative Arts
+  Medium: Warp: wool; Weft: wool and silk
+  Dimensions: 13 3/4 in. × 15 in. (34.9 × 38.1 cm)
+--------------------
+ObjectID: 214319
+  Department: European Sculpture and Decorative Arts
+  Medium: Cut voided velvet on satin foundation weave (warp: silk dyed in dark blue, reeled, no twist/S plied, 9 per cm; warp pile: silk dyed in dark blue, reeled, no twist/no ply; weft: silk dyed in dark blue, reeled, no twist/no ply, 25-29 per cm)
+  Dimensions: L. 14 1/4 x W. 12 1/2 inches (36.2 x 31.8 cm)
+--------------------
+ObjectID: 227933
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and silver-gilt thread (22-28 warps per inch, 10-12 per cm.)
+  Dimensions: 57 × 95 in. (144.8 × 241.3 cm)
+--------------------
+ObjectID: 227304
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-20 warps per inch, 8 per cm.)
+  Dimensions: 10 ft. 3 1/2 in. × 15 ft. 3 1/4 in. (313.7 × 465.5 cm)
+--------------------
+ObjectID: 227931
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread
+19-23 warps per inch, 8-10 per cm.
+  Dimensions: H. 153 x W. 267 inches
+388.6 x 678.2 cm
+--------------------
+ObjectID: 227722
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-20 warps per inch, 6-8 per cm.)
+  Dimensions: H. 175 x W. 286 inches (444.5 x 726.4 cm)
+--------------------
+ObjectID: 194566
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20 warps per inch, 8 per cm.)
+  Dimensions: 15 ft. 3 in. × 12 ft. 7 in. (464.8 × 383.5 cm)
+--------------------
+ObjectID: 212611
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (26-29 warps per inch, 10-11 per cm.)
+  Dimensions: H. 17 1/2 x W. 13 inches (44.5 x 33 cm)
+--------------------
+ObjectID: 212584
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-20 warps per inch, 8 per cm.)
+  Dimensions: 18 1/4 × 15 1/4 in. (46.4 × 38.7 cm)
+--------------------
+ObjectID: 230257
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, metal weft
+  Dimensions: Overall: 8 x 19 in. (20.3 x 48.3 cm)
+--------------------
+ObjectID: 197733
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (30 warps per inch, 12 per cm.)
+  Dimensions: H. 25 x W. 21 inches (63.5 x 53.3 cm)
+--------------------
+ObjectID: 219376
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (15-16 warps per inch, 6 per cm.)
+  Dimensions: 8 ft. 8 in. × 90 in. (264.2 × 228.6 cm)
+--------------------
+ObjectID: 223092
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (25 warps per inch, 10 per cm.)
+  Dimensions: 19 1/4 × 15 in. (48.9 × 38.1 cm)
+--------------------
+ObjectID: 230683
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 8 per cm.)
+  Dimensions: 27 1/2 in. × 24 in. (69.9 × 61 cm)
+--------------------
+ObjectID: 227621
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-20 warps per inch, 7-8 per cm.)
+  Dimensions: H. 52 1/2 × W. 54 1/2 in. (133.4 × 138.4 cm)
+--------------------
+ObjectID: 157561
+  Department: European Sculpture and Decorative Arts
+  Medium: Resist-dyed on plain weave; warp: dyed linen, Z spun, 16 per cm; weft: dyed linen, Z spun, 15–16 per cm
+  Dimensions: 13 1/2 x 22 in. (34.3 x 55.9 cm)
+--------------------
+ObjectID: 227736
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, metal thread (20-25 warps per inch, 8-10 per cm.)
+  Dimensions: 48 × 35 in. (121.9 × 88.9 cm)
+--------------------
+ObjectID: 68310
+  Department: Asian Art
+  Medium: Twill-weave silk with supplementary weft patterning
+  Dimensions: 45 x 75 in. (114.30 x 190.50 cm)
+--------------------
+ObjectID: 68308
+  Department: Asian Art
+  Medium: Twill-weave silk with supplementary weft patterning (karaori)
+  Dimensions: 44 x 78 in. (111.76 x 198.12 cm)
+--------------------
+ObjectID: 68322
+  Department: Asian Art
+  Medium: Twill-weave silk with gold supplementary weft patterning (kinran)
+  Dimensions: 45 x 84 in. (114.30 x 213.36 cm)
+--------------------
+ObjectID: 68412
+  Department: Asian Art
+  Medium: Body of the kesa: silk lampas; Squares: silk twill with supplementary weft patterning in metallic thread
+  Dimensions: 46 x 82 in. (116.84 x 208.28 cm)
+--------------------
+ObjectID: 68325
+  Department: Asian Art
+  Medium: Silk satin with gold supplementary weft patterning (kinran)
+  Dimensions: 42 x 75 in. (106.68 x 190.50 cm)
+--------------------
+ObjectID: 670103
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool and silk (wefts); wool (warps): 6-7 warp threads per cm.
+  Dimensions: confirmed: 15 ft. 2 1/16 in. × 26 ft. 2 9/16 in. (462.5 × 799 cm)
+--------------------
+ObjectID: 219741
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (13-15 warps per inch, 5-6 per cm.)
+  Dimensions: H. 118 x W. 252 inches (299.7 x 640.1 cm)
+--------------------
+ObjectID: 212623
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-20 warps per inch, 7-8 cm.)
+  Dimensions: 11 ft. 4 in. × 16 ft. 11 in. (345.4 × 515.6 cm)
+--------------------
+ObjectID: 219753
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (17-18 warps per inch, 8 per cm.)
+  Dimensions: 8 ft. 9 in. × 12 ft. (266.7 × 365.8 cm)
+--------------------
+ObjectID: 219919
+  Department: European Sculpture and Decorative Arts
+  Medium: Cotton wefts, linen warps
+  Dimensions: L. 64 x W. 60 inches (162.6 x 152.4 cm)
+--------------------
+ObjectID: 219963
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-19 warps per inch, 7 per cm.)
+  Dimensions: H. 69 x W. 78 inches (175.3 x 198.1 cm)
+--------------------
+ObjectID: 228717
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (15-16 warps per inch, 6-7 per cm.)
+  Dimensions: confirmed: 11 ft. 4 3/4 in. × 15 ft. 2 1/2 in. (347.3 × 463.6 cm)
+--------------------
+ObjectID: 227717
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-20 warps per inch, 7-8 per cm.)
+  Dimensions: 10 ft. 8 in. × 15 ft. 8 in. (325.1 × 477.5 cm)
+--------------------
+ObjectID: 229303
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-18 warps per inch, 6-7 per cm.)
+  Dimensions: H. 119 x W. 153 inches (302.3 x 388.6 cm)
+--------------------
+ObjectID: 227892
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (15-16 warps per inch, 6 per cm.)
+  Dimensions: 94 in. × 13 ft. 1/4 in. (238.8 × 396.9 cm)
+--------------------
+ObjectID: 223048
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 8-9 per cm.)
+  Dimensions: H. 171 x W. 207 inches (434.3 x 525.8 cm)
+--------------------
+ObjectID: 69867
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft; wool knotting
+  Dimensions: 31 1/4 × 31 1/8 in. (79.4 × 79.1 cm)
+--------------------
+ObjectID: 226694
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, gilded silver metal-wrapped threads (18-21 warps per inch, 7-8 per cm.)
+  Dimensions: Overall: 68 × 51 in. (172.7 × 129.5 cm)
+--------------------
+ObjectID: 68441
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft; wool knotting
+  Dimensions: 92 x 68 in. (233.68 x 172.72 cm)
+--------------------
+ObjectID: 68307
+  Department: Asian Art
+  Medium: Twill-weave silk with supplementary weft patterning
+  Dimensions: 44 x 84 in. (111.76 x 213.36 cm)
+--------------------
+ObjectID: 222376
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-24 warps per inch, 8-10 per cm.)
+  Dimensions: H. 138 x W. 179 inches (350.5 x 454.7 cm)
+--------------------
+ObjectID: 39595
+  Department: Asian Art
+  Medium: Weft-faced compound twill
+  Dimensions: Overall: 24 x 28 in. (61 x 71.1 cm)
+Mount (with plexi cover): 28 3/4 x 32 1/2 in. (73 x 82.6 cm)
+--------------------
+ObjectID: 39597
+  Department: Asian Art
+  Medium: Silk weft-faced compound twill
+  Dimensions: 5 5/8 x 5 3/8 x 1 in. (14.3 x 13.7 x 2.5 cm)
+--------------------
+ObjectID: 229940
+  Department: European Sculpture and Decorative Arts
+  Medium: Background: twill weave (warp: Turcana wool, Z spun, 24 per cm; weft: metal-wrapped thread; wool, Z spun, 14 per cm; cotton, 2Z spun, S plied); decorative panel: tapestry weave (warp: cotton, 2Z spun, S pliz, 16 per cm; weft: linen, Z spun, 38 per cm; silk, 2Z spun, S plied; metal-wrapped thread, 64 per cm); embroidery: metal-wrapped thread, metal coil
+  Dimensions: L. 9 x 15 1/2 inches (22.9 x 39.4 cm)
+--------------------
+ObjectID: 227403
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-22 warps per inch, 8-9 per cm.)
+  Dimensions: 10 ft. 7 1/2 in. × 13 ft. 8 in. (323.9 × 416.6 cm)
+--------------------
+ObjectID: 206706
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-27 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 10 in. × 17 ft. 4 1/2 in. (299.7 × 529.6 cm)
+--------------------
+ObjectID: 231721
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool and silk (8-9 warps per cm)
+  Dimensions: Overall (confirmed): H. 139 x W. 159 1/4 in. (353.1 x 404.5 cm)
+--------------------
+ObjectID: 76628
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 13 3/8 x 4 13/16 x 1/4 in. (34 x 12.2 x 0.6 cm)
+--------------------
+ObjectID: 39923
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning in metallic thread
+  Dimensions: Overall: 13 1/4 x 4 3/4 in. (33.7 x 12.1 cm)
+--------------------
+ObjectID: 39929
+  Department: Asian Art
+  Medium: Plain weave silk with supplementary weft patterning
+  Dimensions: Overall: 5 x 14 1/4 in. (12.7 x 36.2 cm)
+--------------------
+ObjectID: 53509
+  Department: Asian Art
+  Medium: Brocaded twill with supplementary weft patterning; silk and metallic thread
+  Dimensions: Overall: 48 x 78 in. (121.9 x 198.1cm)
+--------------------
+ObjectID: 53764
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning in silk
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7 cm)
+--------------------
+ObjectID: 53752
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 5 x 14 1/4 in. (12.7 x 36.2 cm)
+--------------------
+ObjectID: 53761
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7 cm)
+--------------------
+ObjectID: 53754
+  Department: Asian Art
+  Medium: Silk twill with supplementary weft patterning in silk and metallic thread
+  Dimensions: Overall: 13 1/2 x 4 3/4 in. (34.3 x 12.1 cm)
+--------------------
+ObjectID: 53758
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7 cm)
+--------------------
+ObjectID: 53756
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 13 1/2 x 4 3/4 in. (34.3 x 12.1 cm)
+--------------------
+ObjectID: 50542
+  Department: Asian Art
+  Medium: Plain weave silk with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7cm)
+--------------------
+ObjectID: 51283
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 13 1/2 x 4 3/4 in. (34.3 x 12.1 cm)
+--------------------
+ObjectID: 44099
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 5 x 14 1/4 in. (12.7 x 36.2 cm)
+--------------------
+ObjectID: 44138
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 13 1/2 x 4 3/4 in. (34.3 x 12.1 cm)
+--------------------
+ObjectID: 44131
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7cm)
+--------------------
+ObjectID: 45405
+  Department: Asian Art
+  Medium: Weft ikat-patterned (kasuri) plain-weave ramie
+  Dimensions: 46 x 20 in. (116.8 x 50.8 cm)
+--------------------
+ObjectID: 45411
+  Department: Asian Art
+  Medium: Plain-weave cotton with weft kasuri (ikat ) patterning
+  Dimensions: 36 1/2 x 13 1/4 in. (92.7 x 33.7 cm)
+--------------------
+ObjectID: 45409
+  Department: Asian Art
+  Medium: Plain-weave cotton with warp and weft kasuri (ikat ) patterning
+  Dimensions: 56 x 13 1/4 in. (142.2 x 33.7 cm)
+--------------------
+ObjectID: 45407
+  Department: Asian Art
+  Medium: Plain-weave asa with warp and weft kasuri (ikat ) patterning
+  Dimensions: 14 x 12 3/4 in. (35.6 x 32.4 cm)
+--------------------
+ObjectID: 45410
+  Department: Asian Art
+  Medium: Plain-weave asa with warp and weft kasuri (ikat ) patterning
+  Dimensions: 26 x 11 in. (66 x 27.9 cm)
+--------------------
+ObjectID: 45408
+  Department: Asian Art
+  Medium: Plain-weave asa with warp and weft kasuri (ikat ) patterning
+  Dimensions: 38 x 10 1/4 in. (96.5 x 26 cm)
+--------------------
+ObjectID: 44095
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 5 x 14 1/4 in. (12.7 x 36.2 cm)
+--------------------
+ObjectID: 44094
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning in metallic thread
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7 cm)
+--------------------
+ObjectID: 226596
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (21 warps per inch, 9 per cm.)
+  Dimensions: H. 19 3/4 x W. 20 inches (50.2 x 50.8 cm)
+--------------------
+ObjectID: 227763
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool and silk (19 to 20 warps to one inch)
+  Dimensions: 11 ft. 2 in. × 8 ft. 9 1/2 in. (340.4 × 268 cm)
+--------------------
+ObjectID: 226597
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (21 warps per inch, 9 per cm.)
+  Dimensions: H. 19 3/4 x W. 20 inches (50.2 x 50.8 cm)
+--------------------
+ObjectID: 226601
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (21 warps per inch, 9 per cm.)
+  Dimensions: H. 19 3/4 x W. 20 inches (50.2 x 50.8 cm)
+--------------------
+ObjectID: 226598
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (21 warps per inch, 9 per cm.)
+  Dimensions: H. 19 3/4 x W. 20 inches (50.2 x 50.8 cm)
+--------------------
+ObjectID: 226600
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (21 warps per inch, 9 per cm.)
+  Dimensions: H. 19 3/4 x W. 20 inches (50.2 x 50.8 cm)
+--------------------
+ObjectID: 226599
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (21 warps per inch, 9 per cm.)
+  Dimensions: H. 19 3/4 x W. 20 inches (50.2 x 50.8 cm)
+--------------------
+ObjectID: 42117
+  Department: Asian Art
+  Medium: Complex gauze with silk and metal thread weft patterning
+  Dimensions: 11 x 46 1/2 in. (27.9 x 118.1 cm)
+Mount: 51 1/2 x 13 1/2 in. (130.8 x 34.3 cm)
+--------------------
+ObjectID: 59663
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning in metallic thread
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7cm)
+--------------------
+ObjectID: 70603
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft; wool knotting
+  Dimensions: 178 x 44 in. (452.12 x 111.76 cm)
+--------------------
+ObjectID: 39826
+  Department: Asian Art
+  Medium: Silk, ink and pigments
+  Dimensions: Warp: 19-5/8 in. (49.8 cm)
+Weft: 24-1/2 in. (62.2 cm)
+--------------------
+ObjectID: 39825
+  Department: Asian Art
+  Medium: Silk, ink and pigments
+  Dimensions: Warp: 16-1/2 in (42 cm)
+Weft: 21 in. (53.5 cm)
+--------------------
+ObjectID: 443850
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, loop weft weave
+  Dimensions: Max. H. 14 3/4 in. (37.5 cm)
+Max. W. 8 1/4 in. (21 cm)
+--------------------
+ObjectID: 443217
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: H. 12 5/16 in. (31.2 cm)
+W. 10 1/4 in. (26 cm)
+--------------------
+ObjectID: 443220
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 13 3/4 in. (35 cm)
+W. 6 9/16 in. (16.7 cm)
+--------------------
+ObjectID: 443219
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 8 11/16 in. (22.1 cm)
+W. 8 11/16 in. (22.1 cm)
+--------------------
+ObjectID: 443213
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 27 15/16 in. (71cm)
+Max. W. 19 3/8 in. (49.2 cm)
+Diam. of Roundel 8 5/16 in. (21.1 cm)
+--------------------
+ObjectID: 443272
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 11 5/16 in. (28.7 cm)
+W. 2 3/4 in. (7 cm)
+--------------------
+ObjectID: 443239
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 26 7/16 in. (67.2 cm)
+W. 16 1/8 in. (41 cm)
+--------------------
+ObjectID: 443242
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Border: L. 26 1/8 in. (66.3 cm)
+             W. 17 5/8 in. (44.8 cm)
+Square: L. 10 15/16in. (27.8cm)
+Storage mount:  L. 34 in. (86.4 cm)
+                          W. 24 1/2 in. (62.2 cm)
+--------------------
+ObjectID: 443228
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 18 1/8 in. (46 cm)
+W.  7 1/16 in. (18 cm)
+--------------------
+ObjectID: 443273
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 15 7/8 in. (40.3 cm)
+W. 9 1/16 in. (23 cm)
+--------------------
+ObjectID: 443240
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 25 1/16 in. (63.7 cm)
+W. 18 1/2 in. (47 cm)
+--------------------
+ObjectID: 443292
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: 
+--------------------
+ObjectID: 51282
+  Department: Asian Art
+  Medium: Plain weave in silk with supplementary weft patterning
+  Dimensions: Overall: 13 1/2 x 4 3/4 in. (34.3 x 12.1cm)
+--------------------
+ObjectID: 53753
+  Department: Asian Art
+  Medium: Complex gauze weave in silk with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7cm)
+--------------------
+ObjectID: 50512
+  Department: Asian Art
+  Medium: Silk gauze with supplementary weft patterning
+  Dimensions: Overall: 5 x 14 1/4 in. (12.7 x 36.2cm)
+--------------------
+ObjectID: 227724
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver thread (23-26 warps per inch, 10-11 per cm.)
+  Dimensions: 13 ft. 9 1/2 in. × 10 ft. 3 1/2 in. (420.4 × 313.7 cm)
+--------------------
+ObjectID: 227725
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver thread (21-24 warps per inch, 8 per cm.)
+  Dimensions: 11 ft. 11 1/4 in. × 11 ft. 2 1/2 in. (363.9 × 341.6 cm)
+--------------------
+ObjectID: 226800
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-20 warps per inch, 8 per cm.)
+  Dimensions: 9 ft. 2 1/4 in. × 9 ft. 6 in. (280 × 289.6 cm)
+--------------------
+ObjectID: 444258
+  Department: Islamic Art
+  Medium: Wool, linen; weft loop weave
+  Dimensions: Max. H. 7 1/2 in. (19 cm)
+Max. W. 6 1/8 in. (15.6 cm)
+--------------------
+ObjectID: 443630
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: H. 16 5/8 in. (42.2 cm)
+W. 18 5/16 in. (46.5 cm)
+--------------------
+ObjectID: 443973
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave (?)
+  Dimensions: Max. H. 10 3/8 in. (26.3 cm)
+Max. W. 5 5/16 in. (13.5 cm)
+--------------------
+ObjectID: 444183
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 29 3/4 in. (75.6 cm)
+Max. W. 21 5/8 in. (55 cm)
+--------------------
+ObjectID: 443411
+  Department: Islamic Art
+  Medium: Wool, linen; weft loop weave
+  Dimensions: H. 27 9/16 in. (70 cm)
+W. 19 1/16 in. (48.4 cm)
+--------------------
+ObjectID: 443442
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 17 5/16 in. (44 cm)
+Max. W.  9 7/16 in. (24 cm)
+--------------------
+ObjectID: 443444
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 13 3/8 in. (34 cm)
+Max. W. 8 1/16 in. (20.5 cm)
+--------------------
+ObjectID: 444074
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 6 7/8 in. (17.5 cm)
+Max. W. 5 7/8 in. (15 cm)
+--------------------
+ObjectID: 443551
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 11 1/4 in. (28.6 cm)
+Max. W. 11 in. (27.9 cm)
+--------------------
+ObjectID: 443531
+  Department: Islamic Art
+  Medium: Wool, linen; weft loop weave
+  Dimensions: Max. H. 27 3/4 in. (70.5 cm)
+Max. W. 19 1/8 in. (48.5 cm)
+--------------------
+ObjectID: 229101
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 1 in. × 30 in. (276.9 × 76.2 cm)
+--------------------
+ObjectID: 229099
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 3 in. × 32 1/2 in. (281.9 × 82.6 cm)
+--------------------
+ObjectID: 229098
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: H. 113 x W. 34 inches (287 x 86.4 cm)
+--------------------
+ObjectID: 229097
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 2 1/2 in. × 73 in. (280.7 × 185.4 cm)
+--------------------
+ObjectID: 229096
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 7 in. × 79 1/2 in. (292.1 × 201.9 cm)
+--------------------
+ObjectID: 197654
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: H. 109 x W. 118 inches (276.9 x 299.7 cm)
+--------------------
+ObjectID: 39922
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7cm)
+--------------------
+ObjectID: 44098
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7cm)
+--------------------
+ObjectID: 39924
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 in. (36.2 x 12.7cm)
+--------------------
+ObjectID: 50545
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 14 1/4 x 5 1/4 in. (36.2 x 13.3 cm)
+--------------------
+ObjectID: 76627
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 13 5/8 x 4 13/16 x 1/8 in. (34.6 x 12.2 x 0.3 cm)
+--------------------
+ObjectID: 76604
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 13 x 4 3/4 x 1/4 in. (33 x 12.1 x 0.6 cm)
+--------------------
+ObjectID: 76592
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 14 5/16 x 5 1/16 x 1/8 in. (36.4 x 12.9 x 0.3 cm)
+--------------------
+ObjectID: 76612
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 13 11/16 x 4 7/8 x 1/4 in. (34.8 x 12.4 x 0.6 cm)
+--------------------
+ObjectID: 69845
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: 13 1/4 x 4 1/4 in. (33.66 x 10.80 cm)
+--------------------
+ObjectID: 76599
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary weft patterning
+  Dimensions: Overall: 13 5/16 x 4 3/4 x 1/8 in. (33.8 x 12.1 x 0.3 cm)
+--------------------
+ObjectID: 206987
+  Department: European Sculpture and Decorative Arts
+  Medium: Foundation: cotton; supplementary weft: metallic thread; pile: silk, Sehna knot
+  Dimensions: 
+--------------------
+ObjectID: 204348
+  Department: European Sculpture and Decorative Arts
+  Medium: Linen warp and weft; wool pile, Ghiordes knot
+  Dimensions: 206 x 114 in.  (523.2 x 289.6 cm)
+--------------------
+ObjectID: 231897
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and wool (20-25 warps per inch, 8-11 per centimeter)
+  Dimensions: Overall: H. 87 × W. 72 in. (221 × 182.9 cm)
+--------------------
+ObjectID: 229567
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (19-22 warps per inch, 7-9 per cm.)
+  Dimensions: 11 ft. 8 in. × 14 ft. 11 in. (355.6 × 454.7 cm) (as measured by Textile Conservation in 1984)
+--------------------
+ObjectID: 202135
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 9–10 per cm.)
+  Dimensions: Each:: 9 ft. 11 in. × 33 1/2 in. (302.3 × 85.1 cm)
+--------------------
+ObjectID: 202133
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 9–10 per cm.)
+  Dimensions: Each: H. 5 ft. 1 1/2 in. x W. 4 ft. 4 in. (1.56 m. x 1.32 m.)
+--------------------
+ObjectID: 202136
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 9-10 per cm.)
+  Dimensions: (.12): 8 1/2 × 69 in. (21.6 × 175.3 cm)
+(.13): 8 3/4 × 70 in. (22.2 × 177.8 cm)
+--------------------
+ObjectID: 202131
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 9–10 per cm.)
+  Dimensions: 10 × 17 ft. (304.8 × 518.2 cm)
+--------------------
+ObjectID: 202134
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 9–10 per cm.)
+  Dimensions: (.8): 10 ft. × 17 1/2 in. (304.8 × 44.5 cm)
+(.9): 9 ft. 11 in. × 17 in. (302.3 × 43.2 cm)
+--------------------
+ObjectID: 202129
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 9-10 per cm)
+  Dimensions: H. 10 ft. x W. 27 ft., 3 in. (3.05 m. x 8.31 m.)
+--------------------
+ObjectID: 228982
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool, silver-thread (27-29 warps per inch, 12 per cm.)
+  Dimensions: H. 8 1/2 x W. 11 3/4 inches (21.6 x 29.8 cm)
+--------------------
+ObjectID: 226811
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (24 warps per inch, 10 per cm.)
+  Dimensions: H. 8 1/4 x W. 12 inches (21 x 30.5 cm)
+--------------------
+ObjectID: 227743
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool (22 warps per inch, 10 per cm.)
+  Dimensions: H. 20 x W. 20 inches (50.8 x 50.8 cm)
+--------------------
+ObjectID: 227744
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool (22 warps per inch, 10 per cm.)
+  Dimensions: 20 1/2 × 20 5/8 in. (52.1 × 52.4 cm)
+--------------------
+ObjectID: 226546
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-20 warps per inch, 7-8 per cm.)
+  Dimensions: 10 ft. 1 in. × 13 ft. 2 in. (307.3 × 401.3 cm)
+--------------------
+ObjectID: 220609
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (13-15 warps per inch, 6 per cm.)
+  Dimensions: 16 × 17 ft. (487.7 × 518.2 cm)
+--------------------
+ObjectID: 227018
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 10 ft. 4 in. (360.7 × 315 cm)
+--------------------
+ObjectID: 227024
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 1/8 in. × 15 ft. 5 13/16 in. (361 × 472 cm)
+--------------------
+ObjectID: 227019
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 15 ft. 4 in. (360.7 × 467.4 cm)
+--------------------
+ObjectID: 227025
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 9 ft. (360.7 × 274.3 cm)
+--------------------
+ObjectID: 227021
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 19 ft. 3 in. (360.7 × 586.7 cm)
+--------------------
+ObjectID: 227020
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 8 ft. 10 in. (360.7 × 269.2 cm)
+--------------------
+ObjectID: 227022
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 10 ft. 1 in. (360.7 × 307.3 cm)
+--------------------
+ObjectID: 227027
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 15 ft. 9 in. (360.7 × 480.1 cm)
+--------------------
+ObjectID: 227026
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 19 ft. (360.7 × 579.1 cm)
+--------------------
+ObjectID: 227023
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-21 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 10 in. × 15 ft. 5 in. (360.7 × 469.9 cm)
+--------------------
+ObjectID: 204092
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 10 ft. 10 in. × 8 ft. 6 in. (330.2 × 259.1 cm)
+--------------------
+ObjectID: 229570
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-27 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 9 in. × 76 in. (297.2 × 193 cm)
+--------------------
+ObjectID: 226696
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk and precious metal-wrapped threads (20-22 warps per inch, 8-9 warps per cm.)
+  Dimensions: weight confirmed, includes tube: 14 ft. 4 in. × 17 ft. 9 in., 173 lb. (436.9 × 541 cm, 78.5 kg)
+--------------------
+ObjectID: 226955
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-17 warps per inch, 6-7 per cm.)
+  Dimensions: Overall: 164 1/2 x 259 in. (417.8 x 657.9 cm)
+--------------------
+ObjectID: 226695
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk and precious metal-wrapped threads (20-22 warps per inch, 8-9 warps per cm.)
+  Dimensions: 170 1/16 x 283 1/16 in. (432 x 719 cm); weight confirmed, includes tube: 14 ft. 9 in. × 23 ft. 6 in., 199 lb. (449.6 × 716.3 cm, 90.3 kg)
+--------------------
+ObjectID: 219362
+  Department: European Sculpture and Decorative Arts
+  Medium: Embroidery in silk and metal thread, on lampas with four pattern wefts tied in twill weave, with applied gold fringes
+  Dimensions: H. 52 1/2 x W. 119 inches (133.4 x 302.3 cm)
+--------------------
+ObjectID: 470279
+  Department: The Cloisters
+  Medium: Silk, gilt silver on membrane, paint, linen.  Weft-faced compound twill with embroidery
+  Dimensions: 12 1/4 x 5 3/4 in.  (31.1 x 14.6 cm)
+--------------------
+ObjectID: 473278
+  Department: Medieval Art
+  Medium: Silk, weft-faced compound twill (Samit) weave
+  Dimensions: Overall: 3 3/4 x 22 3/4in. (9.5 x 57.8cm)
+--------------------
+ObjectID: 221406
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (23-25 warps per inch, 9-10 per cm.)
+  Dimensions: 12 ft. × 17 ft. 6 in. (365.8 × 533.4 cm)
+--------------------
+ObjectID: 226816
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 7-8 per cm.)
+  Dimensions: H. 81 x W. 244 inches (205.7 x 619.8 cm)
+--------------------
+ObjectID: 221405
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (23-25 warps per inch, 9-10 per cm.)
+  Dimensions: 14 ft. × 17 ft. 10 in. (426.7 × 543.6 cm)
+--------------------
+ObjectID: 328836
+  Department: Ancient Near Eastern Art
+  Medium: Linen, plain weave with warp-float pattern
+  Dimensions: 4.5 x 3.5 in. (11.4 x 8.9 cm)
+--------------------
+ObjectID: 227721
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-20 warps per inch, 6-8 per cm.)
+  Dimensions: H. 174 1/2 x W. 289 inches (443.2 x 734.1 cm)
+--------------------
+ObjectID: 227723
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-20 warps per inch, 6-8 per cm.)
+  Dimensions: H. 175 x W. 282 inches (444.5 x 716.3 cm)
+--------------------
+ObjectID: 220133
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (22-23 warps per inch, 8-9 per cm.)
+  Dimensions: 136 1/2 x 216 1/2 in. (346.7 x 549.9 cm)
+--------------------
+ObjectID: 227622
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and wool (20-24 warps per inch)
+  Dimensions: 9 ft. 4 in. × 85 in. (284.5 × 215.9 cm)
+--------------------
+ObjectID: 229299
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (14-16 warps per inch, 6 per cm.)
+  Dimensions: H. 60 x W. 92in. (152.4 x 233.7cm)
+--------------------
+ObjectID: 201588
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-20 warps per inch, 7-8 per cm.)
+  Dimensions: Overall (Confirmed by Textile Conservation 9/2006): 121 x 186 1/2 in. (307.3 x 473.7 cm)
+Overall (Confirmed by Textile Conservation in 1984): 120 x 180 in. (304.8 x 457.2 cm)
+--------------------
+ObjectID: 229698
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (26 warps per inch, 10 per cm.)
+  Dimensions: Gr. L. 28 x Gr. W. 29 inches (71.1 x 73.7 cm)
+--------------------
+ObjectID: 229699
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (26 warps per inch, 10 per cm.)
+  Dimensions: Gr. L. 27 1/2 x Gr. W. 29 inches (69.9 x 73.7 cm)
+--------------------
+ObjectID: 226817
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 7-9 per cm.)
+  Dimensions: H. 85 x W. 234 inches (215.9 x 594.4 cm)
+--------------------
+ObjectID: 229697
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (26 warps per inch, 10 per cm.)
+  Dimensions: Gr. L. 28 x Gr. W. 31 inches (71.1 x 78.7 cm)
+--------------------
+ObjectID: 229696
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (26 warps per inch, 10 per cm.)
+  Dimensions: Gr. L. 28 x Gr. W. 30 inches (71.1 x 76.2 cm)
+--------------------
+ObjectID: 829962
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: L. 63 in. (160 cm)
+W. 25 1/2 in. (64.9 cm)
+--------------------
+ObjectID: 453282
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 51 in. (129.5 cm)
+W. 46 in. (116.8 cm)
+--------------------
+ObjectID: 446636
+  Department: Islamic Art
+  Medium: Silk (warp, weft, and pile), metal wrapped thread; asymmetrically knotted pile
+  Dimensions: Mount Dimensions: L. 105 1/2 in. (268 cm)
+         W. 76 1/2 in. (194.3 cm)
+Weight in mount: 555 lbs (251.7 kg)
+--------------------
+ObjectID: 238529
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool and silk (7-8 warps per cm.)
+  Dimensions: Overall: 128 15/16 x 128 15/16 in. (327.5 x 327.5 cm)
+--------------------
+ObjectID: 72707
+  Department: Asian Art
+  Medium: Silk samite
+  Dimensions: Before Conservation: Warp 19 7/8 in. (50.5 cm); Weft 15 9/16 in. (39.5 cm)
+--------------------
+ObjectID: 72747
+  Department: Asian Art
+  Medium: Cotton, painted resist and block-printed mordant, dyed
+  Dimensions: H (weft) 98.7 cm (38 7/8 in.) x W (warp) 494.5 cm (194 11/16 in.)
+--------------------
+ObjectID: 64883
+  Department: Asian Art
+  Medium: Warp-faced compound plain weave silk
+  Dimensions: Overall (after conservation): 7 3/4 x 6 in. (19.7 x 15.2 cm)
+Mount (with plexi cover): 10 1/8 x 11 5/8 in. (25.7 x 29.5 cm)
+Overall (Before conservation): 6 x 6 11/16 in. (15.3 x 17 cm)
+--------------------
+ObjectID: 65598
+  Department: Asian Art
+  Medium: Warp-faced compound plain weave silk
+  Dimensions: Overall (after conservation): 9 x 18 in. (22.9 x 45.7 cm)
+Overall (before conservation): 8 1/4 x 17 5/16 in. (21 x 44 cm)
+--------------------
+ObjectID: 61868
+  Department: Asian Art
+  Medium: Warp-faced compound plain-weave silk
+  Dimensions: Overall (after conservation, unfolded): 25 1/4 x 19 5/8 in. (64.1 x 49.8 cm)
+--------------------
+ObjectID: 44111
+  Department: Asian Art
+  Medium: Silk velvet with weft patterning in silk, metallic thread, and feather thread
+  Dimensions: 55 in. × 8 ft. 6 in. (139.7 × 259.1 cm)
+--------------------
+ObjectID: 465950
+  Department: The Cloisters
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: 39 5/16 x 83 in.  (99.9 x 210.8 cm)
+--------------------
+ObjectID: 468533
+  Department: The Cloisters
+  Medium: Linen warp; wool, linen, silk, silver, and gilt wefts;  wool pile yarns
+  Dimensions: 41 x 138 in.  (104.1 x 350.5 cm)
+--------------------
+ObjectID: 468694
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: 106 1/2 x 121 3/4 in. (270.5 × 309.2 cm)
+--------------------
+ObjectID: 468689
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 93 1/2 x 140in. (237.5 x 355.6cm)
+--------------------
+ObjectID: 229584
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 8 per cm.)
+  Dimensions: 12 × 15 ft. (365.8 × 457.2 cm)
+--------------------
+ObjectID: 206743
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 8 per cm.)
+  Dimensions: 12 × 15 ft. (365.8 × 457.2 cm)
+--------------------
+ObjectID: 229586
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 8 per cm.)
+  Dimensions: 12 ft. × 16 ft. 6 in. (365.8 × 502.9 cm)
+--------------------
+ObjectID: 229585
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 8 per cm.)
+  Dimensions: 12 × 15 ft. (365.8 × 457.2 cm)
+--------------------
+ObjectID: 681541
+  Department: Islamic Art
+  Medium: Wool (pile, warp, and weft); asymmetrically knotted pile, tapestry weave, brocaded with wool and cotton
+  Dimensions: H. 25.5 in. (64.8 cm)
+W. 27 in. (68.6 cm)
+--------------------
+ObjectID: 463980
+  Department: Medieval Art
+  Medium: Wool warp, wool, silk, silver and gilt wefts
+  Dimensions: Overall: 122 1/4 x 153in. (310.5 x 388.6cm)
+--------------------
+ObjectID: 212620
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver and silver-gilt thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: H. 163 x W. 204 inches (414 x 518.2 cm)
+--------------------
+ObjectID: 212618
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver and silver-gilt thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: H. 166 x W. 129 inches 421.6 x 327.7 cm
+--------------------
+ObjectID: 212619
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver and silver-gilt thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: H. 165 x W. 129 inches (419.1 x 327.7 cm)
+--------------------
+ObjectID: 212622
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver and silver-gilt thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: H. 164 x W. 127 1/2 inches (416.6 x 323.9 cm)
+--------------------
+ObjectID: 201448
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 9-10 per cm.)
+  Dimensions: 8 ft. 11 in. × 9 ft. 6 in. (271.8 × 289.6 cm)
+--------------------
+ObjectID: 212621
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver and silver-gilt thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: H. 165 x W. 216 inches (419.1 x 548.6 cm)
+--------------------
+ObjectID: 201589
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-20 warps per inch, 7-8 per cm.)
+  Dimensions: Overall (Confirmed by Textile Conservation 9/2006): 121 3/4 x 156 in. (309.2 x 396.2 cm)
+Overall: 120 x 154in. (304.8 x 391.2cm)
+--------------------
+ObjectID: 453317
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: Rug: 
+          L. 65 in. (165.1 cm)
+         W. 54 1/2in. (138.4 cm)
+Tube: 
+           H. 62 in. (157.5 cm)
+           Diam. 6 in. (15.2 cm)
+Mount: 
+             H. 65 5/8 (166.7 cm)
+             W. 55 3/8 in. (140.7 cm)
+              D. 4 1/8 in. (10.5 cm)
+--------------------
+ObjectID: 466127
+  Department: The Cloisters
+  Medium: Linen wrap; wool, silk, and metallic wefts
+  Dimensions: 32 × 46 in. (81.3 × 116.8 cm)
+--------------------
+ObjectID: 468153
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 89 x 44 1/2 in. (226.1 x 113 cm)
+cleat: 44 in. (111.8 cm)
+--------------------
+ObjectID: 448561
+  Department: Islamic Art
+  Medium: Silk warp and cotton weft (mulham); plain weave, embroidered
+  Dimensions: Textile: L. 14 3/4 in. (37.5 cm)
+            W. 14 in. (35.6 cm)
+Mount: H. 16 5/8 in. (42.2 cm)
+            W. 17 3/8 in. (44.1 cm)
+            D. 1 5/8 in. (4.1 cm)
+--------------------
+ObjectID: 468558
+  Department: The Cloisters
+  Medium: Wool warp, wool wefts
+  Dimensions: 93 x 108 in.  (236.2 x 274.3 cm)
+--------------------
+ObjectID: 446011
+  Department: Islamic Art
+  Medium: Linen, wool; plain weave, weft-loop pile
+  Dimensions: Textile: H. 22 1/16 in. (56 cm)
+              W. 24 13/16 in. (63 cm)
+Mount: H. 26 1/4 in. (66.7 cm)
+             W. 29 1/4 in. (74.3 cm)
+             D. 1 5/8 in. (4.1 cm)
+--------------------
+ObjectID: 75909
+  Department: Asian Art
+  Medium: Cotton (painted resist and mordant, dyed)
+  Dimensions: Warp 44 9/16 in. (113.2 cm); weft 72 in. (182.9 cm)
+--------------------
+ObjectID: 452916
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: Textile: H. 22 in. (55.9 cm)
+             W. 11 1/2 in. (29.2cm)
+Mount: H. 27 1/2 in. (69.9 cm)
+             W. 12 1/2 in. (31.8 cm)
+--------------------
+ObjectID: 465954
+  Department: The Cloisters
+  Medium: Linen warp; wool, linen and metallic wefts
+  Dimensions: 31 1/2 in. × 40 in. (80 × 99.7 cm)
+Plexi Mount: 35 1/2 × 43 × 2 5/8 in. (90.2 × 109.2 × 6.7 cm)
+--------------------
+ObjectID: 448554
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: Rug: L. 40 3/16 in. (102 cm)
+         W. 46 1 1/6 in. (117 cm)
+--------------------
+ObjectID: 226200
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-19 warps per inch, 6-7 per cm.)
+  Dimensions: H. 144 x W. 198 inches (365.8 x 502.9 cm)
+--------------------
+ObjectID: 468230
+  Department: The Cloisters
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 168 x 250 in. (426.7 × 635 cm)
+--------------------
+ObjectID: 467528
+  Department: The Cloisters
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 168 × 117 in. (426.7 × 297.2 cm)
+--------------------
+ObjectID: 463694
+  Department: Medieval Art
+  Medium: Wool warp, wool silk, and linen wefts
+  Dimensions: Overall: 41 1/2 x 76 1/2in. (105.4 x 194.3cm)
+--------------------
+ObjectID: 444971
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile), cotton (pile); symmetrically knotted pile
+  Dimensions: L. 72 in. (182.9 cm)
+W.  50 in. (137.2 cm)
+--------------------
+ObjectID: 444308
+  Department: Islamic Art
+  Medium: Tapestry weave in red wool (dyed with madder) and undyed linen on plain-weave ground of undyed linen; details in flying shuttle in undyed linen; weft loop pile with undyed linen
+  Dimensions: Max. H. 12 in. (30.5 cm)
+Max. W. 12 3/8 in. (31.5 cm)
+--------------------
+ObjectID: 444287
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 64 15/16 in.  (165 cm)
+Max. W. 50 9/16 in. (128.4 cm)
+--------------------
+ObjectID: 444257
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 4 3/4 in. (12 cm)
+Max. W. 4 3/8 in. (11.1 cm)
+--------------------
+ObjectID: 444256
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 5 3/16 in. (13.2 cm)
+Max. W. 4 7/8 in. (12.4 cm)
+--------------------
+ObjectID: 444259
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 17 15/16 in. (45.6 cm)
+Max. W. 17 7/16 in. (44.3 cm)
+--------------------
+ObjectID: 443875
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 13 1/2 in. (34.3 cm)
+Max. W. 17 1/4 in. (43.8 cm)
+--------------------
+ObjectID: 444135
+  Department: Islamic Art
+  Medium: Wool, linen; double weave (?), plain weave, weft loop weave
+  Dimensions: Max. H. 9 13/16 in. (25 cm)
+Max. W. 7 5/8 in. (19.3 cm)
+--------------------
+ObjectID: 444068
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 15 1/2 in. (39.3 cm)
+Max. W. 17 5/8 in. (44.8 cm)
+--------------------
+ObjectID: 443724
+  Department: Islamic Art
+  Medium: Linen; plain weave, weft loop weave
+  Dimensions: Max. H. 8 1/4 in. (21 cm)
+Max. W. 6 1/2 in. (16.51 cm)
+--------------------
+ObjectID: 443660
+  Department: Islamic Art
+  Medium: Plain weave in red wool (dyed with madder); applied borders with pattern weft in blue and red wool and undyed linen
+  Dimensions: Max. H. 20 1/2 in. (52.1 cm)
+Max, W. 25 9/16 in. (64.9 cm)
+--------------------
+ObjectID: 443628
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 33 1/16 in. (84 cm)
+Max. W. 28 1/16 in. (71.2 cm)
+--------------------
+ObjectID: 443629
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 4 1/2 in. (11.4 cm)
+Max. W. 1 1/4 in. (3.2 cm)
+--------------------
+ObjectID: 443529
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave (?)
+  Dimensions: Max. H. 1 5/8 in. (4.1 cm)
+Max. W. 1/2 in. (1.2 cm)
+--------------------
+ObjectID: 443528
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 15 in. (38.1 cm)
+Max. W. 13 3/4 in. (34.9 cm)
+--------------------
+ObjectID: 443592
+  Department: Islamic Art
+  Medium: Wool, linen, silk; warp-faced compound twill
+  Dimensions: H.. 3 3/4 in. (9.5 cm)
+W. 21 3/4 in. (55.2 cm)
+--------------------
+ObjectID: 443545
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 8 7/16 in. (21.5 cm)
+Max. W. 3 9/16 in. (9 cm)
+--------------------
+ObjectID: 443546
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H.10 11/16 in. (27.2 cm)
+Max. W. 10 11/16 in. (27.2 cm)
+--------------------
+ObjectID: 443368
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 19 11/16 in. (50 cm)
+Max. W. 18 7/8 in. (48 cm)
+--------------------
+ObjectID: 443460
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 19 in. (48.3 cm)
+Max. W. 20 in. (50.8 cm)
+--------------------
+ObjectID: 443492
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 5 5/8 in. (14.3 cm)
+Max. W. 4 3/16 in. (10.6 cm)
+--------------------
+ObjectID: 443351
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 26 3/8 in. (67 cm)
+W. 18 7/8 in. (48 cm)
+--------------------
+ObjectID: 443399
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 11 13/16 in. (30 cm)
+Max. W. 10 5/8 in. (27 cm)
+--------------------
+ObjectID: 443513
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 8 in. (20.3 cm)
+W. 8 in. (20.3 cm)
+--------------------
+ObjectID: 443490
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: Max. H. 13 3/16 in. (33.5 cm)
+Max. W. 21 7/8 in. (55.5 cm)
+--------------------
+ObjectID: 443233
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 24 13/16 in. (63 cm)
+W. 13 3/4 in. (35 cm)
+--------------------
+ObjectID: 443297
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 14 in. (35.5 cm)
+Max. W. 12 13/16 in. (32.5 cm)
+--------------------
+ObjectID: 443221
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 8 1/2 in. (21.6 cm)
+W. 25 3/4 in. (65.4 cm)
+--------------------
+ObjectID: 443216
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: H. 5 3/8 in. (13.6 cm)
+W. 4 15/16 in. (12.6 cm)
+--------------------
+ObjectID: 443247
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 14 9/16 in. (37 cm)
+W. 14 3/16 in. (36 cm)
+--------------------
+ObjectID: 443226
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Textile: L. 18 5/8 in. (47.3 cm)
+              W. 18 1/2 in. (47 cm)
+Mount: L. 19 1/2 in. (49.5 cm)
+             W. 19 1/2 in. (49.5 cm)
+--------------------
+ObjectID: 443227
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 16 1/8 in. (41 cm)
+W. 15 3/4 in. (40 cm)
+--------------------
+ObjectID: 443250
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 19 7/8 in. (50.5 cm)
+W. 17 7/8 in. (45.4 cm)
+--------------------
+ObjectID: 443267
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 26 3/16 in. (66.5 cm)
+W. 13 3/8 in. (34 cm)
+--------------------
+ObjectID: 443218
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, weft loop weave
+  Dimensions: H. 5 7/8 in. (15 cm)
+W. 49 3/16 in. (125 cm)
+--------------------
+ObjectID: 443249
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H.24 5/8 in. (62.6 cm)
+W. 17 7/16 in. (44.3 cm)
+--------------------
+ObjectID: 448921
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: Larger fragment: H. 8 1/4 in. (21 cm)
+                               W. 4 1/2 in. (11.4 cm)
+Smaller fragment: H. 7 1/2 in. (19.1 cm)
+                                  W. 3 1/2 in. (8.9 cm)
+Mount: L. 22 x W. 16 in. (55.9 x 40.6 cm)
+--------------------
+ObjectID: 448419
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: Rug: L. 122 1/2 in. (311.2 cm)
+         W. 65 in. (165.1 cm)
+--------------------
+ObjectID: 448423
+  Department: Islamic Art
+  Medium: Cotton (warp and weft); wool (pile); symmetrically knotted pile
+  Dimensions: L. 109 in. (276.9 cm)
+W. 170 in.  (431.8 cm)
+--------------------
+ObjectID: 448422
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: Rug: L. 125 1/8 in. (317.8 cm)
+         W. 66 1/4 in. (168.3 cm)
+--------------------
+ObjectID: 448677
+  Department: Islamic Art
+  Medium: Silk (warp and weft), pashmina wool (pile); asymmetrically knotted pile
+  Dimensions: L. 14 3/4 in. (37.5 cm)
+W. 13 1/4 in. (33.7 cm)
+--------------------
+ObjectID: 448660
+  Department: Islamic Art
+  Medium: Silk (warp and weft), wool (pile), metal wrapped thread; asymmetrical knotted pile, brocaded
+  Dimensions: Rug: L. 168 in. (426.7 cm)
+        W. 79 in. (200.7 cm)
+--------------------
+ObjectID: 447079
+  Department: Islamic Art
+  Medium: Silk (warp), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: H. 11 in. (27.9 cm)
+W. 15 3/4 in. (40 cm)
+--------------------
+ObjectID: 446631
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: Textile: L. 209 in. (530.9 cm)
+             W. 112 in. (289.6 cm)
+--------------------
+ObjectID: 446633
+  Department: Islamic Art
+  Medium: Silk (warp and weft), pashmina wool (pile); asymmetrically knotted pile
+  Dimensions: Textile: H. 48 in. (121.9 cm)
+             W. 119 in. (302.3 cm)
+Mount: H. 59 in. (149.9 cm)
+             W. 164 1/8 in. (416.9 cm)
+             D. 3 in. (7.6 cm)
+Weight: 288 lbs (130.6 kg)
+--------------------
+ObjectID: 446638
+  Department: Islamic Art
+  Medium: Wool (pile), cotton (warp and weft); asymmetrically knotted pile
+  Dimensions: Textile: L. 122 in. (309.9 cm)
+             W. 61 1/2 in. (156.2 cm)
+--------------------
+ObjectID: 446637
+  Department: Islamic Art
+  Medium: Silk (warp, weft and pile), metal wrapped thread; asymmetrically knotted pile, brocaded
+  Dimensions: H. 104 in. (264.2 cm)
+W. 58 in. (147.3 cm)
+--------------------
+ObjectID: 446640
+  Department: Islamic Art
+  Medium: Silk (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: Textile: H. 34 in. (86.4 cm)
+              W. 122 in. (309.9 cm)
+Mount: H. 40 in. (101.6 cm)
+             W. 165 1/4 in. (419.7 cm)
+             D. 2 3/8 in. (6 cm)
+Weight: 143 lbs (64.9 kg)
+--------------------
+ObjectID: 446635
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: Textile: L. 145 in. (368.3 cm)
+             W. 102 in. (259.1 cm)
+--------------------
+ObjectID: 446639
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 273 in. (693.4 cm)
+         W. 106 1/4 in. (269.9 cm)
+--------------------
+ObjectID: 446645
+  Department: Islamic Art
+  Medium: Silk (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 96 in. (243.8 cm)
+         W. 65 in. (165.1 cm)
+Mount: L. 101 3/4 in. (258.4 cm)
+             W. 72 1/2 in. (184.2 cm)
+             D. 3 in. (7.6 cm)
+Estimated weight: 200 lbs.
+--------------------
+ObjectID: 446644
+  Department: Islamic Art
+  Medium: Silk (warp and weft), pashmina wool (pile); asymmetrically knotted pile
+  Dimensions: Textile: L. 155 3/4 in. (395.6 cm)
+             W. 55 1/4 in. (140.3 cm)
+Mount: L. 66 in. (167.6 cm)
+             W. 168 in. (426.7 cm)
+             D. 3 3/4 in. (9.5 cm)
+Weight: 263 lbs (119.3 kg)
+--------------------
+ObjectID: 446643
+  Department: Islamic Art
+  Medium: Silk (warp and weft), pashmina wool (pile); asymmetrically knotted pile
+  Dimensions: Textile: L. 6 in. (15.2 cm)
+              W. 25 1/2 in. (64.8 cm)
+Mount: L. 10 3/4 in. (27.3 cm)
+             W. 30 5/8 in. (77.8 cm)
+             D. 1 in. (2.5 cm)
+--------------------
+ObjectID: 446642
+  Department: Islamic Art
+  Medium: Silk (warp, weft, and pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 94 7/8 in. (241 cm)
+         W. 70 1/16 in. (178 cm)
+Mount: L. 103 1/4 in. (262.3 cm)
+             W. 78 in. (198.1 cm)
+             D. 3 in. (7.6 cm)
+             Wt. 206 lbs. (93.4 kg)
+--------------------
+ObjectID: 446634
+  Department: Islamic Art
+  Medium: Silk (warp and weft), wool (pashmina) pile
+  Dimensions: H. 59 1/2 in. (151.1 cm)
+W. 12 3/4 in. (32.4 cm)
+--------------------
+ObjectID: 446646
+  Department: Islamic Art
+  Medium: Silk (warp and weft), pashmina wool (pile); asymmetrically knotted pile
+  Dimensions: L. 163 3/4 in. (415.9 cm)
+W. 66 in. (167.6 cm)
+Diam. of tube 10 in. (25.4 cm)
+Wt. with tube: 60 lbs. (27.2 kg)
+--------------------
+ObjectID: 446998
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 363 1/2 in (923.3 cm)
+         W. 133 1/2 in. (339.1 cm)
+         Wt. 127 lbs. (57.6 kg)
+Storage Tube: L. 156 in. (396.2 cm)
+                           Diam. 11 in. (27.9 cm)
+                           Wt. 28 lbs (12.7 cm)
+--------------------
+ObjectID: 467653
+  Department: The Cloisters
+  Medium: Wool warp with wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 66 1/2 x 25 1/2 in. (168.9 x 64.8 cm)
+--------------------
+ObjectID: 467654
+  Department: The Cloisters
+  Medium: Wool warp with wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 78 x 25 1/2 in. (198.1 x 64.8 cm)
+--------------------
+ObjectID: 467641
+  Department: The Cloisters
+  Medium: Wool warp with wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 145 x 153in. (368.3 x 388.6cm)
+--------------------
+ObjectID: 467640
+  Department: The Cloisters
+  Medium: Wool warp with wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 145 x 158 in. (368.3 x 401.3cm)
+--------------------
+ObjectID: 468232
+  Department: The Cloisters
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 165 1/2 x 104 in.  (420.4 x 264.2 cm)
+--------------------
+ObjectID: 468233
+  Department: The Cloisters
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 165 1/2 × 93 11/16 in. (420.4 × 238 cm)
+--------------------
+ObjectID: 467637
+  Department: The Cloisters
+  Medium: Wool warp, wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 145 x 124in. (368.3 x 315cm)
+--------------------
+ObjectID: 468106
+  Department: Medieval Art
+  Medium: Wool warp, wool with a few metallic wefts
+  Dimensions: Overall: 138 x 117in. (350.5 x 297.2cm)
+--------------------
+ObjectID: 467767
+  Department: Medieval Art
+  Medium: Wool warp;  wool wefts
+  Dimensions: Overall: 105 x 148 1/2in. (266.7 x 377.2cm)
+--------------------
+ObjectID: 467639
+  Department: The Cloisters
+  Medium: Wool warp with wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 145 x 168in. (368.3 x 426.7cm)
+--------------------
+ObjectID: 467638
+  Department: The Cloisters
+  Medium: Wool warp with wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 145 x 149in. (368.3 x 378.5cm)
+--------------------
+ObjectID: 446951
+  Department: Islamic Art
+  Medium: Silk (warp and weft), wool (pile), metal wrapped thread; asymmetricaly knotted thread, brocaded
+  Dimensions: Rug: L. 63 1/2 in. (161.3 cm)
+         W. 43 1/4 in. (109.9 cm)
+--------------------
+ObjectID: 468696
+  Department: Medieval Art
+  Medium: Wool warp,  wool and silk wefts
+  Dimensions: Overall: 36 3/8 x 35in. (92.4 x 88.9cm)
+Framed (65.181.19 + .20 together): 39 5/8 x 74 x 3 3/4 in. (100.6 x 188 x 9.5 cm)
+--------------------
+ObjectID: 468697
+  Department: Medieval Art
+  Medium: Wool warp,  wool and silk wefts
+  Dimensions: Overall: 36 3/8 x 35in. (92.4 x 88.9cm)
+Framed (65.181.19 + .20 together): 39 5/8 x 74 x 3 3/4 in. (100.6 x 188 x 9.5 cm)
+--------------------
+ObjectID: 76600
+  Department: Asian Art
+  Medium: Silk satin with supplementary silk and metal thread weft patterning
+  Dimensions: Overall: 13 7/16 x 4 3/4 x 1/4 in. (34.1 x 12.1 x 0.6 cm)
+--------------------
+ObjectID: 468433
+  Department: The Cloisters
+  Medium: Linen warp;  wool, linen, and metallic wefts
+  Dimensions: Overall: 43 3/4 x 85in. (111.1 x 215.9cm)
+--------------------
+ObjectID: 468375
+  Department: The Cloisters
+  Medium: Linen warp;  wool, silk, and metallic wefts, silk embroidery yarns
+  Dimensions: Overall: 36 x 88in. (91.4 x 223.5cm)
+--------------------
+ObjectID: 468561
+  Department: The Cloisters
+  Medium: Wool warp;  wool wefts with a few silk wefts
+  Dimensions: 152 x 145 in.  (386.1 x 368.3 cm)
+--------------------
+ObjectID: 452100
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); asymmetrically knotted pile
+  Dimensions: Rug: 
+         L. 353 in. (896.6 cm)
+         W. 94 in. (238.8 cm)
+Tube: 
+           H. 106 in. (269.2 cm)
+           Diam. 10 in. (25.4 cm)
+--------------------
+ObjectID: 199313
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (26-28 warps per inch, 10-12 per cm.); gilded pine frame
+  Dimensions: 87 1/2 × 57 1/2 in. (222.3 × 146.1 cm)
+Framed: 8 ft. 9 3/4 in. × 75 3/4 in. (268.6 × 192.4 cm)
+--------------------
+ObjectID: 468455
+  Department: The Cloisters
+  Medium: Wool warp;  wool, silk, and metallic wefts
+  Dimensions: Overall: 140 x 363 in. (355.6 x 922 cm)  [overall dimensions of entire tapestry including 41.100.214, 53.81]
+--------------------
+ObjectID: 468327
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts, one place embroidered in wool yarn
+  Dimensions: Overall: 118 x 150in. (299.7 x 381cm)
+--------------------
+ObjectID: 463959
+  Department: Medieval Art
+  Medium: Linen warp;  wool wefts, with the addition of wool and silk embroidery
+  Dimensions: Overall: 32 x 68in. (81.3 x 172.7cm)
+Framed: 34 x 69 1/4 x 2 1/2in. (86.4 x 175.9 x 6.4cm)
+--------------------
+ObjectID: 463036
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 93 1/2 x 121in. (237.5 x 307.3cm)
+--------------------
+ObjectID: 467787
+  Department: Medieval Art
+  Medium: Wool warp;  wool, silk, and metallic wefts
+  Dimensions: Overall: 140 x 363 in. (355.6 x 922 cm)  [overall dimensions of entire tapestry including 53.80, 53.81]
+--------------------
+ObjectID: 463039
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 91 x 54in. (231.1 x 137.2cm)
+--------------------
+ObjectID: 467680
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts with a few silk wefts.
+  Dimensions: Overall: 190 x 104in. (482.6 x 264.2cm)
+--------------------
+ObjectID: 467962
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts with a few silk wefts
+  Dimensions: Overall: 43 3/4 x 60in. (111.1 x 152.4cm)
+--------------------
+ObjectID: 468156
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 162 x 128in. (411.5 x 325.1cm)
+--------------------
+ObjectID: 817059
+  Department: The Michael C. Rockefeller Wing
+  Medium: Cotton, silk, mica, dyes
+  Dimensions: (Estimated) H. 47 (weft) × W. 51 (warp) in. (124.5 × 142.2 cm)
+--------------------
+ObjectID: 448044
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: Overall: L. 12 in. (30.5 cm)
+               W. 9 1/2 in. (24.1 cm)
+Mount: H. 16 1/2 in. (41.9 cm)
+             W. 17 in. (43.2 cm)
+--------------------
+ObjectID: 447469
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 57 5/16 in. (145.5 cm)
+W. 39 3/16 in. (99.5 cm)
+--------------------
+ObjectID: 447483
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: L. 74 in.  (188 cm)
+W.  64 in.  (162.6 cm)
+--------------------
+ObjectID: 447498
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile), cotton (weft); asymmetrically knotted pile
+  Dimensions: Rug: H. 29 1/2 in. (74.9 cm)
+         W. 54 1/2 in. (138.4 cm)
+--------------------
+ObjectID: 447491
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 77 in. (195.6 cm)
+W. 56 1/2 in. (143.5 cm)
+--------------------
+ObjectID: 447485
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile), supplementary weft brocaded (soumak)
+  Dimensions: Rug with fringe: H. 141 in. (358.1 cm)
+                             W. 87 1/2 in. (222.3 cm)
+--------------------
+ObjectID: 447494
+  Department: Islamic Art
+  Medium: Cotton (warp and weft) silk (pile); asymmetrically knotted pile
+  Dimensions: H. 174 in. (442 cm)
+W. 83 in. (210.8 cm)
+--------------------
+ObjectID: 447487
+  Department: Islamic Art
+  Medium: Wool (warp, weft); sumak
+  Dimensions: Textile: L. 120 in. (304.8 cm)
+             W. 74 in. (188 cm)
+--------------------
+ObjectID: 447496
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 483 in. (1226.8 cm)
+W. 14 in. (35.6 cm)
+--------------------
+ObjectID: 448133
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: Textile: L. 10 in. (25.4 cm)
+            W. 7 in. (17.8 cm)
+Mount: H. 14 1/2 in. (36.8 cm)
+            W. 11 in. (27.9 cm)
+             D. 2 1/8 in. (5.4 cm)
+--------------------
+ObjectID: 447506
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 130 1/2 in. (331.5 cm)
+W. 65 in. (191.8 cm)
+--------------------
+ObjectID: 447583
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); symmetrically knotted pile
+  Dimensions: Carpet: L. of left edge: 122in. (309.9cm)
+              L. of center edge: 121 1/2in. (308.6cm)
+              L. of right edge: 123 1/2in. (313.7cm)
+             W. of top: 75in. (190.5cm)
+             W. of bottom: 73 1/4in. (186.1cm)
+Tube: Diam. 9 in. 
+           W. 95 1/4 in.
+--------------------
+ObjectID: 447567
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: Rug: L. 69 in. (175.3 cm)
+         W. 42 in. (106.7 cm)
+Mount: L. 75 5/8 in. (192.1 cm)
+             Wt. 95 lbs. (43.1 kg)
+            W. 46 1/2 in. (118.1 cm)
+            D. 2 5/8 in. (6.7 cm)
+--------------------
+ObjectID: 447514
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: Rug: H. 203 in. (515.6 cm)
+        W. 115 in. (292.1 cm)
+--------------------
+ObjectID: 447570
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: Rug: H. 69 1/4 in. (175.9 cm)
+         W. 48 3/4 in. (123.8 cm)
+--------------------
+ObjectID: 447521
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 72 in. (182.9 cm)
+W. 46 in. (116.8 cm)
+--------------------
+ObjectID: 447519
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 78 in. (198.1 cm)
+W. 45 in. (114.3 cm)
+--------------------
+ObjectID: 447533
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: H. 230 in. (584.2 cm)
+W. 94 in. (238.8 cm)
+--------------------
+ObjectID: 447525
+  Department: Islamic Art
+  Medium: Cotton (warp), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 38 1/2 in. (97.8 cm)
+        W. 28 in. (71.1 cm)
+Mount: L. 45 5/8 in. (115.9 in.)
+            W. 35 1/2 in. (90.2 cm)
+            D. 1 1/4 in. (3.2 cm)
+           Wt. 32 lbs. (14.5 kg)
+--------------------
+ObjectID: 447581
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 64 in. (162.6 cm)
+W. 41 in. (104.1 cm)
+--------------------
+ObjectID: 447532
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: H. 215 in. (546.1 cm) with fringe
+H. 211 3/4 in. (537.8 cm) without fringe
+W. 102 3/4 in. (261 cm)
+--------------------
+ObjectID: 447523
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 75 in. (190.5 cm)
+W. 54 in. (137.2 cm)
+--------------------
+ObjectID: 447554
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 62 in. (157.5 cm)
+W. 48 in. (121.9 cm)
+--------------------
+ObjectID: 447510
+  Department: Islamic Art
+  Medium: Wool, (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: Rug: H. 84 in. (213.4 cm)
+          W. 105 in. (266.7 cm)
+--------------------
+ObjectID: 447576
+  Department: Islamic Art
+  Medium: Wool (warp, weft, pile); symmetrically knotted pile
+  Dimensions: Textile: L. 180 in. (457.2 cm)
+             W. 80 in. (203.2 cm)
+--------------------
+ObjectID: 447544
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 77 in. .(195.6 cm)
+W. 54 in. (137.2 cm)
+--------------------
+ObjectID: 447574
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 86 in. (218.4 cm)
+W. 51 in. (129..5 cm)
+--------------------
+ObjectID: 447572
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: Rug: H. 61 3/4 in. (156.8 cm)
+         W. 47 3/8 in. (120.3 cm)
+--------------------
+ObjectID: 447530
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: H. 91 in. (231.1 cm)
+W. 40 in. (101.6 cm)
+--------------------
+ObjectID: 447520
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 68 in. (172.7 cm)
+W. 48 in. (121.9 cm)
+--------------------
+ObjectID: 447509
+  Department: Islamic Art
+  Medium: Silk (warp and weft), wool (pile), cotton (pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 68 in. (172.7 cm)
+        W. 50 in. (127 cm)
+Mount: L. 71 in. (180.3 cm)
+            W. 53 3/4 in. (136.5 cm) 
+             D. 3 5/8 in. (9.2 cm)
+            Wt. 120 lbs. (54.4 kg)
+--------------------
+ObjectID: 447504
+  Department: Islamic Art
+  Medium: Wool (warp), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: H. 110 in. (279.4 cm)
+W. 72 1/2 in. (184.2 cm)
+--------------------
+ObjectID: 447501
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile), cotton (pile); symmetrically knotted pile
+  Dimensions: Rug: H. 76 1/2 in. (194.3 cm)
+         W. 54 in. (137.2 cm)
+--------------------
+ObjectID: 447736
+  Department: Islamic Art
+  Medium: Silk (warp and pile), cotton (weft); asymmetrically knotted pile
+  Dimensions: H. 8 3/4 in. (22.2 cm)
+W. 2 1/2 in. (6.4 cm)
+--------------------
+ObjectID: 855873
+  Department: The Michael C. Rockefeller Wing
+  Medium: Cotton, metallic wrapped yarns, supplementary weft
+  Dimensions: W. 22 1/2 × L. 91 3/4 in. (57.2 × 233 cm)
+--------------------
+ObjectID: 466417
+  Department: Medieval Art
+  Medium: Wool warp;  wool, silk, and metallic wefts
+  Dimensions: Overall: 81 x 109in. (205.7 x 276.9cm)
+--------------------
+ObjectID: 452398
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); single-warp (Spanish) knotted pile
+  Dimensions: Textile: 
+            Max. H. 4 3/4 in. (12.1 cm)
+            Max. w. 4 3/4 in. (12.1 cm)
+Mount: 
+            H. 12 in. (30.5 cm)
+            W. 9 in. (22.9 cm)
+            W. 1/4 in. (0.6 cm)
+--------------------
+ObjectID: 452554
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), silk (weft), wool (pile); asymmetrically knotted pile
+  Dimensions: Textile: 
+             L. 61 in. (154.9 cm)
+             W. 40 1/2 in. (102.8 cm)
+Mount: 
+             H. 66 5/8 in. (169.2 cm)
+             W. 45 in. (114.3 cm)
+             D. 3 3/4 in. (9.5 cm)
+            Wt. 107 lbs. (48.5 kg)
+--------------------
+ObjectID: 452597
+  Department: Islamic Art
+  Medium: Wool (warp, weft); asymmetrically knotted pile
+  Dimensions: H. 110 in. (279.4 cm)
+W. 78 1/2 in. (199.4 cm)
+--------------------
+ObjectID: 452570
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: L. 62 3/4 in. (159.4 cm)
+W. 46 1/2 in. (118.1 cm)
+Wt. 16 lbs. (7.3 kg) with cradle
+--------------------
+ObjectID: 452598
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile), silk; asymmetrically knotted pile
+  Dimensions: Rug: H. 127 1/4 in. (323.2 cm)
+         W. 97 3/4 in. (248.3 cm)
+--------------------
+ObjectID: 452567
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 63 1/2 in. (161.3 cm)
+W. 47 1/2 in. (120.7 cm)
+--------------------
+ObjectID: 452371
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: L. 13 1/2 in. (34.3 cm)
+W. 27 in. (68.6 cm)
+--------------------
+ObjectID: 452369
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 114 1/2 in. (290.8 cm)
+W. 60 in. (152.4 cm)
+D. 1/2 in. (1.3 cm)
+--------------------
+ObjectID: 452366
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); asymmetrically knotted pile
+  Dimensions: L. 62 in. (157.5 cm)
+W. 69 1/4 in. (175.9 cm)
+Wt. 21lbs. (9.5 kg) with cradle
+--------------------
+ObjectID: 452310
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: L.  30 11/16 in. (78 cm)
+W. 21 7/16 in. (54.5 cm)
+--------------------
+ObjectID: 452312
+  Department: Islamic Art
+  Medium: Wool, cotton; plain weave with supplementary-weft embroidery (Soumak)
+  Dimensions: L. 90 in. (228.6 cm)
+W. 70 3/4 in. (179.7 cm)
+--------------------
+ObjectID: 452308
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); asymmetrically knotted pile
+  Dimensions: H. 77 1/2 in. (196.9 cm)
+W. 55 1/2 in. (141 cm)
+--------------------
+ObjectID: 452621
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: Mount: H. 12 in. (30.5 cm)
+             W. 9 1/4 in. (23.5 cm)
+             D. 1 7/8 in. (2.5 cm)
+--------------------
+ObjectID: 452192
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), pashmina wool (pile); asymmetrically knotted pile
+  Dimensions: Rug: H. 74 3/16 in. (188.5 cm)
+          W. 47 11/16 in. (121.2 cm)
+Mount: H. 79 1/8 in. (201 cm)
+            W. 51 1/4 in. (130.2 cm)
+             D. 3 1/4 in. (8.3 cm)
+--------------------
+ObjectID: 452193
+  Department: Islamic Art
+  Medium: Cotton (warp), wool (weft); tapestry-woven
+  Dimensions: L. 64 1/2 in. (163.8 cm)
+W. 48 1/4  in. (122.5 cm)
+--------------------
+ObjectID: 452190
+  Department: Islamic Art
+  Medium: Cotton (warp), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 54 1/8 in. (137.5 cm)
+         W. 53 5/8 in. (136.2 cm)
+--------------------
+ObjectID: 452195
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: Textile:
+Top length: 113 1/4 in. (287.7 cm)
+Bottom length: 114 1/2 in. (290.8 cm)
+Left edge length: 258 in. (655.3 cm)
+Right edge length: 252 1/4 in. (640.7 cm)
+
+Tube:
+          L. 126 in. (320 cm)
+          Diam. 10 in. (25.4 cm)
+--------------------
+ObjectID: 452186
+  Department: Islamic Art
+  Medium: Silk (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: L. 43 1/4 in. (109.9 cm)
+W. 49 in. (124.5 cm)
+--------------------
+ObjectID: 451470
+  Department: Islamic Art
+  Medium: Silk (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: Rug: H. 98 1/16 in. (249 cm)
+         W. 67 5/16 in. (171 cm)
+Mount: H. 106 1/2 in. (270.5 cm)
+            W. 75 1/4 in. (191.1 cm)
+            D. 3 in. (7.6 cm)
+Object not yet weighed. Test lifted, Estimated weight 200lbs.
+--------------------
+ObjectID: 451463
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: L. 22 1/2 in. (57.2 cm)
+W. 16 1/4 in. (41.3 cm)
+--------------------
+ObjectID: 451457
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: L. 23 3/4 in. (60.3 cm)
+W. 17 3/4 in. (45.1 cm)
+--------------------
+ObjectID: 451460
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: L. 22 in. (55.9 cm)
+W. 28 in. (71.1 cm)
+--------------------
+ObjectID: 451459
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: L. 20 1/4 in. (51.4 cm)
+W. 21 1/4 in. (54 cm)
+--------------------
+ObjectID: 451458
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: L. 15 1/4 in. (38.7 cm)
+W. 20 1/4 in. (51.4 cm)
+--------------------
+ObjectID: 451461
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: Rug: L. 29 1/2 in. (74.9 cm)
+        W. 26 3/4 in. (67.9 cm)
+Mount: L. 41 in. (104.1 cm)
+            W. 43 3/8 in. (110.2 cm)
+            D. 1 1/2 in. (3.8 cm)
+--------------------
+ObjectID: 451462
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: Rug: L. 19 1/2 in. (49.5 cm)
+        W. 27 3/16 in. (69.1 cm)
+Mount: L. 23 1/4 in. (59.1 cm)
+             W. 31 1/4 in. (79.4 cm)
+             D. 2 1/8 in. (5.4 cm)
+--------------------
+ObjectID: 451456
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: H. 18 in. (45.7 cm)
+W. 10 in. (25.4 cm)
+--------------------
+ObjectID: 445363
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 158 in. (401.3 cm)
+W. 74 1/4 in.  (188.6 cm)
+--------------------
+ObjectID: 445361
+  Department: Islamic Art
+  Medium: Cotton (warp and weft); wool (pile); symmetrically knotted pile
+  Dimensions: L. 78 in. (198.1 cm)
+W. 49 in. (124.5 cm)
+--------------------
+ObjectID: 445237
+  Department: Islamic Art
+  Medium: Silk (warp), cotton (weft), wool (pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 99 in. (251.5 cm)
+        W. 67 1/2 in. (171.5 cm)
+--------------------
+ObjectID: 445261
+  Department: Islamic Art
+  Medium: Silk (warp and weft), pashmina wool (pile); asymmetrically knotted pile
+  Dimensions: Textile: L. 13 1/2 in. (34.3 cm)
+              W.  5 1/4 in. (13.3 cm)
+Mount: L. 17 7/8 in. (45.4 cm)
+            W. 10 1/8 in. (25.7 cm)
+             D. 7/8 in. (2.2 cm)
+--------------------
+ObjectID: 445995
+  Department: Islamic Art
+  Medium: Silk (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 140 in. (355.6 cm)
+         W. 71 1/4 in. (181 cm)
+         Wt. in mount 251 lbs. (113.9 kg)
+--------------------
+ObjectID: 445994
+  Department: Islamic Art
+  Medium: Silk (warp) cotton (weft), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: H. 91 1/8 in. (231.4 cm)
+W. 68 in. (172.7 cm)
+--------------------
+ObjectID: 456931
+  Department: Islamic Art
+  Medium: Silk; weft-faced compound twill (samite)
+  Dimensions: Textile: H. 68 7/8 in. (175 cm)
+             W. across sleeves: 50 3/8 in. (128 cm)
+             W. across skirt: 37 in. (94 cm)
+--------------------
+ObjectID: 458906
+  Department: Islamic Art
+  Medium: Silk, metal-thread; weft-faced compound plain weave
+  Dimensions: H. 58 in. (147.3 cm)
+W. 23 in. (58.4 cm)
+--------------------
+ObjectID: 458739
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile), cotton (pile); symmetrically knotted pile
+  Dimensions: L. 64 in. (162.6 cm)
+W. 49 in. (124.5 cm)
+--------------------
+ObjectID: 456980
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: L. 56 in. (142.2 cm)
+W. 43 in. (109.2 cm)
+--------------------
+ObjectID: 468532
+  Department: The Cloisters
+  Medium: Wool warp;  wool, silk, and gilt wefts
+  Dimensions: Overall: 94 x 80in. (238.8 x 203.2cm)
+--------------------
+ObjectID: 451894
+  Department: Islamic Art
+  Medium: Silk (warp, weft, and pile), metal wrapped thread; asymmetrically knotted pile, brocaded
+  Dimensions: Rug: L. 91 1/2 in. (232.4 cm)
+          W. 68 in. (172.7 cm)
+Tube: Diam. 6 1/2 in. (16.5 cm)
+           W. 82 in. (208.3 cm)
+--------------------
+ObjectID: 451090
+  Department: Islamic Art
+  Medium: Silk; warp faced plain weave
+  Dimensions: Textile: L. 17 in.  (43.2 cm)
+             W. 15 3/4 in. (40 cm)
+Mount: L. 21 1/4 in. (54 cm)
+            W. 20 5/8 in. (52.4 cm)
+            D. 1 in. (2.5 cm)
+--------------------
+ObjectID: 451060
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: L. 129.5 in.(328.93 cm)
+W. 40.75 in. (103.51 cm)
+--------------------
+ObjectID: 451722
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: L. 170 1/2 in. (433.1 cm)
+W. 93 5/8 in. (237.8 cm)
+--------------------
+ObjectID: 451690
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (weft), silk (weft), metal wrapped silk thread; tapestry-woven
+  Dimensions: H. 63 in. (160 cm)
+W. 43 in. (109.2 cm)
+--------------------
+ObjectID: 450563
+  Department: Islamic Art
+  Medium: Cotton (warp), silk (weft and pile), metal wrapped thread; asymmetrically knotted pile, brocaded
+  Dimensions: Rug: 
+             H. 191 1/2 in. (486.4 cm)
+             W. 85 5/8 in. (217.5 cm)
+--------------------
+ObjectID: 450528
+  Department: Islamic Art
+  Medium: Cotton (warp, weft, and pile); wool (pile); asymmetrically knotted pile
+  Dimensions: Carpet: 
+            L. 161 3/4 in. (410.8 cm)
+            W. 70 5/8 in. (179.4 cm)
+            Wt. 44 lbs. (29.5) with 8" tube 
+Left side of the Carpet: 
+            L. 161 in. (408.9 cm)
+Right side of the carpet: 
+             L. 158 3/4 in. (403.2 cm)
+Top of the Carpet: 
+            W. 68 in. (172.7 cm)
+Bottom of the carpet: W. 70 1/2 in. (179.1 cm)
+--------------------
+ObjectID: 450467
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: Textile:
+             L. 98 1/2 in. (250.2 cm)
+             W. 86 in. (218.4 cm)
+--------------------
+ObjectID: 450468
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrical knotted pile
+  Dimensions: H. 98 in. (248.9 cm)
+W. 95 in. (241.3 cm)
+--------------------
+ObjectID: 450470
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: H. 80 in. (203.2 cm)
+W. 51 in. (129.5 cm)
+--------------------
+ObjectID: 451350
+  Department: Islamic Art
+  Medium: Cotton (warp), silk (weft and pile), metal wrapped thread; asymmetrically knotted pile, brocaded
+  Dimensions: L. 113 in. (287 cm)
+W.  57 1/2 in. (146.1 cm)
+--------------------
+ObjectID: 451348
+  Department: Islamic Art
+  Medium: Cotton (warp), silk (weft), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: Rug: L. 189 in. (480.1 cm)
+          W. 127 in. (322.6 cm)
+Tube: L. 140 in. (355.6 cm)
+           Diam. 20 in. (50.8 cm)
+Wt. 75 lbs. (34 kg)  (Carpet weighed with 120 lb. tube at 195 lbs.)
+--------------------
+ObjectID: 453245
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: Rug: H. 34 1/4 in. (87 cm)
+         W. 25 3/4 in. (65.4 cm)
+--------------------
+ObjectID: 450741
+  Department: Islamic Art
+  Medium: Silk; warp faced plain weave
+  Dimensions: Textile:
+             L. 17 in. (43.2 cm)
+             W. 12 3/8 in. (31.4 cm)
+Mount:
+             L. 22 in. (55.9 cm)
+             W. 17 1/2 in. (44.5 cm)
+             D. 1 1/2 in. (3.8 cm)
+--------------------
+ObjectID: 453562
+  Department: Islamic Art
+  Medium: Ground fabric: hand-spun red plain-weave wool (warp and weft); embroidery: silk; facing: ikat silk (warp), cotton (weft); lining: roller-printed Russian cotton
+  Dimensions: H. from shoulder to bottom hem: 50 3/4 in. (129 cm)
+W. of arms: 72 1/2 in. (184 cm)
+W. of body: 34 1/2 in. (87.6 cm)
+--------------------
+ObjectID: 452845
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: Rug: H. 121 1/4 in. (308 cm)
+          W. 69 1/4 in. (175.9 cm)
+          W. of top of rug:  68 3/4 in. (174.6 cm)
+--------------------
+ObjectID: 452828
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); symmetrically knotted pile
+  Dimensions: L. 158 1/4 in. (402 cm) 
+W. 78 1/2 in. (199.4 cm)
+--------------------
+ObjectID: 453318
+  Department: Islamic Art
+  Medium: Animal hair (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: H. 135 1/16 in. (343 cm)
+W. 53 1/8 in. (135 cm)
+--------------------
+ObjectID: 453323
+  Department: Islamic Art
+  Medium: Cotton (warp), silk (weft), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: Rug: 
+            L. 108 11/16 in. (276 cm)
+             W. 31 1/8 in. (79 cm)
+Mount: 
+             H. 112 1/4 in. (285.1 cm)
+             W. 34 5/8 in. (87.9 cm)
+             D. 2 1/4 in. (5.7 cm)
+           Wt. 121 lbs. (54.9 kg)
+--------------------
+ObjectID: 454035
+  Department: Islamic Art
+  Medium: Wool; slit-tapestry weave with eccentric wefts
+  Dimensions: Textile: H. 23 1/4 in. (59.1 cm)
+             W. 9 3/4 in. (24.8 cm)
+Mount: H. 26 3/4 in. (60.3 cm)
+             W. 13 3/8 in. (34 cm)
+              D. 1 3/8 in. (3.5 cm)
+--------------------
+ObjectID: 681553
+  Department: Islamic Art
+  Medium: Wool (warp, ground weft, sumak weft, and pile) and goat(?) hair (braided loops); sumak extra-weft wrapping, tapestry (kilim) with dovetailing, and border pattern in complementary weft weave (front); symmetrically knotted pile (top and bottom edges); weft-faced plain weave with two areas of pattern in sumak extra-weft wrapping with twined and braided loop closures (back)
+  Dimensions: H. 57 1/2 in. (146.1 cm)
+W. 43 in. (109.2 cm)
+--------------------
+ObjectID: 681642
+  Department: Islamic Art
+  Medium: Wool (warp, ground weft, and sumak weft) and goat(?) hair (black braided loop); sumak extra-weft wrapping and slit tapestry (kilim) weave (front); weft-faced plain weave with pattern in supplementary continuous weft and braided loop closures (back)
+  Dimensions: H. 48 1/4 in. (122.6 cm)
+W. 21 3/4 in. (55.2 cm)
+--------------------
+ObjectID: 681592
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); asymmetrically knotted pile, single wefted-construction, tapestry weave
+  Dimensions: H. 22 1/2 in. (57.2 cm)
+W. 24 in. (61 cm)
+--------------------
+ObjectID: 681582
+  Department: Islamic Art
+  Medium: Wool (warp, sumak weft, and pile), cotton (ground weft), and goat(?) hair (braided loops); weft-faced plain weave with pattern in sumak extra-weft wrapping (front); symmetrically knotted pile (top and bottom edges); weft-faced plain weave with pattern in sumak extra-weft wrapping and twined and braided loop closures (back)
+  Dimensions: H. 40 1/2 in. (102.9 cm)
+W. 56 in. (142.2 cm)
+--------------------
+ObjectID: 681762
+  Department: Islamic Art
+  Medium: Wool (warp, ground weft, and pile); asymmetrically knotted pile and closure border in complementary weft weave (front); slit tapestry (kilim) with border pattern in complementary weft weave, and twined and braided loop closures (back)
+  Dimensions: H. 48 1/4 in. (122.6 cm)
+W. 25 1/4 in. (64.1 cm)
+--------------------
+ObjectID: 681794
+  Department: Islamic Art
+  Medium: Wool (warp, ground weft, and sumak weft); sumak extra-weft wrapping (front); weft-faced plain weave (back)
+  Dimensions: H. 26 3/4 in. (67.9 cm)
+W. 22 3/4 in. (57.8 cm)
+--------------------
+ObjectID: 681581
+  Department: Islamic Art
+  Medium: Wool (warp, ground weft, and sumak weft); sumak extra-weft wrapping and border pattern in complementary weft weave
+  Dimensions: H. 19 1/2 in. (49.5 cm)
+W. 19 1/2 in. (49.5 cm)
+--------------------
+ObjectID: 681739
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile and slit tapestry (kilim) closure (front); weft-faced plain weave with twined and braided loop closures (back)
+  Dimensions: H. 42 in. (106.7 cm)
+W. 23 in. (58.4 cm)
+--------------------
+ObjectID: 681539
+  Department: Islamic Art
+  Medium: Wool (warp, ground weft, and pile); symmetrically knotted pile
+  Dimensions: H. 29 in. (73.7 cm)
+W. 44 in. (111.8 cm)
+--------------------
+ObjectID: 681542
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); asymmetrically knotted pile, brocaded, tapestry weave
+  Dimensions: H. 25 1/2 in. (64.8 cm)
+W. 12 in. (30.5 cm)
+--------------------
+ObjectID: 681543
+  Department: Islamic Art
+  Medium: Wool (warp, ground weft, and supplementary weft); balanced plain weave with pattern in supplementary brocaded weft (front); weft-faced plain weave (back)
+  Dimensions: H. 19 in. (48.3 cm)
+W. 14 1/4 in. (36.2 cm)
+--------------------
+ObjectID: 459953
+  Department: Robert Lehman Collection
+  Medium: Wool, and silk in slit tapestry weave with some non-horizontal or eccentric wefts.
+  Dimensions: 108 7/16 x 98 1/16 in.  (275.5 x 249.1 cm)
+--------------------
+ObjectID: 459954
+  Department: Robert Lehman Collection
+  Medium: Wool, silk, and gilt- and silvered-metal-strip-wrapped silk in slit, dovetailed, and interlocking tapestry weave with supplementary brocading wefts (in sewing basket, Joseph's coat, and hem of Mary's cloak)
+  Dimensions: 40 9/16 x 46 15/16 in.  (103.1 x 119.2 cm)
+--------------------
+ObjectID: 460774
+  Department: Robert Lehman Collection
+  Medium: Silk, gold leaf on lacquered paper strip, and gold leaf on lacquered paper-strip-wrapped cotton, warp-float-faced 4/1 satin weave with weft-float-faced 1/2 "z" twill interlacings of secondary binding warps and supplementary patterning wefts.
+  Dimensions: Height: 117.5 cm.
+Width: 200.4 cm.
+--------------------
+ObjectID: 468567
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: 11 ft. 11 1/2 in. × 15 ft. 10 in. (364.5 × 482.6 cm)
+--------------------
+ObjectID: 219681
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-22 warps per inch, 8 per cm.)
+  Dimensions: H. 124 1/2 x W. 81 1/2 in. (316.2 x 207 cm)
+--------------------
+ObjectID: 837895
+  Department: Asian Art
+  Medium: Silk lampas with supplementary metal thread wefts
+  Dimensions: 8 11/16 × 10 13/16 in. (22 × 27.5 cm)
+--------------------
+ObjectID: 468456
+  Department: The Cloisters
+  Medium: Wool warp;  wool, silk, and metallic wefts
+  Dimensions: Overall: 140 x 363 in. (355.6 x 922 cm)  [overall dimensions of entire tapestry including 53.80, 41.100.214]
+--------------------
+ObjectID: 202628
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 11 ft. 7 1/2 in. × 9 ft. 2 in. (354.3 × 279.4 cm)
+--------------------
+ObjectID: 213250
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22 warps per inch, 9-10 per cm.)
+  Dimensions: 29 × 23 in. (73.7 × 58.4 cm)
+--------------------
+ObjectID: 463037
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 80 x 122in. (203.2 x 309.9cm)
+--------------------
+ObjectID: 467650
+  Department: The Cloisters
+  Medium: Wool warp; wool and silk wefts
+  Dimensions: Overall: 166 1/4 x 315 1/8 in. (422.3 x 800.4 cm)
+--------------------
+ObjectID: 463040
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 63 1/2 x 90in. (161.3 x 228.6cm)
+--------------------
+ObjectID: 467651
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 167 x 312 1/2in. (424.2 x 793.8cm)
+--------------------
+ObjectID: 463038
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 91 x 82in. (231.1 x 208.3cm)
+--------------------
+ObjectID: 475107
+  Department: Medieval Art
+  Medium: Linen, wool: Tapestry weave in purple-colored wool on plain-weave ground in undyed linen; single weft entry in red wool along right edge, and single weft entries along inside of clavi and left edge in purple-colored wool
+  Dimensions: Overall: 19 11/16 × 17 11/16 in. (50 × 45 cm)
+--------------------
+ObjectID: 447471
+  Department: Islamic Art
+  Medium: Wool warp, cotton and wool weft, wool pile; symmetrically knotted pile
+  Dimensions: H. 52 in. (132.1 cm)
+W. 33 in. (83.8 cm)
+--------------------
+ObjectID: 447470
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 92 in. (233.7 cm)
+W. 52 in. (132.1 cm)
+--------------------
+ObjectID: 447468
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 76 in. (193 cm)
+W. 52 in. (132.1 cm)
+--------------------
+ObjectID: 447467
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 109 in. (276.9 cm)
+W. 39 in. (99.1 cm)
+--------------------
+ObjectID: 466621
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 162 x 245 1/4in. (411.5 x 622.9cm)
+--------------------
+ObjectID: 468739
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts with a few silk wefts
+  Dimensions: Overall: 121 1/2 x 125in. (308.6 x 317.5cm)
+--------------------
+ObjectID: 468699
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 36 3/8 x 35in. (92.4 x 88.9cm)
+Framed: 39 5/8 x 40 x 2 in. (100.6 x 101.6 x 5.1 cm)
+--------------------
+ObjectID: 468738
+  Department: Medieval Art
+  Medium: Wool warp;  wool wefts with a few silk wefts
+  Dimensions: Overall: 89 1/2 x 80in. (227.3 x 203.2cm)
+--------------------
+ObjectID: 468691
+  Department: Medieval Art
+  Medium: Wool warp,  wool wefts
+  Dimensions: 8 ft. 7 1/2 in. × 9 ft. 4 1/2 in. (262.9 × 285.8 cm)
+--------------------
+ObjectID: 468698
+  Department: Medieval Art
+  Medium: Wool warp,  wool and silk wefts
+  Dimensions: Overall: 36 3/8 x 35in. (92.4 x 88.9cm)
+Framed: 39 5/8 x 40 x 2 in. (100.6 x 101.6 x 5.1 cm)
+--------------------
+ObjectID: 468693
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 132 x 125in. (335.3 x 317.5cm)
+--------------------
+ObjectID: 468695
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 36 3/8 x 35in. (92.4 x 88.9cm)
+Framed: 39 5/8 x 40 x 2 in. (100.6 x 101.6 x 5.1 cm)
+--------------------
+ObjectID: 468692
+  Department: Medieval Art
+  Medium: Linen warp, wool, silk, silver, and gilt wefts, (cont. see notes)
+  Dimensions: Overall: 41 3/4 x 55in. (106.1 x 139.7cm)
+Framed: 45 1/2 x 58 1/2 x 3 3/4 in. (115.6 x 148.6 x 9.5 cm)
+--------------------
+ObjectID: 468540
+  Department: The Cloisters
+  Medium: Wool warp;  wool wefts
+  Dimensions: Overall: 40 x 65in. (101.6 x 165.1cm)
+--------------------
+ObjectID: 468483
+  Department: The Cloisters
+  Medium: Wool warp, wool wefts with a few silk wefts
+  Dimensions: Overall: 31 x 66in. (78.7 x 167.6cm)
+--------------------
+ObjectID: 468236
+  Department: The Cloisters
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 56 x 110 1/2in. (142.2 x 280.7cm)
+--------------------
+ObjectID: 468123
+  Department: Medieval Art
+  Medium: Silk and gilt metal thread on silk, warp-faced plain-weave foundation, weft-faced plain-weave pattern
+  Dimensions: Overall: 18 x 8 1/4in. (45.7 x 21cm)
+18in. (45.7cm)
+--------------------
+ObjectID: 468054
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 27 x 26 1/4in. (68.6 x 66.7cm)
+--------------------
+ObjectID: 468100
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: 95 in. × 58 1/2 in. (241.3 × 148.6 cm)
+--------------------
+ObjectID: 468099
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: 96 in. × 54 1/2 in. (243.8 × 138.4 cm)
+--------------------
+ObjectID: 468097
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 91 x 144in. (231.1 x 365.8cm)
+--------------------
+ObjectID: 468098
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: 98 1/2 in. × 78 in. (250.2 × 198.1 cm)
+--------------------
+ObjectID: 468096
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: 94 1/2 in. × 57 in. (240 × 144.8 cm)
+--------------------
+ObjectID: 468052
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 27 7/8 x 25 5/8in. (70.8 x 65.1cm)
+--------------------
+ObjectID: 468049
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 22 1/2 x 26 1/2in. (57.1 x 67.3cm)
+--------------------
+ObjectID: 468095
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 94 x 78in. (238.8 x 198.1cm)
+--------------------
+ObjectID: 466619
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 109 x 197in. (276.9 x 500.4cm)
+--------------------
+ObjectID: 465978
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 98 1/2 x 138in. (250.2 x 350.5cm)
+--------------------
+ObjectID: 479495
+  Department: The Cloisters
+  Medium: Tapestry with wool warp and wool wefts
+  Dimensions: Overall: 137 1/2 × 145 1/2 in. (349.3 × 369.6 cm)
+--------------------
+ObjectID: 466156
+  Department: Medieval Art
+  Medium: Weft-faced compound twill (samit) in green, beige, and brownish silk
+  Dimensions: Overall: 8 3/16 x 8 1/4in. (20.8 x 20.9cm)
+--------------------
+ObjectID: 474224
+  Department: Medieval Art
+  Medium: Weft-faced compound twill (samit) in red, black, and blue silk
+  Dimensions: Overall: 7 7/8 x 6 5/8in. (20 x 16.9cm)
+Framed: 12 1/4 x 11 x 1 1/2 in. (31.1 x 27.9 x 3.8 cm)
+--------------------
+ObjectID: 467768
+  Department: Medieval Art
+  Medium: Wool warp;  wool wefts
+  Dimensions: Overall: 115 x 118in. (292.1 x 299.7cm)
+--------------------
+ObjectID: 467803
+  Department: Medieval Art
+  Medium: Wool warp, wool, silk, and metallic weft yarns
+  Dimensions: Overall: 78 x 38in. (198.1 x 96.5cm)
+--------------------
+ObjectID: 467507
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts
+  Dimensions: Overall: 102 x 77in. (259.1 x 195.6cm)
+--------------------
+ObjectID: 468063
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: 49 3/4 × 77 3/4 in. (126.4 × 197.5 cm)
+--------------------
+ObjectID: 467829
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 144 x 128 in. (365.8 x 325.1 cm)
+--------------------
+ObjectID: 467828
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 150 1/4 x 148 1/4 in. (381.6 x 376.6 cm)
+--------------------
+ObjectID: 467612
+  Department: The Cloisters
+  Medium: Wool warp;  wool wefts
+  Dimensions: Overall: 110 x 84in. (279.4 x 213.4cm)
+--------------------
+ObjectID: 467617
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 164 x 131in. (416.6 x 332.7cm)
+--------------------
+ObjectID: 463187
+  Department: Medieval Art
+  Medium: Wool warp, wool, silk, and metallic weft yarns
+  Dimensions: Overall: 123 3/4 x 97 1/2in. (314.3 x 247.7cm)
+--------------------
+ObjectID: 463207
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts with a few silk wefts
+  Dimensions: Overall: 165 x 336in. (419.1 x 853.4cm)
+--------------------
+ObjectID: 463189
+  Department: Medieval Art
+  Medium: Wool warp, wool, silk, and metallic weft yarns
+  Dimensions: Overall: 149 x 104in. (378.5 x 264.2cm)
+--------------------
+ObjectID: 463188
+  Department: Medieval Art
+  Medium: Wool warp; wool, silk, metallic weft yarns
+  Dimensions: Overall: 9 ft. 5 3/4 in. x 10 ft. 8 in.  (288.9 x 325.1 cm)
+--------------------
+ObjectID: 468064
+  Department: Medieval Art
+  Medium: Wool warp;  wool, silk, and metallic wefts
+  Dimensions: 121 1/4 x 158 1/2 in.  (308 × 402.6 cm)
+--------------------
+ObjectID: 468080
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 100 x 91in. (254 x 231.1cm)
+--------------------
+ObjectID: 468079
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 102 x 67in. (259.1 x 170.2cm)
+--------------------
+ObjectID: 446534
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: Rug: L. 111 in. (281.9 cm)
+        W. 65 in. (165.1 cm)
+--------------------
+ObjectID: 447573
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 69 in. (175.3 cm)
+W. 48 in. (121.9 cm)
+--------------------
+ObjectID: 447541
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 75 in. (190.5 cm)
+W. 51 in. (129.5 cm)
+--------------------
+ObjectID: 447534
+  Department: Islamic Art
+  Medium: Cotton (warp), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: H. left edge: 107in. (271.8cm)
+H. right edge: 105 1/2in. (268cm)
+W. TOP: 67 1/2in. (171.5cm)
+W. BOTTOM: 69in. (175.3cm)
+--------------------
+ObjectID: 447528
+  Department: Islamic Art
+  Medium: Linen (warp), wool (weft and pile); symmetrically knotted pile
+  Dimensions: H. 57 in. (144.8 cm)
+W. 57 in. (144.8 cm)
+--------------------
+ObjectID: 447569
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 70 in. (177.8 cm)
+W. 45 in. (114.3 cm)
+--------------------
+ObjectID: 447479
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 32 in. (81.3 cm)
+W. 26 in. (66 cm)
+--------------------
+ObjectID: 447524
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 84 in. (213.4 cm)
+W. 64 in. (162.6 cm)
+--------------------
+ObjectID: 447474
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile)
+  Dimensions: H. 87 in. (221 cm)
+W. 35 in. (88.9 cm)
+--------------------
+ObjectID: 447502
+  Department: Islamic Art
+  Medium: Wool (warp and weft), cotton (weft and pile), wool (pile), silk (pile); asymmetrically knotted pile
+  Dimensions: H. 32 1/2 in. (82.5 cm)
+W. 49 3/16 in. (125 cm)
+--------------------
+ObjectID: 447476
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 39 in. (99.1 cm)
+W. 25 in. (63.5 cm)
+--------------------
+ObjectID: 447481
+  Department: Islamic Art
+  Medium: Wool (warp, weff and pile); symmetrically knotted pile
+  Dimensions: H. 49 in. (124.5 cm)
+W. 39 in. (99.1 cm)
+--------------------
+ObjectID: 447505
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrical knotted pile
+  Dimensions: H. 97 in. (246.4 cm)
+W. 57 in. (144.8 cm)
+--------------------
+ObjectID: 447497
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile), silk (pile); asymmetrically knotted pile
+  Dimensions: H. 28 3/8 in. (72 cm)
+W. 46 1/4 in. (117.5 cm)
+--------------------
+ObjectID: 447478
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: H. 41 in. (104.1 cm)
+W. 17 in. (43.2 cm)
+--------------------
+ObjectID: 447507
+  Department: Islamic Art
+  Medium: Silk (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: H. 108 in. (274.3 cm)
+W. 70 in. (177.8 cm)
+--------------------
+ObjectID: 447475
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile)
+  Dimensions: H. 31 in. (78.7 cm)
+W. 26 in. (66 cm)
+--------------------
+ObjectID: 65731
+  Department: Asian Art
+  Medium: Twill-weave silk with supplementary weft patterning
+  Dimensions: 28 x 27 in. (71.12 x 68.58 cm)
+--------------------
+ObjectID: 468295
+  Department: The Cloisters
+  Medium: Linen warp;  wool and bast fiber wefts
+  Dimensions: 39 3/8 x 87 3/8 in.  (100 x 221.9 cm)
+--------------------
+ObjectID: 468328
+  Department: Medieval Art
+  Medium: Wool warp, wool and silk wefts, embroidered with wool
+  Dimensions: Overall: 102 x 137in. (259.1 x 348cm)
+--------------------
+ObjectID: 468279
+  Department: The Cloisters
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 73 1/2 × 47 1/2 in. (186.7 × 120.7 cm)
+--------------------
+ObjectID: 448052
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: Rug: L. 17 3/4 in. (45.1 cm)
+         W. 10 1/2 in. (26.7 cm)
+Mount: H. 15 5/8 in. (21 3/4 cm)
+            W. 21 3/4 in. (55.2 cm)
+            D. 1 in. (2.5 cm)
+--------------------
+ObjectID: 448134
+  Department: Islamic Art
+  Medium: Cotton (warp), wool (weft and pile); symmetrically knotted pile
+  Dimensions: Overall: L. 10 7/16  in. (26.5 cm)
+               W. 12 3/16 in. (31 cm)
+Mount: H. 16 in. (40.6 cm)
+             W. 22 in. (55.9 cm)
+--------------------
+ObjectID: 447575
+  Department: Islamic Art
+  Medium: Wool (warp, weft, pile); symmetrically knotted pile
+  Dimensions: H. 118 in. (299.7 cm)
+W. 81 in. (205.7 cm)
+--------------------
+ObjectID: 446959
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: L. 81 5/8 in. (207.3 cm)
+W.  61 1/2 in. (156.2 cm)
+--------------------
+ObjectID: 448459
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: H. 98 in. (248.9 cm)
+W. 89.1/2 in. (227.3 cm)
+--------------------
+ObjectID: 448417
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: L. 111 in. (281.9 cm)
+W. 73 in. (185.4 cm)
+--------------------
+ObjectID: 463684
+  Department: Medieval Art
+  Medium: Linen warp;  wool, silk, and gilt weft yarns
+  Dimensions: Overall: 19 7/8 x 18 1/4in. (50.5 x 46.4cm)
+Framed: 22 1/16 x 21 x 2 1/2 in. (56 x 53.3 x 6.4 cm)
+--------------------
+ObjectID: 463683
+  Department: Medieval Art
+  Medium: Wool warp, wool, silk, and metallic wefts
+  Dimensions: 86 3/4 × 82 in. (220.3 × 208.3 cm)
+--------------------
+ObjectID: 463697
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 93 x 64 1/4in. (236.2 x 163.2cm)
+--------------------
+ObjectID: 463698
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 103 x 74 1/2in. (261.6 x 189.2cm)
+--------------------
+ObjectID: 209329
+  Department: European Sculpture and Decorative Arts
+  Medium: Plaster, pine, mahogany, bronze-gilt, marble, lapis lazuli, steel; wool and silk (22-24 warps per inch, 9-10 per centimeter)
+  Dimensions: H.  27 ft. 1 in. (825.5 cm),  W. 22 ft. 8 in. (690.9 cm), D. 13 ft. 10 3/4 in. (423.5 cm)
+--------------------
+ObjectID: 199069
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-18 warps per inch, 7-8 per cm.)
+  Dimensions: H. 183 x W. 114 inches (464.8 x 289.6 cm)
+--------------------
+ObjectID: 187476
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-18 warps per inch, 7 per cm.)
+  Dimensions: Overall (confirmed): 144 in. ×  230 in. (365.8 × 584.2 cm) (varying heights: left edge: 143"; center: 144"; right edge: 142")
+--------------------
+ObjectID: 212627
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-18 warps per inch, 7 per cm.)
+  Dimensions: 11 ft. 11 in. × 15 ft. (363.2 × 457.2 cm)
+--------------------
+ObjectID: 468721
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 92 1/2 x 115in. (234.9 x 292.1cm)
+--------------------
+ObjectID: 212626
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-18 warps per inch, 7 per cm.)
+  Dimensions: 12 ft. 4 in. × 10 ft. 6 in. (375.9 × 320 cm)
+--------------------
+ObjectID: 212625
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-18 warps per inch, 7 per cm.)
+  Dimensions: 12 ft. 2 in. × 11 ft. 6 in. (370.8 × 350.5 cm)
+--------------------
+ObjectID: 65762
+  Department: Asian Art
+  Medium: Twill-weave silk with brocading in silk and supplementary weft patterning in silk (karaori)
+  Dimensions: Overall (a): 12 1/4 x 11 1/4 in. (31.1 x 28.6 cm)
+Overall (b): 11 x 9 1/4 in. (27.9 x 23.5 cm)
+Overall (c): 11 x 8 1/4 in. (27.9 x 21 cm)
+Overall (d): 11 1/2 x 2 1/4 in. (29.2 x 5.7 cm)
+Overall (f): 31 x 11 in. (78.7 x 27.9 cm)
+--------------------
+ObjectID: 198821
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool, silver and silver-gilt thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: 65 1/2 in. × 80 in. (166.4 × 203.2 cm)
+--------------------
+ObjectID: 226637
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool, silver and silver-gilt thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: 65 1/2 × 83 3/4 in. (166.4 × 212.7 cm)
+--------------------
+ObjectID: 446955
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 98 in. (248.9 cm)
+W. 62 3/4 in. (159.4 cm wide)
+--------------------
+ObjectID: 446641
+  Department: Islamic Art
+  Medium: Cotton (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: L. 64 3/8 in. (163.5 cm)
+W. 38.87 in. (98.7 cm)
+--------------------
+ObjectID: 445309
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 104 in. (264.16 cm)
+W. 42 in.  (106.68 cm)
+--------------------
+ObjectID: 445300
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 66 in. (167.6. cm)
+W. 51 in. (129.5 cm)
+--------------------
+ObjectID: 444995
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: L. 57 1/2 (146.1 cm)
+W. 40 1/2 in. (102.9 cm)
+--------------------
+ObjectID: 468425
+  Department: The Cloisters
+  Medium: Linen warp, wool wefts
+  Dimensions: Overall: 24 3/4 x 24 3/4 in. (62.9 x 62.9 cm)
+--------------------
+ObjectID: 468155
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts
+  Dimensions: Overall: 120 x 116 3/4in. (304.8 x 296.6cm)
+--------------------
+ObjectID: 467506
+  Department: Medieval Art
+  Medium: Wool warp;  wool and silk wefts
+  Dimensions: Overall: 101 x 76 1/2in. (256.5 x 194.3cm)
+--------------------
+ObjectID: 468262
+  Department: Medieval Art
+  Medium: Linen warp;  wool, linen, and metallic wefts
+  Dimensions: Overall: 36 3/4 x 87 3/8in. (93.3 x 221.9cm)
+--------------------
+ObjectID: 468389
+  Department: The Cloisters
+  Medium: Wool warp;  wool, silk, silver, and gilt wefts
+  Dimensions: 44 1/4 x 83 in.  (112.4 x 210.8 cm)
+--------------------
+ObjectID: 468417
+  Department: Medieval Art
+  Medium: Wool warp, wool wefts with a few silk wefts
+  Dimensions: Overall: 172 × 156 in. (436.9 × 396.2 cm)
+--------------------
+ObjectID: 468322
+  Department: Medieval Art
+  Medium: Wool warp;  wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 87 3/4 x 93 1/4in. (222.9 x 236.9cm)
+--------------------
+ObjectID: 443328
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 19 1/2 in. (49.5 cm)
+W. 22 in.1/16 (56 cm)
+--------------------
+ObjectID: 443248
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: H. 21 7/8 in. (55 cm)
+W. 17 15/16 in. (45.5 cm)
+--------------------
+ObjectID: 443653
+  Department: Islamic Art
+  Medium: Tapestry weave in polychrome wool and undyed linen on plain-weave ground of undyed linen; applied weft-pattern band in wool and undyed linen
+  Dimensions: Max. H. 10 3/8  in. (26.4 cm)
+ Max. W. 9 7/8 in. (25.1 cm)
+Mount: H. 11 7/8 in. (30.2 cm)
+             W. 15 1/8 in. (38.4 cm)
+             D. 1 5/8 in.  (4.1 cm)
+--------------------
+ObjectID: 452373
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 76 15/16 in. (195.5 cm)
+W. 55 11/16 in. (141.5 cm)
+--------------------
+ObjectID: 451669
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 110 in. (279.4 cm)
+W. 65 in. (165.1 cm)
+--------------------
+ObjectID: 451453
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); asymmetrically knotted pile
+  Dimensions: L. 318 in. (807.7 cm)
+W. 126 in. (320 cm)
+--------------------
+ObjectID: 237875
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, warp-faced plain weave, printed
+  Dimensions: Overall (confirmed): 28 3/4 × 28 1/2 in. (73 × 72.4 cm)
+--------------------
+ObjectID: 229751
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool; warp-faced plain weave, printed
+  Dimensions: L. 51 x W. 29 inches
+--------------------
+ObjectID: 223102
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver and silver-gilt thread (19-20 warps per inch, 8-9 per cm.)
+  Dimensions: L. 48 1/2 x W. 38 inches (123.2 x 96.5 cm)
+--------------------
+ObjectID: 447970
+  Department: Islamic Art
+  Medium: Silk; samite (weft-faced compound twill)
+  Dimensions: Textile: L. 8 3/4 in. (22.2 cm)
+              W. 7  7/8 in. (20 cm)
+Mount: H. 12 3/4 in. (32.4 cm)
+             W. 11 1/2 in. (29.2 cm)
+             D. 1 1/4 in. (3.2 cm)
+--------------------
+ObjectID: 222566
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver, silver-gilt thread (21-23 warps per inch, 8-10 per cm.)
+  Dimensions: H. 61 x W. 51 inches (154.9 x 129.5 cm)
+--------------------
+ObjectID: 222567
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (15-16 warps per inch, 6-7 per cm.)
+  Dimensions: H. 70 x W. 59 inches (177.8 x 149.9 cm)
+--------------------
+ObjectID: 69747
+  Department: Asian Art
+  Medium: Foundation: cotton warp and weft;  wool knotting
+  Dimensions: 88 x 76 in. (223.52 x 193.04 cm)
+--------------------
+ObjectID: 64882
+  Department: Asian Art
+  Medium: Woven silk: warp-faced compound plain weave
+  Dimensions: Before conservation, Greatest Height 13.4 cm (weft); Greatest Width 24 cm (warp)
+--------------------
+ObjectID: 227522
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-22 warps per inch, 8-9 per cm.)
+  Dimensions: 10 ft. 1 in. × 9 ft. 3 in. (307.3 × 281.9 cm)
+--------------------
+ObjectID: 204484
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20 warps per inch, 8 per cm.)
+  Dimensions: 10 ft. 10 in. × 15 ft. 2 in. (330.2 × 462.3 cm)
+--------------------
+ObjectID: 227719
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21 warps per inch, 8 per cm.)
+  Dimensions: 11 ft. 8 in. × 19 ft. 3 in. (355.6 × 586.7 cm)
+--------------------
+ObjectID: 212610
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, wool (28-29 warps per inch, 10-11 per cm.)
+  Dimensions: 14 1/4 × 11 1/2 in. (36.2 × 29.2 cm)
+--------------------
+ObjectID: 229508
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18-19 warps per inch, 8 per cm.)
+  Dimensions: H. 158 x W. 138 inches (401.3 x 350.5 cm)
+--------------------
+ObjectID: 223091
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (25 warps per inch, 10 per cm.)
+  Dimensions: H. 17 7/8 x W. 14 3/4 inches (45.4 x 37.5 cm)
+--------------------
+ObjectID: 227764
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, linen (16-18 warps per inch, 6-7 per cm.)
+  Dimensions: H. 44 x W. 45 inches (with sleeves) (111.8 x 114.3 cm)
+--------------------
+ObjectID: 227317
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (20-22 warps per inch, 7-9 per cm.)
+  Dimensions: 12 × 20 ft. (365.8 × 609.6 cm)
+--------------------
+ObjectID: 227765
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, linen (16-18 warps per inch, 6-7 per cm.)
+  Dimensions: H. 44 x W. 27 1/2 inches (111.8 x 69.9 cm)
+--------------------
+ObjectID: 219787
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool (13-14 warps per inch, 5-6 per cm.)
+  Dimensions: H. 138 x  W. 204 inches (350.5 x 518.2 cm)
+--------------------
+ObjectID: 219786
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (14-15 warps per inch, 6-7 per cm.)
+  Dimensions: H. 11 ft. 7 in. x W. 8 ft. 8 in. (355.6 x 264.2 cm.)
+--------------------
+ObjectID: 219785
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (14-15 warps per inch, 6-7 per cm.)
+  Dimensions: H. 11 ft. 8 in. x  W. 8 ft. 8 in. (353.1 x 264.2 cm)
+--------------------
+ObjectID: 219788
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (19-21 warps per inch, 7-9 per cm.)
+  Dimensions: H. 127 x W. 169 inches (322.6 x 429.3 cm)
+--------------------
+ObjectID: 228981
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver and silver-gilt thread (20-21 warps per inch, 8 per cm.)
+  Dimensions: H. 24 1/2 x W. 39 1/4 inches (62.2 x 99.7 cm)
+--------------------
+ObjectID: 229446
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk, hemp (ground weft)
+  Dimensions: H. 131 1/2 x W. 43 inches (334.0 x 109.2 cm)
+--------------------
+ObjectID: 229077
+  Department: European Sculpture and Decorative Arts
+  Medium: Silk and metal thread, linen wefts
+  Dimensions: 47 1/2 × 28 in. (120.7 × 71.1 cm)
+--------------------
+ObjectID: 203904
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, carved and gilded wood (21-22 warps per inch, 9 per cm.)
+  Dimensions: 29 3/4 x 23 3/4in. (75.6 x 60.3cm)
+Framed: 55 × 37 × 6 in. (139.7 × 94 × 15.2 cm)
+--------------------
+ObjectID: 202468
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21 warps per inch, 10 per cm.)
+  Dimensions: H. 132 x W. 96 inches (335.3 x 243.8 cm)
+--------------------
+ObjectID: 226098
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-19 warps per inch, 6-7 per cm.)
+  Dimensions: Overall: 152 × 232 (386.1 × 589.3 cm)
+--------------------
+ObjectID: 452562
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 67 in. (170.18 cm)
+W. 42 1/2 in. (107.95 cm)
+--------------------
+ObjectID: 452584
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 66 in. (167.6 cm)
+W. 42 1/2 in. (108 cm)
+--------------------
+ObjectID: 452591
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 40 in. (101.6 cm)
+W. 28 1/4 in. (71.8 cm)
+--------------------
+ObjectID: 452573
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically woven pile
+  Dimensions: H. 60 1/4 in. (153 cm)
+W. 42 3/4 in. (108.6 cm)
+--------------------
+ObjectID: 452590
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 87 1/4 in. (221.6 cm)
+W. 52 1/4 in.. (132.7 cm)
+--------------------
+ObjectID: 452561
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); symmetrically knotted pile
+  Dimensions: H. 101 1/2 in. (257.8 cm)
+W. 55 in. (139.7 cm)
+--------------------
+ObjectID: 452601
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); asymmetrically knotted pile
+  Dimensions: H. 22 1/4 in. (56.5 cm)
+W. 52 15/16 in. (134.5 cm)
+--------------------
+ObjectID: 452372
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 60 1/4 in. (153 cm)
+W. 40 1/2 in. (102.9 cm)
+--------------------
+ObjectID: 236691
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (14 warps per inch; 5-6 per cm)
+  Dimensions: H. 70 7/8 x W. 181 7/8 in. (180 x 462 cm); Weight (rolled on tube): 38lb. (17.2367kg)
+--------------------
+ObjectID: 70931
+  Department: Asian Art
+  Medium: Plain-weave silk with supplementary silk weft patterning
+  Dimensions: H. 10 3/4 × W. 8 3/4 in. (27.3 × 22.2 cm)
+--------------------
+ObjectID: 227726
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20-26 warps per inch, 8-12 per cm.)
+  Dimensions: 12 ft. × 16 ft. 7 in. (365.8 × 505.5 cm)
+--------------------
+ObjectID: 201604
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20-26 warps per inch, 8-12 per cm.)
+  Dimensions: 12 ft. × 11 ft. 6 in. (365.8 × 350.5 cm)
+--------------------
+ObjectID: 201603
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20-26 warps per inch, 8-12 per cm.)
+  Dimensions: 12 ft. × 14 ft. 3 in. (365.8 × 434.3 cm)
+--------------------
+ObjectID: 201602
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20-26 warps per inch, 8-12 per cm.)
+  Dimensions: 12 ft. × 18 ft. 4 in. (365.8 × 558.8 cm)
+--------------------
+ObjectID: 208528
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool warps, wool and silk wefts
+  Dimensions: 8 ft. 6 in. × 9 ft. (259.1 × 274.3 cm)
+--------------------
+ObjectID: 208527
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool warps, wool and silk wefts
+  Dimensions: 8 ft. 6 in. × 8 ft. 8 in. (259.1 × 264.2 cm)
+--------------------
+ObjectID: 206707
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-27 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 7 in. × 80 in. (292.1 × 203.2 cm)
+--------------------
+ObjectID: 197655
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, metal thread (20-22 warps per inch, 8-9 per cm.)
+  Dimensions: H. 107 x W. 114 inches (271.8 x 289.6 cm)
+--------------------
+ObjectID: 202132
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 9–10 per cm.)
+  Dimensions: 10 ft. × 10 ft. 5 in. (304.8 × 317.5 cm)
+--------------------
+ObjectID: 453163
+  Department: Islamic Art
+  Medium: Silk (warp and weft), wool (pile); asymmetrically knotted pile
+  Dimensions: H. 4 in. (10.2 cm)
+W. 3 1/4 in. (8.3 cm)
+--------------------
+ObjectID: 202125
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (12-14 warps per inch, 5-6 per cm.)
+  Dimensions: H. 137, W. 155 inches (348 x 393.7 cm)
+--------------------
+ObjectID: 212695
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk, silver-gilt thread (17-18 warps per inch, 7-8 per cm.)
+  Dimensions: 53 × 40 in. (134.6 × 101.6 cm)
+--------------------
+ObjectID: 229100
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (21-23 warps per inch, 8-9 per cm.)
+  Dimensions: 9 ft. 2 in. × 21 in. (279.4 × 53.3 cm)
+--------------------
+ObjectID: 53759
+  Department: Asian Art
+  Medium: Silk satin with supplementary weft patterning
+  Dimensions: Overall: 5 x 14 1/4 in. (12.7 x 36.2 cm)
+--------------------
+ObjectID: 202130
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (22-24 warps per inch, 9-10 per cm)
+  Dimensions: 10 × 17 ft. (304.8 × 518.2 cm)
+--------------------
+ObjectID: 221340
+  Department: European Sculpture and Decorative Arts
+  Medium: Plain weave and tapestry weave; warp: undyed hemp, Z spun, 5–6 per cm; weft: undyed hemp, Z spun, 4–5/cm; dyed cotton, Z Spun, 20 per cm
+  Dimensions: L. 25 x W. 16 1/2 inches (63.5 x 41.9 cm)
+--------------------
+ObjectID: 229766
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (18 warps per inch, 6–7 per cm.)
+  Dimensions: H. 147 1/2 x W. 130 inches (374.7 x 330.2 cm)
+--------------------
+ObjectID: 199070
+  Department: European Sculpture and Decorative Arts
+  Medium: Wool, silk (16-18 warps per inch, 7-8 per cm.)
+  Dimensions: H. 183 x W. 115 inches (464.8 x 292.1 cm)
+--------------------
+ObjectID: 467642
+  Department: The Cloisters
+  Medium: Wool warp with wool, silk, silver, and gilt wefts
+  Dimensions: Overall: 144 7/8 x 99 in. (368 x 251.5 cm)
+--------------------
+ObjectID: 453329
+  Department: Islamic Art
+  Medium: Silk; satin weave with weft-patterned and warp-patterned stripes
+  Dimensions: Textile: L. 67 11/16 in. (172 cm)
+             W. 43 11/16 in. (111 cm)
+Mount: L. 72 5/8 in. (184.5 cm)
+             W. 49 in. (124.5 cm)
+             D. 2 in. (5.1 cm)
+--------------------
+ObjectID: 467788
+  Department: Medieval Art
+  Medium: Wool warp, wool, silk, and gilt wefts
+  Dimensions: Overall: 44 x 81 1/4in. (111.8 x 206.4cm)
+Framed: 47 1/2 x 86 x 3 1/2 in. (120.7 x 218.4 x 8.9 cm)
+--------------------
+ObjectID: 445310
+  Department: Islamic Art
+  Medium: Cotton (warp), Wool (weft and pile); symmetrically knotted pile
+  Dimensions: L. 75 in. (190.5 cm)
+W. 50 in. (127 cm)
+--------------------
+ObjectID: 451464
+  Department: Islamic Art
+  Medium: Wool (warp, weft and pile); single-warp (Spanish) knotted pile
+  Dimensions: L. 67 in. (170.2 cm)
+W. 32 1/2 in. (82.6 cm)
+--------------------
+ObjectID: 447503
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 94 1/8 in. (239 cm)
+W. 55 1/8 in. (140 cm)
+--------------------
+ObjectID: 449682
+  Department: Islamic Art
+  Medium: Hemp (warp), straw (weft); weft faced plain weave, brocaded
+  Dimensions: Rug: 
+         L. 63 3/8 in. (161 cm)
+         W. 33 7/8 in. (86 cm)
+Mount: 
+            L. 66 1/4 in. (168.3 cm)
+            W. 33 5/8 in. (85.4 cm)
+            D. 3 1/8 in. (7.9 cm)
+          Wt. 65 lbs. (29.5 kg)
+--------------------
+ObjectID: 310450
+  Department: The Michael C. Rockefeller Wing
+  Medium: Camelid hair, cotton (warp, cotton; weft, wool)
+  Dimensions: H x W: 16 1/16 x 14 3/8in. (40.8 x 36.5cm)
+--------------------
+ObjectID: 452189
+  Department: Islamic Art
+  Medium: Cotton (warp), wool (weft and pile); asymmetrically knotted pile
+  Dimensions: L. 82 3/4 in. (210.2 cm)
+W. 56 1/2 in. (143.5 cm)
+--------------------
+ObjectID: 444095
+  Department: Islamic Art
+  Medium: Wool, linen; plain weave, tapestry weave, weft loop weave
+  Dimensions: Max. H. 10 7/16 in. (26.5 cm)
+Max. W. 10 1/16 in. (25.5 cm)
+--------------------
+ObjectID: 468686
+  Department: Medieval Art
+  Medium: Linen warp, wool wefts
+  Dimensions: Overall: 10 x 62in. (25.4 x 157.5cm)
+--------------------
+ObjectID: 452599
+  Department: Islamic Art
+  Medium: Wool (warp, weft, and pile); symmetrically knotted pile
+  Dimensions: H. 16 1/4 in.. (41.3 cm)
+W. 27 1/2 in. (69.9 cm)
+--------------------
+ObjectID: 214310
+  Department: The American Wing
+  Medium: Tapestry weave, cotton warp and camelid weft
+  Dimensions: Overall: 50 1/2 x 45 1/2in. (128.3 x 115.6cm)
+--------------------
+ObjectID: 227918
+  Department: The American Wing
+  Medium: Tapestry weave, cotton warp and camelid weft; ca. 27 ribs to one inch
+  Dimensions: Overall (Confirmed by Textile Conservation Summer 06): 89 9/16 x 84 3/4 in. (227.5 x 215.3 cm)
+--------------------
+ObjectID: 230938
+  Department: The American Wing
+  Medium: Tapestry weave, cotton warp and camelid hair, silver gilt, and silk weft
+  Dimensions: 20 3/4 x 19 1/2 in. (52.5 x 49.5 cm.)
+--------------------
