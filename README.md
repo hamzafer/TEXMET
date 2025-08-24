@@ -3,6 +3,29 @@
 ## Overview
 **TEXMET** is a high-quality, manually curated dataset of textile and tapestry objects from the Metropolitan Museum of Art's Open Access collection. This dataset has been carefully cleaned, validated, and optimized for computer vision and deep learning applications.
 
+## Quick Start: Download the Dataset
+
+To download the TEXMET dataset, follow these steps:
+
+**1. Install Dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+**2. Run the Download Script:**
+
+```bash
+python download.py
+```
+
+The script will download all 18,644 high-resolution images (approx. 26.5 GB) into a `TEXMET_DATASET` folder. Please ensure you have enough disk space.
+
+For more options, run:
+```bash
+python download.py --help
+```
+
 ## Dataset Access
 🤗 A sample of the curated dataset is available on Hugging Face.
 
