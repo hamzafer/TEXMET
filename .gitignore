@@ -1,7 +1,8 @@
 # Ignore all JSON files except specific ones
 *.json
-!data/clean_dataset/clean_textiles_dataset.json
-!data/clean_dataset/texmet_metadata.json
+!metadata.json
+!archive/data/clean_dataset/clean_textiles_dataset.json
+!archive/data/clean_dataset/texmet_metadata.json
 
 # Ignore image files
 *.png
@@ -10,20 +11,20 @@
 *.JPEG
 
 # Ignore everything in the latex folder except .gitkeep
-latex/*
-!latex/.gitkeep
+archive/latex/*
+!archive/latex/.gitkeep
 
 # Ignore specific data and image files in FINAL_CORRECTED_MET_TEXTILES_DATASET
-data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.json
-data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.csv
-data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.txt
-data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.jpg
-data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.png
-!data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/.gitkeep
+archive/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.json
+archive/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.csv
+archive/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.txt
+archive/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.jpg
+archive/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/*.png
+!archive/data/FINAL_CORRECTED_MET_TEXTILES_DATASET/**/.gitkeep
 
 # Ignore large model files in the sam folder
-experiments/sam/*.pth
-!experiments/sam/.gitkeep
+archive/experiments/sam/*.pth
+!archive/experiments/sam/.gitkeep
 
 # Allow all .gitkeep files
 !**/.gitkeep
