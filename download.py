@@ -578,7 +578,7 @@ Permanent failures: {self.stats['permanent_failures']:,}
 def main():
     """Main function"""
     parser = argparse.ArgumentParser(description="MET Textiles Dataset Image Downloader")
-    parser.add_argument("--json_file", type=str, default="data/clean_dataset/clean_textiles_dataset.json",
+    parser.add_argument("--json_file", type=str, default="archive/data/clean_dataset/clean_textiles_dataset.json",
                         help="Path to the JSON file containing the dataset.")
     parser.add_argument("--output_dir", type=str, default="TEXMET_DATASET",
                         help="Directory to save the downloaded images and logs.")
