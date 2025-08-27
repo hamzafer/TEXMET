@@ -1,0 +1,65 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.hero {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 2rem 1.5rem;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.publication-title {
+    margin-bottom: 1rem;
+}
+
+.publication-authors {
+    margin-bottom: 1rem;
+}
+
+.link-block {
+    margin: 0.5rem;
+}
+
+.section {
+    padding: 2rem 1.5rem;
+}
+
+.caption {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    flex: 1;
+    margin: 10px;
+    max-width: calc(25% - 20px);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .image {
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .image {
+        max-width: 100%;
+    }
+}

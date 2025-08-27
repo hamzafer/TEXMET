@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Aligning Subjective and Objective Assessments in Super-Resolution Models">
+  <meta name="keywords" content="Super Resolution, Computer Vision, Image Processing, SCIA, Color Enhancement">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Super-Resolution Color Enhancement</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <style>
+    .hero-body { padding: 3rem 1.5rem; }
+    .publication-title { margin-bottom: 1rem; }
+    .author-block { margin-right: 1rem; }
+    .content img { max-width: 100%; height: auto; margin: 1rem 0; }
+    .caption { font-style: italic; margin-top: 0.5rem; text-align: center; }
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .image-item {
+      flex: 1;
+      min-width: 300px;
+      max-width: 45%;
+    }
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .result-item {
+      text-align: center;
+    }
+    .result-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .highlight-box {
+      background-color: #f0f7ff;
+      border-left: 4px solid #3273dc;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 4px;
+    }
+    .metric-highlight {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+      border: 1px solid #e9ecef;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      function copyBibtex() {
+        const bibtex = `@InProceedings{10.1007/978-3-031-95918-9_4,
+author="Zafar, Muhammad Hamza
+and Hardeberg, Jon Y.",
+editor="Petersen, Jens
+and Dahl, Vedrana Andersen",
+title="Aligning Subjective and Objective Assessments in Super-Resolution Models",
+booktitle="Image Analysis",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="47--60",
+abstract="The evaluation of super-resolution (SR) models remains a challenge due to discrepancies between objective metrics and human perception. This study assesses four state-of-the-art SR models, including ResShift, Real-ESRGAN, BSRGAN, and SwinIR, through both computational metrics and human-centered evaluations. Standard metrics such as PSNR, SSIM, LPIPS, and CLIPIQA were used to quantify fidelity and perceptual alignment, while subjective assessments were conducted through online and controlled lab-based experiments. Results indicate that ResShift consistently achieves superior perceptual quality, while BSRGAN, despite competitive objective scores, ranks lower in human evaluations. To the best of our knowledge, this is the first study to provide an in-depth subjective evaluation of ResShift alongside a systematic comparison with other SR models. These findings underscore the limitations of traditional metrics and emphasize the need for hybrid evaluation approaches that integrate subjective assessments. Code and Data Available at https://github.com/hamzafer/super-resolution-color.",
+isbn="978-3-031-95918-9"
+}`;
+        navigator.clipboard.writeText(bibtex).then(function() {
+          alert('BibTeX copied to clipboard!');
+        }, function() {
+          alert('Failed to copy BibTeX.');
+        });
+      }
+      window.copyBibtex = copyBibtex;
+    });
+  </script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-widescreen">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Aligning Subjective and Objective Assessments in <br> Super-Resolution Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/ihamzafer/">Muhammad Hamza Zafar</a><sup>1</sup>,</span>&nbsp;
+            <span class="author-block">
+              <a href="https://orcid.org/0000-0003-1150-2498">Jon Y. Hardeberg</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>NTNU - Norwegian University of Science and Technology</span>
+          </div>
+
+          <div class="is-size-5 has-text-centered">
+            <span class="publication-cvpr"><strong><a href="https://scia2025.org/" style="color: inherit; text-decoration: none;">SCIA 2025</a></strong></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://link.springer.com/chapter/10.1007/978-3-031-95918-9_4" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/hamzafer/super-resolution-color" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="scia_poster.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-images"></i></span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#" onclick="copyBibtex()" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-alt"></i></span>
+                  <span>BibTeX</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present a comprehensive study investigating the alignment between subjective human perception and objective computational metrics in super-resolution models. 
+            Through psychophysical experiments and systematic evaluation of state-of-the-art super-resolution models including <b>ResShift</b>, <b>BSRGAN</b>, <b>Real-ESRGAN</b>, and <b>SwinIR</b>, 
+            we bridge the gap between computational metrics and human visual quality assessment. Our findings reveal significant discrepancies between traditional metrics like PSNR/SSIM and human preference, 
+            with ResShift demonstrating superior performance across both objective metrics and subjective evaluations. This research provides critical insights for developing more perceptually-aligned evaluation frameworks for super-resolution systems.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experimental Setup -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experimental Setup</h2>
+        <div class="content has-text-justified">
+          <div class="image-container">
+            <div class="image-item">
+              <img src="Images/exp_1_setup_selection.png" alt="Experiment 1 Setup">
+              <div class="metric-highlight">
+                <p class="caption"><b>Experiment 1: Quick Evaluation Interface</b></p>
+                <ul style="text-align: left; font-size: 0.9em;">
+                  <li><strong>Total Images:</strong> 30</li>
+                  <li><strong>Estimated Time:</strong> 15 minutes</li>
+                  <li><strong>Low-Resolution Image:</strong> 255×169 pixels (center)</li>
+                  <li><strong>High-Resolution Images:</strong> 4 images, 1020×676 pixels each</li>
+                  <li><strong>Task:</strong> Choose best HR image from randomized comparisons</li>
+                </ul>
+              </div>
+            </div>
+            <div class="image-item">
+              <img src="Images/exp2_setup_quick_eval.png" alt="Experiment 2 Setup">
+              <div class="metric-highlight">
+                <p class="caption"><b>Experiment 2: Pairwise Comparison</b></p>
+                <ul style="text-align: left; font-size: 0.9em;">
+                  <li><strong>Method:</strong> Pairwise comparisons</li>
+                  <li><strong>Images:</strong> 10 images, 60 pairs per person</li>
+                  <li><strong>Display:</strong> BenQ calibrated monitor, sRGB, D65, 80 cd/m²</li>
+                  <li><strong>Estimated Time:</strong> 15 minutes</li>
+                  <li><strong>Task:</strong> Subjective quality assessment</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div style="text-align: center; margin: 2rem 0;">
+            <img src="Images/main_screen.png" alt="Main Interface" style="max-width: 60%;">
+            <p class="caption"><b>Main Interface:</b> User interface for the psychophysical experiments</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Participant Demographics -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Participant Demographics & Methodology</h2>
+        <div class="content has-text-justified">
+          <div class="image-container">
+            <div class="image-item">
+              <img src="Images/age_distribution.png" alt="Age Distribution">
+              <p class="caption"><b>Age Distribution:</b> Demographics of study participants across both experiments</p>
+            </div>
+            <div class="image-item">
+              <img src="Images/total_vs_completed_sessions.png" alt="Session Completion">
+              <p class="caption"><b>Session Statistics:</b> Completion rates showing high participant engagement</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Objective Metrics Results -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Objective Metrics Analysis</h2>
+        <div class="content has-text-justified">
+          <div class="highlight-box">
+            <p><strong>Key Finding:</strong> ResShift consistently outperformed other models across most objective metrics, achieving the highest PSNR (25.01) and best LPIPS (0.231) scores. However, BSRGAN's competitive PSNR/SSIM scores contrasted sharply with poor subjective performance.</p>
+          </div>
+          
+          <div style="text-align: center; margin: 2rem 0;">
+            <img src="Images/Objective_analysis_barcharts_metrics_all.png" alt="Objective Analysis" style="max-width: 90%;">
+            <p class="caption"><b>Comprehensive Metric Analysis:</b> Comparison of PSNR, SSIM, LPIPS, and CLIPIQA across all models</p>
+          </div>
+
+          <div class="image-container">
+            <div class="image-item">
+              <img src="Images/psnr_models_sorted.png" alt="PSNR Distribution">
+              <p class="caption"><b>PSNR Results on DIV2K Dataset:</b> Our experimental validation</p>
+            </div>
+            <div class="image-item">
+              <img src="Images/ResShift Paper PSNR Values of Selected Models (Sorted).png" alt="Paper PSNR">
+              <p class="caption"><b>Literature Comparison:</b> Results from original model papers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results: Model Performance -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Subjective Evaluation Results</h2>
+        <div class="content has-text-justified">
+          
+          <div class="highlight-box">
+            <p><strong>Experiment 1 (54 observers):</strong> ResShift was chosen 624 times, significantly outperforming SwinIR (377), RealESRGAN (351), and BSRGAN (268). Participants cited sharpness, absence of artifacts, and color fidelity as key factors.</p>
+            <p><strong>Experiment 2 (15 observers, 900 comparisons):</strong> Controlled environment validation confirmed ResShift's dominance with 309 selections, followed by RealESRGAN (228), SwinIR (220), and BSRGAN (143).</p>
+          </div>
+
+          <div style="text-align: center; margin: 2rem 0;">
+            <img src="Images/Borda Count Rankings of Models.png" alt="Borda Count Rankings" style="max-width: 80%;">
+            <p class="caption"><b>Borda Count Rankings:</b> Statistical ranking confirming ResShift's consistent superiority</p>
+          </div>
+
+          <div class="image-container">
+            <div class="image-item">
+              <img src="Images/most_picked_bar_chart.png" alt="Most Picked Models">
+              <p class="caption"><b>Experiment 1 Results:</b> Clear preference hierarchy across 54 participants</p>
+            </div>
+            <div class="image-item">
+              <img src="Images/Number of Selections per Model Pairwisw.png" alt="Pairwise Results">
+              <p class="caption"><b>Experiment 2 Results:</b> Controlled validation with 900 pairwise comparisons</p>
+            </div>
+          </div>
+
+          <div style="text-align: center; margin: 2rem 0;">
+            <img src="Images/Preference Matrix Heatmap.png" alt="Preference Matrix" style="max-width: 70%;">
+            <p class="caption"><b>Preference Heatmap:</b> Statistical significance confirmed by Chi-Square test (χ² = 61.40, p < 0.001)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- User Behavior Analysis -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">User Behavior & Demographic Analysis</h2>
+        <div class="content has-text-justified">
+          
+          <div class="results-grid">
+            <div class="result-item">
+              <img src="Images/Distribution of Time Spent on Decisions.png" alt="Time Distribution">
+              <p class="caption">Decision Time Distribution</p>
+            </div>
+            <div class="result-item">
+              <img src="Images/Time Spent on Decisions vs. Age.png" alt="Time vs Age">
+              <p class="caption">Age Impact on Decision Time</p>
+            </div>
+            <div class="result-item">
+              <img src="Images/algo_vs_age_preference_chart.png" alt="Algorithm vs Age">
+              <p class="caption">Algorithm Preference by Age Group</p>
+            </div>
+            <div class="result-item">
+              <img src="Images/Most Picked Algorithm per Image.png" alt="Algorithm per Image">
+              <p class="caption">Content-Dependent Preferences</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Qualitative Feedback -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Qualitative Insights</h2>
+        <div class="content has-text-justified">
+          <div class="image-container">
+            <div class="image-item">
+              <img src="Images/word_cloud_feedback.png" alt="Feedback Word Cloud">
+              <p class="caption"><b>User Feedback Analysis:</b> Key terms include "sharp," "clear," "natural," and "detailed"</p>
+            </div>
+            <div class="image-item">
+              <img src="Images/word_cloud_reasons.png" alt="Reasons Word Cloud">
+              <p class="caption"><b>Decision Factors:</b> Users prioritized visual naturalness over pixel-perfect accuracy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Key Findings -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Key Findings & Implications</h2>
+        <div class="content has-text-justified">
+          <div class="metric-highlight">
+            <h4 class="title is-5">Critical Insights:</h4>
+            <ol style="text-align: left;">
+              <li><strong>ResShift's Robustness:</strong> Consistent performance across both objective metrics and subjective evaluations confirms its suitability for real-world applications</li>
+              <li><strong>Metric Limitations:</strong> BSRGAN's poor subjective performance despite competitive PSNR/SSIM highlights the inadequacy of traditional metrics for perceptual quality</li>
+              <li><strong>Perceptual Alignment:</strong> LPIPS and CLIPIQA showed better correlation with human preferences than PSNR/SSIM</li>
+              <li><strong>Content Dependency:</strong> Optimal model selection varies significantly with image content type</li>
+              <li><strong>Statistical Validation:</strong> Bradley-Terry model and Chi-Square tests (p < 0.001) confirm the reliability of subjective preferences</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Future Work -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Future Directions</h2>
+        <div class="content has-text-justified">
+          <div style="background-color: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">
+            <p>This research bridges the gap between quantitative metrics and perceptual quality, contributing to SR model development that excels in real-world applications. Future work will focus on:</p>
+            <ul style="text-align: left; margin-top: 1rem;">
+              <li><strong>Expand Datasets:</strong> Include diverse demographic groups and image types to enhance generalizability</li>
+              <li><strong>Failure Case Analysis:</strong> Detailed investigation of problematic outputs to identify improvement areas</li>
+              <li><strong>Hybrid Metrics Development:</strong> Integrate objective and subjective components for holistic SR evaluation</li>
+              <li><strong>Adaptive Evaluation:</strong> Content-specific metrics that account for varying perceptual requirements</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
