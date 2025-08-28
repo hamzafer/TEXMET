@@ -4,11 +4,13 @@
 !archive/data/clean_dataset/clean_textiles_dataset.json
 !archive/data/clean_dataset/texmet_metadata.json
 
+
 # Ignore image files
-*.png
-*.jpg
-*.jpeg
-*.JPEG
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.JPEG
+!static/images/
 
 # Ignore everything in the latex folder except .gitkeep
 archive/latex/*

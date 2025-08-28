@@ -60,6 +60,28 @@
       margin: 1rem 0;
       border: 1px solid #e9ecef;
     }
+    /* Extras for visuals added below */
+    .logo-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+      margin: 1rem 0 0.5rem 0;
+    }
+    .logo-row img {
+      max-height: 64px;
+      width: auto;
+      object-fit: contain;
+      filter: saturate(0.9);
+    }
+    .full-width-figure img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: contain;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
   </style>
 
   <script>
@@ -108,10 +130,10 @@ isbn="978-3-031-95918-9"
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">An Exploration of Deep Learning Methods for Textile Reconstruction</h1>
           <div class="is-size-5 publication-authors">
-            <span class="author-block">Muhammad Hamza Zafar</span>
+            <span class="author-block"><a href="https://www.hamzafar.me/" target="_blank">Muhammad Hamza Zafar</a></span>
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block">Supervisors: Prof. Jon Yngve Hardeberg and Dr. Davit Gigilashvili</span>
+            <span class="author-block">Supervisors: <a href="https://www.ntnu.no/ansatte/jon.hardeberg" target="_blank">Prof. Jon Yngve Hardeberg</a> and <a href="https://www.ntnu.no/ansatte/davit.gigilashvili" target="_blank">Dr. Davit Gigilashvili</a></span>
           </div>
           <div class="is-size-5 publication-authors">
             <span class="author-block">NTNU - Norwegian University of Science and Technology</span>
@@ -203,6 +225,52 @@ isbn="978-3-031-95918-9"
               <li><strong>ASUKA:</strong> An inpainting model to reconstruct missing parts of the images.</li>
               <li><strong>GPT-4o and Gemini:</strong> Large Vision-Language Models (LVMs) to explore their capabilities for tasks like tile arrangement, narrative generation, and semantic retrieval.</li>
           </ul>
+          <div class="results-grid" aria-label="Architectures gallery">
+            <div class="result-item">
+              <img src="static/images/chapter3/jpdvt_architecture.png" alt="JPDVT architecture diagram">
+              <div class="caption">JPDVT architecture</div>
+            </div>
+            <div class="result-item">
+              <img src="static/images/chapter3/fcvit_architecture.png" alt="FCViT architecture diagram">
+              <div class="caption">FCViT architecture</div>
+            </div>
+            <div class="result-item">
+              <img src="static/images/chapter3/diffassemble_architecture.png" alt="DiffAssemble architecture diagram">
+              <div class="caption">DiffAssemble architecture</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dataset Highlights -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">TEXMET Dataset Highlights</h2>
+        <div class="content has-text-justified">
+          <p>Key views from the curation and analysis of TEXMET, showing quality filtering and distributions across departments and time periods.</p>
+        </div>
+        <div class="results-grid" aria-label="Dataset highlights">
+          <div class="result-item">
+            <img src="static/images/chapter4/01_dataset_quality_overview.png" alt="Dataset quality overview">
+            <div class="caption">Quality overview</div>
+          </div>
+          <div class="result-item">
+            <img src="static/images/chapter4/02_cleaning_results.png" alt="Cleaning results summary">
+            <div class="caption">Cleaning results</div>
+          </div>
+          <div class="result-item">
+            <img src="static/images/chapter4/09h_all_departments_distribution.png" alt="Distribution across departments">
+            <div class="caption">Departments distribution</div>
+          </div>
+          <div class="result-item">
+            <img src="static/images/chapter4/11_time_periods_clean_pretty.png" alt="Clean time periods distribution">
+            <div class="caption">Time periods</div>
+          </div>
+          <div class="result-item">
+            <img src="static/images/chapter4/12_object_names_distribution_final.png" alt="Object names distribution">
+            <div class="caption">Object names distribution</div>
+          </div>
         </div>
       </div>
     </div>
@@ -221,6 +289,56 @@ isbn="978-3-031-95918-9"
               <li><strong>Cropping Strategy:</strong> We used a cropping strategy to remove borders and force the models to learn the textile patterns themselves, rather than relying on edge information.</li>
           </ul>
           <p>Our experiments demonstrated that domain-specific fine-tuning with a high-quality dataset like TEXMET is crucial for achieving good performance in textile reconstruction.</p>
+          <div class="results-grid" aria-label="Experiment results">
+            <div class="result-item">
+              <img src="static/images/chapter5/diffSUCCESS_multi_size_30missing.png" alt="DiffAssemble success on multi-size with 30% missing">
+              <div class="caption">DiffAssemble success (multi-size, 30% missing)</div>
+            </div>
+            <div class="result-item">
+              <img src="static/images/chapter5/DiffassembleSUCCESS_multi_size_v2.png" alt="DiffAssemble success examples">
+              <div class="caption">DiffAssemble success examples</div>
+            </div>
+            <div class="result-item">
+              <img src="static/images/chapter5/DiffassembleFAILURE_multi_size_v2.png" alt="DiffAssemble failure examples">
+              <div class="caption">DiffAssemble failure examples</div>
+            </div>
+            <div class="result-item">
+              <img src="static/images/chapter5/FCViT_3x3_Perfect_v_failed_example.png" alt="FCViT perfect vs failed example">
+              <div class="caption">FCViT perfect vs failed</div>
+            </div>
+            <div class="result-item">
+              <img src="static/images/chapter5/success_jpwleg3_6x6.png" alt="JPDVT success 6x6 example">
+              <div class="caption">JPDVT success (6x6)</div>
+            </div>
+            <div class="result-item">
+              <img src="static/images/chapter5/failure_jpwleg3_6x6.png" alt="JPDVT failure 6x6 example">
+              <div class="caption">JPDVT failure (6x6)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Oseberg Case Study -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Oseberg Case Study</h2>
+        <div class="content has-text-justified">
+          <p>Illustrations of Viking textile fragments and domain specifics examined in our benchmarking.</p>
+        </div>
+        <div class="results-grid" aria-label="Oseberg visuals">
+          <div class="result-item">
+            <img src="static/images/Chapter1/oseberg_fragments.png" alt="Oseberg textile fragments overview">
+            <div class="caption">Oseberg fragments</div>
+          </div>
+          <div class="result-item">
+            <img src="static/images/chapter5/oseberg.png" alt="Oseberg benchmark visualization">
+            <div class="caption">Oseberg benchmark</div>
+          </div>
+          <div class="result-item">
+            <img src="static/images/Chapter2/Oseberg_ship_Ulleland.jpg" alt="Oseberg ship illustration by Ulleland">
+            <div class="caption">Oseberg ship (context)</div>
+          </div>
         </div>
       </div>
     </div>
@@ -260,6 +378,10 @@ isbn="978-3-031-95918-9"
         <div class="content has-text-justified">
           <p>Most experiments were run on the IDUN NTNU HPC cluster, using both H100 and A100 GPU nodes (4 GPUs per node, 32 CPUs, 200 GB RAM). The DiffAssemble model required A100 nodes due to older PyTorch compatibility. Slurm scripts for all experiments are available in the hpc-jobs-ntnu repository. Some smaller tests were run on a local RTX 4090 GPU. In total, about 3000 GPU hours were used on IDUN. We are grateful to the IDUN NTNU HPC for providing the resources needed for this research.</p>
         </div>
+        <div class="full-width-figure" aria-label="LVMs diagram">
+          <img src="static/images/LVMs/LVMs-arch-miro-mermaid.png" alt="High-level LVMs pipeline used for semantic tasks" />
+          <div class="caption">Large Vision(-Language) Models pipeline explored for semantic tasks</div>
+        </div>
       </div>
     </div>
 
@@ -271,6 +393,21 @@ isbn="978-3-031-95918-9"
           <p>The findings and limitations of this thesis illuminate several promising avenues for future research. The most critical next step is to move beyond grid-based puzzles and develop models that can handle irregularly shaped fragments. This could involve exploring graph representations that encode boundary shapes or developing novel attention mechanisms that focus on contour matching.</p>
           <p>Second, the success of the fine-tuned DiffAssemble model highlights the immense potential of domain-specific training. Future work should focus on creating even larger, more diverse archaeological datasets. Pre-training models on such a comprehensive "heritage" dataset could lead to a new generation of highly effective, general-purpose reconstruction tools.</p>
           <p>Finally, while our one-shot LVM experiments showed limitations in spatial reasoning, their success in semantic retrieval was undeniable. Future research could explore hybrid approaches, where the semantic understanding of an LVM is used to guide or constrain the spatial search of a puzzle-solving model like DiffAssemble, potentially creating a system that combines the strengths of both architectures.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Affiliations & Partners -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Affiliations & Partners</h2>
+        <div class="logo-row" aria-label="Partners and affiliations logos">
+          <img src="static/images/FRONTMATTER/NTNU_Logo.png" alt="NTNU logo">
+          <img src="static/images/FRONTMATTER/UEF_Logo.png" alt="UEF logo">
+          <img src="static/images/FRONTMATTER/UGR_Logo.png" alt="UGR logo">
+          <img src="static/images/FRONTMATTER/UJM_Logo.png" alt="UJM logo">
+          <img src="static/images/FRONTMATTER/Erasmus_Logo.jpg" alt="Erasmus+ logo">
+          <img src="static/images/FRONTMATTER/COSI_Logo.jpg" alt="COSI logo">
         </div>
       </div>
     </div>
