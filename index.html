@@ -108,6 +108,14 @@ isbn="978-3-031-95918-9"
         });
       }
       window.copyBibtex = copyBibtex;
+
+      // Remove tiles if an image fails to load (e.g., wrong path on server)
+      document.querySelectorAll('img').forEach(function(img){
+        img.addEventListener('error', function(){
+          const tile = img.closest('.result-item') || img.closest('.full-width-figure');
+          if (tile) tile.remove();
+        }, { once: true });
+      });
     });
   </script>
 </head>
@@ -307,11 +315,11 @@ isbn="978-3-031-95918-9"
               <div class="caption">FCViT perfect vs failed</div>
             </div>
             <div class="result-item">
-              <img src="static/images/chapter5/success_jpwleg3_6x6.png" alt="JPDVT success 6x6 example">
+              <img src="static/images/LVMs/success_jpwleg3_6x6.png" alt="JPDVT success 6x6 example">
               <div class="caption">JPDVT success (6x6)</div>
             </div>
             <div class="result-item">
-              <img src="static/images/chapter5/failure_jpwleg3_6x6.png" alt="JPDVT failure 6x6 example">
+              <img src="static/images/LVMs/failure_jpwleg3_6x6.png" alt="JPDVT failure 6x6 example">
               <div class="caption">JPDVT failure (6x6)</div>
             </div>
           </div>
@@ -332,7 +340,7 @@ isbn="978-3-031-95918-9"
             <div class="caption">Oseberg fragments</div>
           </div>
           <div class="result-item">
-            <img src="static/images/chapter5/oseberg.png" alt="Oseberg benchmark visualization">
+            <img src="static/images/supp/oseberg.png" alt="Oseberg benchmark visualization">
             <div class="caption">Oseberg benchmark</div>
           </div>
           <div class="result-item">
@@ -379,7 +387,7 @@ isbn="978-3-031-95918-9"
           <p>Most experiments were run on the IDUN NTNU HPC cluster, using both H100 and A100 GPU nodes (4 GPUs per node, 32 CPUs, 200 GB RAM). The DiffAssemble model required A100 nodes due to older PyTorch compatibility. Slurm scripts for all experiments are available in the hpc-jobs-ntnu repository. Some smaller tests were run on a local RTX 4090 GPU. In total, about 3000 GPU hours were used on IDUN. We are grateful to the IDUN NTNU HPC for providing the resources needed for this research.</p>
         </div>
         <div class="full-width-figure" aria-label="LVMs diagram">
-          <img src="static/images/LVMs/LVMs-arch-miro-mermaid.png" alt="High-level LVMs pipeline used for semantic tasks" />
+          <img src="static/images/chapter3/LVMs-arch-miro-mermaid.png" alt="High-level LVMs pipeline used for semantic tasks" />
           <div class="caption">Large Vision(-Language) Models pipeline explored for semantic tasks</div>
         </div>
       </div>
