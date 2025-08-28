@@ -34,3 +34,5 @@ glob
 np
 os
 plt
+
+.DS_Store

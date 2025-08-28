@@ -1,5 +1,5 @@
-title: Super-Resolution Color Enhancement
-description: Aligning Subjective and Objective Assessments in Super-Resolution Models - SCIA 2024
+title: An Exploration of Deep Learning Methods for Textile Reconstruction
+description: An exploration of deep learning methods for textile reconstruction. This thesis introduces TEXMET, a large-scale dataset for textile reconstruction, and evaluates state-of-the-art models for this task.
 theme: minima
 baseurl: ""
 url: "https://yourusername.github.io/super-resolution-color"

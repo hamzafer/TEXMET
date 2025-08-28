@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Aligning Subjective and Objective Assessments in Super-Resolution Models">
+  <meta name="description" content="An exploration of deep learning methods for textile reconstruction.">
   <meta name="keywords" content="Super Resolution, Computer Vision, Image Processing, SCIA, Color Enhancement">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Super-Resolution Color Enhancement</title>
+  <title>An Exploration of Deep Learning Methods for Textile Reconstruction</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -106,51 +106,20 @@ isbn="978-3-031-95918-9"
     <div class="container is-widescreen">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Aligning Subjective and Objective Assessments in <br> Super-Resolution Models</h1>
+          <h1 class="title is-1 publication-title">An Exploration of Deep Learning Methods for Textile Reconstruction</h1>
           <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://www.linkedin.com/in/ihamzafer/">Muhammad Hamza Zafar</a><sup>1</sup>,</span>&nbsp;
-            <span class="author-block">
-              <a href="https://orcid.org/0000-0003-1150-2498">Jon Y. Hardeberg</a><sup>1</sup>
-            </span>
+            <span class="author-block">Muhammad Hamza Zafar</span>
           </div>
-
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>NTNU - Norwegian University of Science and Technology</span>
+            <span class="author-block">Supervisors: Prof. Jon Yngve Hardeberg and Dr. Davit Gigilashvili</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">NTNU - Norwegian University of Science and Technology</span>
           </div>
 
-          <div class="is-size-5 has-text-centered">
-            <span class="publication-cvpr"><strong><a href="https://scia2025.org/" style="color: inherit; text-decoration: none;">SCIA 2025</a></strong></span>
-          </div>
+          
 
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <span class="link-block">
-                <a href="https://link.springer.com/chapter/10.1007/978-3-031-95918-9_4" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                  <span>Paper</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://github.com/hamzafer/super-resolution-color" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fab fa-github"></i></span>
-                  <span>Code</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="scia_poster.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fas fa-images"></i></span>
-                  <span>Poster</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="#" onclick="copyBibtex()" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fas fa-file-alt"></i></span>
-                  <span>BibTeX</span>
-                </a>
-              </span>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -164,220 +133,64 @@ isbn="978-3-031-95918-9"
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
-            We present a comprehensive study investigating the alignment between subjective human perception and objective computational metrics in super-resolution models. 
-            Through psychophysical experiments and systematic evaluation of state-of-the-art super-resolution models including <b>ResShift</b>, <b>BSRGAN</b>, <b>Real-ESRGAN</b>, and <b>SwinIR</b>, 
-            we bridge the gap between computational metrics and human visual quality assessment. Our findings reveal significant discrepancies between traditional metrics like PSNR/SSIM and human preference, 
-            with ResShift demonstrating superior performance across both objective metrics and subjective evaluations. This research provides critical insights for developing more perceptually-aligned evaluation frameworks for super-resolution systems.
-          </p>
+          <p>The reconstruction of fragmented historical textiles presents a significant challenge for archaeologists. The process is often manual, slow, and prone to bias. While AI-powered puzzle solvers have shown promise in other domains, they often fail when applied to archaeological data due to a "domain gap." These models, typically trained on natural images, struggle with the irregular shapes, degradation, and missing information characteristic of ancient textiles.</p>
+          <p>To address this challenge, we introduce <strong>TEXMET</strong>, a large-scale, curated dataset of textile and tapestry images from the Metropolitan Museum of Art. TEXMET is the first benchmark dataset specifically designed for textile reconstruction, containing over 18,000 high-resolution images. The dataset was created through an automated pipeline of downloading, filtering, and curating images from the MET's open-access archive.</p>
+          <p>Our research investigates the performance of state-of-the-art puzzle-solving models on textile data, the potential for domain-specific fine-tuning with TEXMET to improve performance, the impact of various preprocessing techniques, and the capabilities of Large Vision Models (LVMs) in this context.</p>
         </div>
       </div>
     </div>
 
-    <!-- Experimental Setup -->
+    <!-- Models and Architectures -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Experimental Setup</h2>
+        <h2 class="title is-3">Models & Architectures</h2>
         <div class="content has-text-justified">
-          <div class="image-container">
-            <div class="image-item">
-              <img src="Images/exp_1_setup_selection.png" alt="Experiment 1 Setup">
-              <div class="metric-highlight">
-                <p class="caption"><b>Experiment 1: Quick Evaluation Interface</b></p>
-                <ul style="text-align: left; font-size: 0.9em;">
-                  <li><strong>Total Images:</strong> 30</li>
-                  <li><strong>Estimated Time:</strong> 15 minutes</li>
-                  <li><strong>Low-Resolution Image:</strong> 255×169 pixels (center)</li>
-                  <li><strong>High-Resolution Images:</strong> 4 images, 1020×676 pixels each</li>
-                  <li><strong>Task:</strong> Choose best HR image from randomized comparisons</li>
-                </ul>
-              </div>
-            </div>
-            <div class="image-item">
-              <img src="Images/exp2_setup_quick_eval.png" alt="Experiment 2 Setup">
-              <div class="metric-highlight">
-                <p class="caption"><b>Experiment 2: Pairwise Comparison</b></p>
-                <ul style="text-align: left; font-size: 0.9em;">
-                  <li><strong>Method:</strong> Pairwise comparisons</li>
-                  <li><strong>Images:</strong> 10 images, 60 pairs per person</li>
-                  <li><strong>Display:</strong> BenQ calibrated monitor, sRGB, D65, 80 cd/m²</li>
-                  <li><strong>Estimated Time:</strong> 15 minutes</li>
-                  <li><strong>Task:</strong> Subjective quality assessment</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <div style="text-align: center; margin: 2rem 0;">
-            <img src="Images/main_screen.png" alt="Main Interface" style="max-width: 60%;">
-            <p class="caption"><b>Main Interface:</b> User interface for the psychophysical experiments</p>
-          </div>
+          <p>We evaluated several state-of-the-art models for puzzle solving and image reconstruction:</p>
+          <ul>
+              <li><strong>JPDVT:</strong> A Diffusion-based Vision Transformer model, known for its robustness to missing patches.</li>
+              <li><strong>FCViT:</strong> A Transformer-based model that uses coordinate regression.</li>
+              <li><strong>DiffAssemble:</strong> A graph-based diffusion model that reasons about piece-to-piece relationships.</li>
+          </ul>
+          <p>We also explored the use of other models and techniques, including:</p>
+          <ul>
+              <li><strong>ASUKA:</strong> An inpainting model to reconstruct missing parts of the images.</li>
+              <li><strong>GPT-4o and Gemini:</strong> Large Vision-Language Models (LVMs) to explore their capabilities for tasks like tile arrangement, narrative generation, and semantic retrieval.</li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <!-- Participant Demographics -->
+    <!-- Experiments -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Participant Demographics & Methodology</h2>
+        <h2 class="title is-3">Experiments</h2>
         <div class="content has-text-justified">
-          <div class="image-container">
-            <div class="image-item">
-              <img src="Images/age_distribution.png" alt="Age Distribution">
-              <p class="caption"><b>Age Distribution:</b> Demographics of study participants across both experiments</p>
-            </div>
-            <div class="image-item">
-              <img src="Images/total_vs_completed_sessions.png" alt="Session Completion">
-              <p class="caption"><b>Session Statistics:</b> Completion rates showing high participant engagement</p>
-            </div>
-          </div>
+          <p>Our research involved a series of experiments to evaluate the performance of the selected models and the impact of our TEXMET dataset.</p>
+          <ul>
+              <li><strong>Model Reproduction and Baseline:</strong> We first reproduced the results of the chosen models and established a baseline performance on the ImageNet dataset.</li>
+              <li><strong>Oseberg Benchmarking:</strong> When applied to real-world Viking textile fragments from the Oseberg collection, all models showed a significant drop in performance, highlighting the domain gap.</li>
+              <li><strong>Masking and Inpainting:</strong> We tested the models' resilience to missing information by applying masks and using inpainting techniques.</li>
+              <li><strong>TEXMET Fine-tuning:</strong> This was a key experiment where we fine-tuned the models on our TEXMET dataset. The results were remarkable, especially for the DiffAssemble model, which showed a significant improvement in performance on both TEXMET and the Oseberg dataset.</li>
+              <li><strong>Cropping Strategy:</strong> We used a cropping strategy to remove borders and force the models to learn the textile patterns themselves, rather than relying on edge information.</li>
+          </ul>
+          <p>Our experiments demonstrated that domain-specific fine-tuning with a high-quality dataset like TEXMET is crucial for achieving good performance in textile reconstruction.</p>
         </div>
       </div>
     </div>
 
-    <!-- Objective Metrics Results -->
+    <!-- Conclusion -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Objective Metrics Analysis</h2>
+        <h2 class="title is-3">Conclusion</h2>
         <div class="content has-text-justified">
-          <div class="highlight-box">
-            <p><strong>Key Finding:</strong> ResShift consistently outperformed other models across most objective metrics, achieving the highest PSNR (25.01) and best LPIPS (0.231) scores. However, BSRGAN's competitive PSNR/SSIM scores contrasted sharply with poor subjective performance.</p>
-          </div>
-          
-          <div style="text-align: center; margin: 2rem 0;">
-            <img src="Images/Objective_analysis_barcharts_metrics_all.png" alt="Objective Analysis" style="max-width: 90%;">
-            <p class="caption"><b>Comprehensive Metric Analysis:</b> Comparison of PSNR, SSIM, LPIPS, and CLIPIQA across all models</p>
-          </div>
-
-          <div class="image-container">
-            <div class="image-item">
-              <img src="Images/psnr_models_sorted.png" alt="PSNR Distribution">
-              <p class="caption"><b>PSNR Results on DIV2K Dataset:</b> Our experimental validation</p>
-            </div>
-            <div class="image-item">
-              <img src="Images/ResShift Paper PSNR Values of Selected Models (Sorted).png" alt="Paper PSNR">
-              <p class="caption"><b>Literature Comparison:</b> Results from original model papers</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Results: Model Performance -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Subjective Evaluation Results</h2>
-        <div class="content has-text-justified">
-          
-          <div class="highlight-box">
-            <p><strong>Experiment 1 (54 observers):</strong> ResShift was chosen 624 times, significantly outperforming SwinIR (377), RealESRGAN (351), and BSRGAN (268). Participants cited sharpness, absence of artifacts, and color fidelity as key factors.</p>
-            <p><strong>Experiment 2 (15 observers, 900 comparisons):</strong> Controlled environment validation confirmed ResShift's dominance with 309 selections, followed by RealESRGAN (228), SwinIR (220), and BSRGAN (143).</p>
-          </div>
-
-          <div style="text-align: center; margin: 2rem 0;">
-            <img src="Images/Borda Count Rankings of Models.png" alt="Borda Count Rankings" style="max-width: 80%;">
-            <p class="caption"><b>Borda Count Rankings:</b> Statistical ranking confirming ResShift's consistent superiority</p>
-          </div>
-
-          <div class="image-container">
-            <div class="image-item">
-              <img src="Images/most_picked_bar_chart.png" alt="Most Picked Models">
-              <p class="caption"><b>Experiment 1 Results:</b> Clear preference hierarchy across 54 participants</p>
-            </div>
-            <div class="image-item">
-              <img src="Images/Number of Selections per Model Pairwisw.png" alt="Pairwise Results">
-              <p class="caption"><b>Experiment 2 Results:</b> Controlled validation with 900 pairwise comparisons</p>
-            </div>
-          </div>
-
-          <div style="text-align: center; margin: 2rem 0;">
-            <img src="Images/Preference Matrix Heatmap.png" alt="Preference Matrix" style="max-width: 70%;">
-            <p class="caption"><b>Preference Heatmap:</b> Statistical significance confirmed by Chi-Square test (χ² = 61.40, p < 0.001)</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- User Behavior Analysis -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">User Behavior & Demographic Analysis</h2>
-        <div class="content has-text-justified">
-          
-          <div class="results-grid">
-            <div class="result-item">
-              <img src="Images/Distribution of Time Spent on Decisions.png" alt="Time Distribution">
-              <p class="caption">Decision Time Distribution</p>
-            </div>
-            <div class="result-item">
-              <img src="Images/Time Spent on Decisions vs. Age.png" alt="Time vs Age">
-              <p class="caption">Age Impact on Decision Time</p>
-            </div>
-            <div class="result-item">
-              <img src="Images/algo_vs_age_preference_chart.png" alt="Algorithm vs Age">
-              <p class="caption">Algorithm Preference by Age Group</p>
-            </div>
-            <div class="result-item">
-              <img src="Images/Most Picked Algorithm per Image.png" alt="Algorithm per Image">
-              <p class="caption">Content-Dependent Preferences</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Qualitative Feedback -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Qualitative Insights</h2>
-        <div class="content has-text-justified">
-          <div class="image-container">
-            <div class="image-item">
-              <img src="Images/word_cloud_feedback.png" alt="Feedback Word Cloud">
-              <p class="caption"><b>User Feedback Analysis:</b> Key terms include "sharp," "clear," "natural," and "detailed"</p>
-            </div>
-            <div class="image-item">
-              <img src="Images/word_cloud_reasons.png" alt="Reasons Word Cloud">
-              <p class="caption"><b>Decision Factors:</b> Users prioritized visual naturalness over pixel-perfect accuracy</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Key Findings -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Key Findings & Implications</h2>
-        <div class="content has-text-justified">
-          <div class="metric-highlight">
-            <h4 class="title is-5">Critical Insights:</h4>
-            <ol style="text-align: left;">
-              <li><strong>ResShift's Robustness:</strong> Consistent performance across both objective metrics and subjective evaluations confirms its suitability for real-world applications</li>
-              <li><strong>Metric Limitations:</strong> BSRGAN's poor subjective performance despite competitive PSNR/SSIM highlights the inadequacy of traditional metrics for perceptual quality</li>
-              <li><strong>Perceptual Alignment:</strong> LPIPS and CLIPIQA showed better correlation with human preferences than PSNR/SSIM</li>
-              <li><strong>Content Dependency:</strong> Optimal model selection varies significantly with image content type</li>
-              <li><strong>Statistical Validation:</strong> Bradley-Terry model and Chi-Square tests (p < 0.001) confirm the reliability of subjective preferences</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Future Work -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Future Directions</h2>
-        <div class="content has-text-justified">
-          <div style="background-color: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">
-            <p>This research bridges the gap between quantitative metrics and perceptual quality, contributing to SR model development that excels in real-world applications. Future work will focus on:</p>
-            <ul style="text-align: left; margin-top: 1rem;">
-              <li><strong>Expand Datasets:</strong> Include diverse demographic groups and image types to enhance generalizability</li>
-              <li><strong>Failure Case Analysis:</strong> Detailed investigation of problematic outputs to identify improvement areas</li>
-              <li><strong>Hybrid Metrics Development:</strong> Integrate objective and subjective components for holistic SR evaluation</li>
-              <li><strong>Adaptive Evaluation:</strong> Content-specific metrics that account for varying perceptual requirements</li>
-            </ul>
-          </div>
+          <p>Our work makes several key contributions to the field of computational archaeology and computer vision:</p>
+          <ul>
+              <li>We introduced <strong>TEXMET</strong>, the first large-scale benchmark dataset for textile reconstruction.</li>
+              <li>We demonstrated that the <strong>DiffAssemble</strong> model, when fine-tuned on TEXMET, achieves state-of-the-art performance in reconstructing Viking textiles.</li>
+              <li>We showed that it is crucial for models to learn the underlying patterns of the textiles, not just rely on shortcuts like edge information.</li>
+              <li>We explored the capabilities of Large Vision Models (LVMs) and found them to be useful as assistive tools for tasks like metadata generation and semantic retrieval, rather than for solving the reconstruction puzzle itself.</li>
+          </ul>
+          <p>Our findings pave the way for future research in developing specialized architectures and hybrid pipelines that combine the strengths of different models to tackle the challenges of historical textile reconstruction.</p>
         </div>
       </div>
     </div>
