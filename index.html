@@ -37,21 +37,22 @@
     @media (max-width: 860px) { nav.top .links { display: none; } }
 
     /* hero */
-    .hero { padding: 64px 0 36px; text-align: center; }
+    .hero { padding: 36px 0 36px; text-align: center; }
     .kicker { font: 700 13px var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--rust); }
-    .hero h1 { font: 700 clamp(34px, 5vw, 58px)/1.08 var(--display); margin: 18px auto 14px; max-width: 900px; letter-spacing: -.01em; }
-    .hero .sub { font: 400 21px/1.5 var(--serif); color: var(--ink-soft); max-width: 760px; margin: 0 auto; }
+    .hero h1 { font: 700 clamp(26px, 2.25vw, 32px)/1.15 var(--display); margin: 12px auto 10px; letter-spacing: -.01em; }
+    @media (min-width: 1000px) { .hero h1 { white-space: nowrap; } }
+    .hero .sub { font: 400 18px/1.5 var(--serif); color: var(--ink-soft); max-width: 1000px; margin: 0 auto; }
     .hero .sub em { color: var(--ink); font-style: normal; font-weight: 600; }
-    .authors { margin-top: 24px; font: 500 17px var(--sans); }
+    .authors { margin-top: 14px; font: 500 17px var(--sans); }
     .authors a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
     .authors .aff { display: block; color: var(--ink-soft); font-weight: 400; font-size: 15px; margin-top: 4px; }
-    .btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 28px 0 8px; }
+    .btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 18px 0 4px; }
     .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; border-radius: 999px; font: 600 15px var(--sans); text-decoration: none; background: var(--ink); color: #fff; transition: transform .15s, background .15s; }
     .btn:hover { transform: translateY(-1px); background: #000; }
     .btn.alt { background: var(--card); color: var(--ink); border: 1px solid var(--line); }
     .btn.rust { background: var(--rust); }
     .btn svg { width: 16px; height: 16px; fill: currentColor; }
-    .hero figure { margin: 36px auto 0; max-width: 1060px; }
+    .hero figure { margin: 24px auto 0; max-width: 1060px; }
     .hero figure img { border-radius: 10px; box-shadow: 0 18px 50px rgba(43,36,32,.18); }
 
     /* stats */
