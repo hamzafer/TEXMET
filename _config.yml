@@ -1,12 +1,11 @@
-title: An Exploration of Deep Learning Methods for Textile Reconstruction
+title: TEXMET
 description: An exploration of deep learning methods for textile reconstruction. This thesis introduces TEXMET, a large-scale dataset for textile reconstruction, and evaluates state-of-the-art models for this task.
 theme: minima
-baseurl: ""
-url: "https://yourusername.github.io/super-resolution-color"
+baseurl: "/TEXMET"
+url: "https://hamzafer.github.io"
 author:
-  name: Your Name
-  email: your.email@example.com
-  url: "https://yourwebsite.com"
+  name: Muhammad Hamza Zafar
+  url: "https://www.hamzafar.me/"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
