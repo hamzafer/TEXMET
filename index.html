@@ -1,481 +1,437 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="An exploration of deep learning methods for textile reconstruction.">
-  <meta name="keywords" content="Super Resolution, Computer Vision, Image Processing, SCIA, Color Enhancement">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>An Exploration of Deep Learning Methods for Textile Reconstruction</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
+  <title>TEXMET · Deep Learning for Textile Reconstruction</title>
+  <meta name="description" content="TEXMET: 18,644 curated historical textile images and a deep learning benchmark for reconstructing archaeological textiles such as the Viking Age Oseberg fragments. Master's thesis (NTNU) and ACM JOCCH 2026.">
+  <meta name="keywords" content="TEXMET, textile reconstruction, puzzle solving, cultural heritage, Oseberg, DiffAssemble, JPDVT, FCViT, deep learning, dataset">
+  <meta property="og:title" content="TEXMET · Deep Learning for Textile Reconstruction">
+  <meta property="og:description" content="18,644 curated historical textile images and a benchmark for archaeological textile reconstruction. ACM JOCCH 2026.">
+  <meta property="og:image" content="https://hamzafer.github.io/TEXMET/static/web/representative.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <style>
-    .hero-body { padding: 3rem 1.5rem; }
-    .publication-title { margin-bottom: 1rem; }
-    .author-block { margin-right: 1rem; }
-    .content img { max-width: 100%; height: auto; margin: 1rem 0; }
-    .caption { font-style: italic; margin-top: 0.5rem; text-align: center; }
-    .image-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 1rem;
-      margin: 2rem 0;
+    :root {
+      --paper: #f4efe6; --paper-2: #ebe3d6; --card: #fffaf2; --ink: #2b2420; --ink-soft: #6b5f55;
+      --line: #d9cdbb; --rust: #a4471f; --rust-soft: #d98a63; --teal: #00897b;
+      --serif: "Source Serif 4", Georgia, serif; --display: "Fraunces", Georgia, serif; --sans: "Inter", system-ui, sans-serif;
     }
-    .image-item {
-      flex: 1;
-      min-width: 300px;
-      max-width: 45%;
-    }
-    .results-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1.5rem;
-      margin: 2rem 0;
-    }
-    .result-item {
-      flex: 0 0 calc(50% - 0.75rem);
-      min-width: 0;
-      text-align: center;
-    }
-    @media (max-width: 600px) {
-      .result-item {
-        flex-basis: 100%;
-      }
-    }
-    .result-item img {
-      width: 100%;
-      height: 200px;
-      object-fit: contain;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-    }
-    .highlight-box {
-      background-color: #f0f7ff;
-      border-left: 4px solid #3273dc;
-      padding: 1.5rem;
-      margin: 1rem 0;
-      border-radius: 4px;
-    }
-    .metric-highlight {
-      background-color: #f8f9fa;
-      padding: 1rem;
-      border-radius: 8px;
-      margin: 1rem 0;
-      border: 1px solid #e9ecef;
-    }
-    /* Extras for visuals added below */
-    .logo-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 1.25rem;
-      margin: 1rem 0 0.5rem 0;
-    }
-    .logo-row img {
-      max-height: 64px;
-      width: auto;
-      object-fit: contain;
-      filter: saturate(0.9);
-    }
-    .full-width-figure img {
-      width: 100%;
-      max-height: 420px;
-      object-fit: contain;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 400 18px/1.65 var(--serif); }
+    img { max-width: 100%; display: block; }
+    a { color: var(--rust); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+    .narrow { max-width: 760px; }
+
+    /* nav */
+    nav.top { position: sticky; top: 0; z-index: 20; background: rgba(244,239,230,.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+    nav.top .wrap { display: flex; align-items: center; gap: 28px; height: 60px; }
+    nav.top .brand { font: 700 22px var(--display); color: var(--ink); text-decoration: none; letter-spacing: .01em; }
+    nav.top .brand span { color: var(--rust); }
+    nav.top .links { display: flex; gap: 20px; margin-left: auto; font: 500 15px var(--sans); }
+    nav.top .links a { color: var(--ink-soft); text-decoration: none; }
+    nav.top .links a:hover { color: var(--rust); }
+    @media (max-width: 860px) { nav.top .links { display: none; } }
+
+    /* hero */
+    .hero { padding: 64px 0 36px; text-align: center; }
+    .kicker { font: 700 13px var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--rust); }
+    .hero h1 { font: 700 clamp(34px, 5vw, 58px)/1.08 var(--display); margin: 18px auto 14px; max-width: 900px; letter-spacing: -.01em; }
+    .hero .sub { font: 400 21px/1.5 var(--serif); color: var(--ink-soft); max-width: 760px; margin: 0 auto; }
+    .hero .sub em { color: var(--ink); font-style: normal; font-weight: 600; }
+    .authors { margin-top: 24px; font: 500 17px var(--sans); }
+    .authors a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+    .authors .aff { display: block; color: var(--ink-soft); font-weight: 400; font-size: 15px; margin-top: 4px; }
+    .btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 28px 0 8px; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; border-radius: 999px; font: 600 15px var(--sans); text-decoration: none; background: var(--ink); color: #fff; transition: transform .15s, background .15s; }
+    .btn:hover { transform: translateY(-1px); background: #000; }
+    .btn.alt { background: var(--card); color: var(--ink); border: 1px solid var(--line); }
+    .btn.rust { background: var(--rust); }
+    .btn svg { width: 16px; height: 16px; fill: currentColor; }
+    .hero figure { margin: 36px auto 0; max-width: 1060px; }
+    .hero figure img { border-radius: 10px; box-shadow: 0 18px 50px rgba(43,36,32,.18); }
+
+    /* stats */
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 40px 0 8px; }
+    .stat { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px 22px 18px; text-align: left; }
+    .stat b { display: block; font: 700 38px/1.05 var(--display); color: var(--rust); }
+    .stat span { font: 500 15px/1.4 var(--sans); color: var(--ink-soft); }
+    @media (max-width: 820px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+
+    /* sections */
+    section.block { padding: 64px 0; border-top: 1px solid var(--line); }
+    section.block.alt { background: var(--paper-2); }
+    .eyebrow { font: 700 13px var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--rust); margin-bottom: 8px; }
+    h2 { font: 700 clamp(28px, 3.4vw, 40px)/1.15 var(--display); margin: 0 0 18px; }
+    h3 { font: 700 22px/1.25 var(--display); margin: 0 0 8px; }
+    p { margin: 0 0 14px; }
+    .lead { font-size: 20px; color: var(--ink); }
+    .muted { color: var(--ink-soft); }
+    .credit { font: italic 400 13px var(--sans); color: var(--ink-soft); margin-top: 10px; }
+
+    .grid { display: grid; gap: 18px; }
+    .g2 { grid-template-columns: repeat(2, 1fr); } .g3 { grid-template-columns: repeat(3, 1fr); }
+    @media (max-width: 820px) { .g2, .g3 { grid-template-columns: 1fr; } }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px; }
+    .fig { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px; margin: 0; }
+    .fig img { width: 100%; border-radius: 8px; cursor: zoom-in; background: #fff; }
+    .fig figcaption { font: 500 14px/1.45 var(--sans); color: var(--ink-soft); padding: 10px 4px 2px; }
+    .fig.contain img { height: 230px; object-fit: contain; }
+
+    /* pipeline */
+    .pipeline { display: flex; flex-wrap: wrap; gap: 10px; margin: 26px 0 30px; align-items: stretch; }
+    .step { flex: 1 1 150px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; position: relative; }
+    .step .n { font: 700 12px var(--sans); letter-spacing: .14em; color: var(--rust); text-transform: uppercase; }
+    .step b { display: block; font: 700 18px/1.2 var(--display); margin: 4px 0 2px; }
+    .step span { font: 500 14px/1.4 var(--sans); color: var(--ink-soft); }
+    .step.final { background: var(--rust); border-color: var(--rust); color: #fff; }
+    .step.final .n, .step.final span { color: #fde9dc; }
+
+    pre { background: var(--ink); color: #f4efe6; border-radius: 12px; padding: 18px 20px; overflow-x: auto; font: 14px/1.6 "SF Mono", Menlo, Consolas, monospace; margin: 0; }
+    pre .k { color: #d98a63; } pre .s { color: #c9d6a3; } pre .c { color: #a89b88; }
+
+    /* models */
+    .model .tag { display: inline-block; font: 600 12px var(--sans); color: var(--ink-soft); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; margin-bottom: 10px; }
+    .model img { border-radius: 8px; margin: 12px 0 4px; background: #fff; cursor: zoom-in; }
+    .model p { font-size: 16px; }
+
+    /* results table */
+    .tablewrap { overflow-x: auto; margin: 22px 0; }
+    table { border-collapse: collapse; width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; font: 500 16px var(--sans); }
+    th, td { padding: 12px 16px; text-align: right; border-bottom: 1px solid var(--line); }
+    th:first-child, td:first-child { text-align: left; }
+    thead th { background: var(--paper-2); font-weight: 700; font-size: 14px; color: var(--ink-soft); }
+    tr.best td { background: #fbeee4; font-weight: 700; }
+    td .up { color: var(--rust); font-weight: 700; }
+    .dot { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+
+    /* talk */
+    .talk { display: grid; grid-template-columns: 1.6fr 1fr; gap: 24px; align-items: center; }
+    .talk iframe { width: 100%; aspect-ratio: 16/9; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
+    @media (max-width: 820px) { .talk { grid-template-columns: 1fr; } }
+
+    details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin-bottom: 12px; }
+    details summary { cursor: pointer; font: 700 19px var(--display); list-style: none; }
+    details summary::after { content: "+"; float: right; color: var(--rust); font-family: var(--sans); }
+    details[open] summary::after { content: "–"; }
+    details > div { margin-top: 12px; font-size: 17px; }
+
+    .bib { position: relative; }
+    .copy { position: absolute; top: 12px; right: 12px; font: 600 13px var(--sans); background: var(--rust); color: #fff; border: 0; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+
+    .linklist { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .linklist a { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; text-decoration: none; color: var(--ink); font: 600 15px var(--sans); }
+    .linklist a small { display: block; color: var(--ink-soft); font-weight: 400; font-size: 13px; margin-top: 2px; }
+    .linklist a:hover { border-color: var(--rust); }
+    @media (max-width: 820px) { .linklist { grid-template-columns: 1fr; } }
+
+    footer { border-top: 1px solid var(--line); padding: 44px 0 60px; text-align: center; }
+    .logos { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 28px; margin: 18px 0 22px; }
+    .logos img { max-height: 54px; width: auto; filter: saturate(.9); }
+    footer p { font: 400 14px var(--sans); color: var(--ink-soft); }
+
+    /* lightbox */
+    #lb { position: fixed; inset: 0; background: rgba(20,16,14,.88); display: none; align-items: center; justify-content: center; z-index: 50; padding: 24px; cursor: zoom-out; }
+    #lb.on { display: flex; }
+    #lb img { max-height: 92vh; max-width: 96vw; border-radius: 8px; background: #fff; }
+
+    .reveal { opacity: 0; transform: translateY(14px); transition: opacity .7s, transform .7s; }
+    .reveal.in { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } }
   </style>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      function copyBibtex() {
-        const bibtex = `@InProceedings{10.1007/978-3-031-95918-9_4,
-author="Zafar, Muhammad Hamza
-and Hardeberg, Jon Y.",
-editor="Petersen, Jens
-and Dahl, Vedrana Andersen",
-title="Aligning Subjective and Objective Assessments in Super-Resolution Models",
-booktitle="Image Analysis",
-year="2025",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="47--60",
-abstract="The evaluation of super-resolution (SR) models remains a challenge due to discrepancies between objective metrics and human perception. This study assesses four state-of-the-art SR models, including ResShift, Real-ESRGAN, BSRGAN, and SwinIR, through both computational metrics and human-centered evaluations. Standard metrics such as PSNR, SSIM, LPIPS, and CLIPIQA were used to quantify fidelity and perceptual alignment, while subjective assessments were conducted through online and controlled lab-based experiments. Results indicate that ResShift consistently achieves superior perceptual quality, while BSRGAN, despite competitive objective scores, ranks lower in human evaluations. To the best of our knowledge, this is the first study to provide an in-depth subjective evaluation of ResShift alongside a systematic comparison with other SR models. These findings underscore the limitations of traditional metrics and emphasize the need for hybrid evaluation approaches that integrate subjective assessments. Code and Data Available at https://github.com/hamzafer/super-resolution-color.",
-isbn="978-3-031-95918-9"
-}`;
-        navigator.clipboard.writeText(bibtex).then(function() {
-          alert('BibTeX copied to clipboard!');
-        }, function() {
-          alert('Failed to copy BibTeX.');
-        });
-      }
-      window.copyBibtex = copyBibtex;
-
-      // Remove tiles if an image fails to load (e.g., wrong path on server)
-      document.querySelectorAll('img').forEach(function(img){
-        img.addEventListener('error', function(){
-          const tile = img.closest('.result-item') || img.closest('.full-width-figure');
-          if (tile) tile.remove();
-        }, { once: true });
-      });
-    });
-  </script>
-    <script data-goatcounter="https://texmet.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://texmet.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">TEX<span>MET</span></a>
+    <div class="links">
+      <a href="#overview">Overview</a>
+      <a href="#oseberg">Oseberg</a>
+      <a href="#dataset">Dataset</a>
+      <a href="#models">Models</a>
+      <a href="#results">Results</a>
+      <a href="#talk">Talk</a>
+      <a href="#cite">Cite</a>
+    </div>
   </div>
 </nav>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-widescreen">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">An Exploration of Deep Learning Methods for Textile Reconstruction</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><a href="https://www.hamzafar.me/" target="_blank">Muhammad Hamza Zafar</a></span>
-          </div>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">Supervisors: <a href="https://www.ntnu.no/ansatte/jon.hardeberg" target="_blank">Prof. Jon Yngve Hardeberg</a> and <a href="https://www.ntnu.no/ansatte/davit.gigilashvili" target="_blank">Dr. Davit Gigilashvili</a></span>
-          </div>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">NTNU - Norwegian University of Science and Technology</span>
-          </div>
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="kicker">Master's thesis · NTNU Colourlab · Paper in ACM JOCCH 2026</div>
+    <h1>An Exploration of Deep Learning Methods for Textile Reconstruction</h1>
+    <p class="sub">Can AI help put the Viking Age Oseberg textiles back together? We built <em>TEXMET</em>, 18,644 curated historical textile images, and used it to benchmark and adapt state-of-the-art puzzle solvers.</p>
+    <div class="authors">
+      <a href="https://www.hamzafar.me/" target="_blank" rel="noopener">Muhammad Hamza Zafar</a>
+      <span class="aff">Supervisors: <a href="https://www.ntnu.no/ansatte/jon.hardeberg" target="_blank" rel="noopener">Prof. Jon Yngve Hardeberg</a> and <a href="https://www.ntnu.no/ansatte/davit.gigilashvili" target="_blank" rel="noopener">Dr. Davit Gigilashvili</a> · NTNU, Norwegian University of Science and Technology</span>
+    </div>
+    <div class="btns">
+      <a class="btn rust" href="https://doi.org/10.1145/3846195" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6zM14 3v5h5"/></svg>Paper (ACM JOCCH)</a>
+      <a class="btn" href="https://huggingface.co/datasets/hzafar/TEXMET" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 3C7 3 3 4.8 3 7v10c0 2.2 4 4 9 4s9-1.8 9-4V7c0-2.2-4-4-9-4zm0 2c4.4 0 7 1.4 7 2s-2.6 2-7 2-7-1.4-7-2 2.6-2 7-2z"/></svg>Dataset (Hugging Face)</a>
+      <a class="btn" href="https://github.com/hamzafer/TEXMET" target="_blank" rel="noopener"><svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
+      <a class="btn alt" href="https://texmet-gch2026-talk.vercel.app" target="_blank" rel="noopener">GCH 2026 talk slides</a>
+      <a class="btn alt" href="#cite">Cite</a>
+    </div>
+    <figure class="reveal">
+      <img src="static/web/hero.jpg" alt="Historical engraving of a textile showroom with draped fabrics" width="1373" height="823">
+    </figure>
 
-          <div class="column has-text-centered">
-              <div class="publication-links">
-                  <div class="dropdown is-hoverable">
-                      <div class="dropdown-trigger">
-                          <button class="button is-normal is-rounded is-dark" aria-haspopup="true" aria-controls="dropdown-menu">
-                              <span>Code & Data</span>
-                              <span class="icon is-small">
-                                  <i class="fas fa-angle-down" aria-hidden="true"></i>
-                              </span>
-                          </button>
-                      </div>
-                      <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                          <div class="dropdown-content">
-                              <a href="https://github.com/topics/thesis-2025" class="dropdown-item" target="_blank">
-                                  GitHub Topic
-                              </a>
-                              <a href="https://github.com/hamzafer/JPDVT-MT-NTNU" class="dropdown-item" target="_blank">
-                                  JPDVT-MT-NTNU
-                              </a>
-                              <a href="https://github.com/hamzafer/fcvit-mt-ntnu" class="dropdown-item" target="_blank">
-                                  FCViT-MT-NTNU
-                              </a>
-                              <a href="https://github.com/hamzafer/DiffAssemble" class="dropdown-item" target="_blank">
-                                  DiffAssemble
-                              </a>
-                              <a href="https://github.com/hamzafer/TEXMET" class="dropdown-item" target="_blank">
-                                  TEXMET dataset
-                              </a>
-                              <a href="https://huggingface.co/datasets/hzafar/TEXMET" class="dropdown-item" target="_blank">
-                                  HuggingFace card
-                              </a>
-                              <a href="https://github.com/hamzafer/asuka-misato" class="dropdown-item" target="_blank">
-                                  asuka-misato fork
-                              </a>
-                              <a href="https://github.com/hamzafer/PuzzleSolverUI" class="dropdown-item" target="_blank">
-                                  PuzzleSolverUI
-                              </a>
-                              <a href="https://github.com/hamzafer/hpc-jobs-ntnu" class="dropdown-item" target="_blank">
-                                  hpc-jobs-ntnu
-                              </a>
-                              <a href="https://huggingface.co/datasets/hzafar/TEXMET" class="dropdown-item" target="_blank">
-                                  Full dataset (Hugging Face)
-                              </a>
-                              <a href="https://thesis-mt-project-page-1lg4.vercel.app/" class="dropdown-item" target="_blank">
-                                  Thesis Project Page (WIP)
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <a href="https://doi.org/10.1145/3846195" class="button is-normal is-rounded is-dark" target="_blank">
-                      <span>Paper (ACM JOCCH)</span>
-                  </a>
-                  <a href="https://texmet-gch2026-talk.vercel.app" class="button is-normal is-rounded is-dark" target="_blank">
-                      <span>GCH 2026 talk slides</span>
-                  </a>
-              </div>
-          </div>
+    <div class="stats reveal">
+      <div class="stat"><b>18,644</b><span>curated historical textile images from The Met (CC0)</span></div>
+      <div class="stat"><b>26.7 → 64.4%</b><span>puzzle accuracy on real Oseberg fragments after fine-tuning on TEXMET</span></div>
+      <div class="stat"><b>3</b><span>state-of-the-art puzzle solvers benchmarked: JPDVT, FCViT, DiffAssemble</span></div>
+      <div class="stat"><b>1,000+</b><span>downloads of the dataset on Hugging Face</span></div>
+    </div>
+  </div>
+</header>
 
-          <!-- Featured textile image (requested) -->
-          <div class="image" style="margin-top:1rem; margin-bottom:1rem;">
-            <img src="static/images/textile.png" alt="Representative textile from TEXMET" loading="lazy">
-          </div>
+<section class="block" id="overview">
+  <div class="wrap narrow">
+    <div class="eyebrow">Overview</div>
+    <h2>Teaching puzzle solvers about textiles</h2>
+    <p class="lead">Reconstructing fragmented historical textiles is slow, manual work for archaeologists. AI puzzle solvers look promising, but they are trained on natural photographs and struggle with the faded colors, worn fibers and missing parts of ancient fabric: a classic <em>domain gap</em>.</p>
+    <p>To close it we introduce <strong>TEXMET</strong>, the first benchmark dataset designed for textile reconstruction: 18,644 high-resolution textile and tapestry images from the Metropolitan Museum of Art's Open Access collection, curated with CLIP embeddings, UMAP clustering, similarity search and human review.</p>
+    <p>We study how state-of-the-art puzzle solvers perform on textiles, how much domain-specific fine-tuning on TEXMET helps, how missing content and inpainting affect them, and what Large Vision Models (LVMs) can contribute.</p>
+  </div>
+</section>
 
+<section class="block alt" id="oseberg">
+  <div class="wrap">
+    <div class="narrow">
+      <div class="eyebrow">The problem</div>
+      <h2>The Oseberg find</h2>
+      <p>The Oseberg ship burial (834 CE, Norway) held some of the finest textiles of the Viking Age. Today they survive as hundreds of fragile, degraded fragments at the Museum of Cultural History in Oslo, and nobody knows exactly how they originally fit together.</p>
+    </div>
+    <div class="grid g3" style="margin-top:22px">
+      <figure class="fig contain"><img src="static/web/oseberg_fragments.jpg" alt="Oseberg textile fragments" loading="lazy"><figcaption>Oseberg textile fragments. Photos: G. A. Pantos, Museum of Cultural History, UiO</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/representative.jpg" alt="A scrambled Oseberg fragment reassembled by an AI puzzle solver" loading="lazy"><figcaption>The task: a fragment photo cut into a 3×3 puzzle, shuffled, and reassembled by a solver</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/oseberg_ship.jpg" alt="Oseberg ship illustration" loading="lazy"><figcaption>The Oseberg ship (context illustration, Ulleland)</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="dataset">
+  <div class="wrap">
+    <div class="narrow">
+      <div class="eyebrow">The dataset</div>
+      <h2>Building TEXMET</h2>
+      <p>No existing dataset fit: textile collections show modern fashion, fragment datasets show frescoes, and puzzle benchmarks use everyday photos. So we built one from The Met's open collection.</p>
+    </div>
+    <div class="pipeline reveal">
+      <div class="step"><div class="n">1 · Harvest</div><b>55,007</b><span>images via the Met API, ~3 days</span></div>
+      <div class="step"><div class="n">2 · Select</div><b>27,360</b><span>objects, one main image each</span></div>
+      <div class="step"><div class="n">3 · Embed &amp; map</div><b>CLIP + UMAP</b><span>similar images cluster, outliers stand out</span></div>
+      <div class="step"><div class="n">4 · Review</div><b>−8,716</b><span>armor, loose threads, near-empty images, duplicates</span></div>
+      <div class="step final"><div class="n">Result</div><b>18,644</b><span>train 14,915 · val 1,864 · test 1,865</span></div>
+    </div>
+    <div class="grid g3">
+      <figure class="fig contain"><img src="static/web/ds_final.jpg" alt="Final curated dataset in FiftyOne" loading="lazy"><figcaption>The final curated set: 18,644 samples</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/ds_badlabels.jpg" alt="Examples of removed images such as helmets filed as textiles" loading="lazy"><figcaption>Not everything was a textile: helmets filed among the lace</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/ds_cleaning.jpg" alt="Cleaning results" loading="lazy"><figcaption>Cleaning results</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/ds_departments.jpg" alt="Distribution across Met departments" loading="lazy"><figcaption>Distribution across Met departments</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/ds_periods.jpg" alt="Distribution across time periods" loading="lazy"><figcaption>Time periods</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/ds_objects.jpg" alt="Object names distribution" loading="lazy"><figcaption>Object types</figcaption></figure>
+    </div>
+    <div class="grid g2" style="margin-top:26px; align-items:center">
+      <div>
+        <h3>Load it in one line</h3>
+        <p class="muted">All 18,644 images with Met metadata and the exact train / validation / test splits from the paper, as Parquet on Hugging Face. CC0.</p>
+        <a class="btn" href="https://huggingface.co/datasets/hzafar/TEXMET" target="_blank" rel="noopener">Open on Hugging Face</a>
+      </div>
+      <pre><span class="k">from</span> datasets <span class="k">import</span> load_dataset
+
+ds = load_dataset(<span class="s">"hzafar/TEXMET"</span>)
+ex = ds[<span class="s">"train"</span>][<span class="c">0</span>]
+ex[<span class="s">"image"</span>], ex[<span class="s">"title"</span>]</pre>
+    </div>
+  </div>
+</section>
+
+<section class="block alt" id="models">
+  <div class="wrap">
+    <div class="narrow">
+      <div class="eyebrow">The solvers</div>
+      <h2>Models &amp; architectures</h2>
+      <p>Three state-of-the-art puzzle solvers, all trained on ImageNet, reproduced and evaluated on textiles.</p>
+    </div>
+    <div class="grid g3" style="margin-top:22px">
+      <div class="card model"><span class="tag">CVPR 2024</span><h3>JPDVT</h3><p>A diffusion vision transformer: starts from a noisy guess of where pieces go and refines it step by step. Robust to missing patches.</p><img src="static/web/arch_jpdvt.jpg" alt="JPDVT architecture" loading="lazy"></div>
+      <div class="card model"><span class="tag">2025</span><h3>FCViT</h3><p>A vision transformer that predicts each piece's position directly by coordinate regression.</p><img src="static/web/arch_fcvit.jpg" alt="FCViT architecture" loading="lazy"></div>
+      <div class="card model"><span class="tag">CVPR 2024</span><h3>DiffAssemble</h3><p>A graph-based diffusion model that reasons about piece-to-piece relationships; it can handle rotation, missing pieces and variable puzzle sizes.</p><img src="static/web/arch_diffassemble.jpg" alt="DiffAssemble architecture" loading="lazy"></div>
+    </div>
+    <div class="grid g2" style="margin-top:18px">
+      <div class="card"><h3>ASUKA inpainting</h3><p class="muted" style="margin:0">Fills in missing regions of damaged images before puzzle solving.</p></div>
+      <div class="card"><h3>GPT-4o and Gemini</h3><p class="muted" style="margin:0">Large Vision Models explored for tile arrangement, narrative generation and semantic retrieval.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="results">
+  <div class="wrap">
+    <div class="narrow">
+      <div class="eyebrow">Results</div>
+      <h2>Fine-tuning on TEXMET closes the gap</h2>
+      <p>Puzzle accuracy: the share of 3×3 puzzles with every piece in the right place. Trained on ImageNet only, the solvers struggle on textiles and on real Oseberg fragments. Fine-tuned on TEXMET, DiffAssemble more than doubles its Oseberg score. Oseberg is never used for training.</p>
+    </div>
+    <div class="tablewrap reveal">
+      <table>
+        <thead><tr><th>Model</th><th>ImageNet</th><th><span class="dot" style="background:var(--teal)"></span>TEXMET</th><th><span class="dot" style="background:var(--rust)"></span>Oseberg (45 fragments)</th></tr></thead>
+        <tbody>
+          <tr><td>JPDVT (ImageNet-trained)</td><td>67.9%</td><td>32.9%</td><td>20.0%</td></tr>
+          <tr><td>FCViT (ImageNet-trained)</td><td>68.8%</td><td>8.3%</td><td>24.4%</td></tr>
+          <tr><td>DiffAssemble (ImageNet-trained)</td><td>56.6%</td><td>65.1%</td><td>26.7%</td></tr>
+          <tr class="best"><td>DiffAssemble fine-tuned on TEXMET</td><td>–</td><td>85.9% <span class="up">+20.8</span></td><td>64.4% <span class="up">+37.8</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid g3">
+      <div class="card"><h3>Textile features, not just outlines</h3><p class="muted" style="margin:0">On square crops from inside each Oseberg fragment (no outline), the fine-tuned model still beats the baseline: 39.8% vs 27.7%.</p></div>
+      <div class="card"><h3>Robust to holes</h3><p class="muted" style="margin:0">On ImageNet photos with a third hidden by a real fragment-shaped mask, DiffAssemble barely moves while FCViT drops 24.5 points. Inpainting recovers part of the loss.</p></div>
+      <div class="card"><h3>Fine-tuning isn't automatic</h3><p class="muted" style="margin:0">JPDVT forgot what it knew (catastrophic forgetting) and FCViT barely adapted; DiffAssemble was carried forward.</p></div>
+    </div>
+    <h3 style="margin-top:34px">Gallery</h3>
+    <div class="grid g3" style="margin-top:12px">
+      <figure class="fig contain"><img src="static/web/res_diff_success.jpg" alt="DiffAssemble success examples" loading="lazy"><figcaption>DiffAssemble reproduction (CelebA): successes</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/res_diff_failure.jpg" alt="DiffAssemble failure examples" loading="lazy"><figcaption>DiffAssemble reproduction (CelebA): failures</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/res_diff_missing.jpg" alt="DiffAssemble with 30% missing pieces" loading="lazy"><figcaption>DiffAssemble reproduction (CelebA): 30% of pieces missing, multiple sizes</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/res_evolution.jpg" alt="DiffAssemble solving a 12x12 puzzle with rotations" loading="lazy"><figcaption>DiffAssemble solving a 12×12 puzzle with rotations, step by step</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/res_fcvit.jpg" alt="FCViT perfect versus failed example" loading="lazy"><figcaption>FCViT: perfect vs failed</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/res_inpainting.jpg" alt="Inpainting example" loading="lazy"><figcaption>Masking and inpainting (ASUKA)</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/res_jpdvt_success.jpg" alt="JPDVT 6x6 success" loading="lazy"><figcaption>JPDVT 6×6: success</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/res_jpdvt_failure.jpg" alt="JPDVT 6x6 failure" loading="lazy"><figcaption>JPDVT 6×6: failure</figcaption></figure>
+      <figure class="fig contain"><img src="static/web/oseberg_benchmark.jpg" alt="Oseberg benchmark" loading="lazy"><figcaption>DiffAssemble on the Oseberg fragments</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="block alt" id="tools">
+  <div class="wrap">
+    <div class="narrow">
+      <div class="eyebrow">Tools</div>
+      <h2>PuzzleSolver interface</h2>
+      <p>An interactive tool to scramble images, run the solvers and inspect their reconstructions, including on Oseberg fragments. <a href="https://github.com/hamzafer/PuzzleSolverUI" target="_blank" rel="noopener">Code on GitHub</a>.</p>
+    </div>
+    <div class="grid g2" style="margin-top:20px">
+      <figure class="fig"><img src="static/web/tool_ui.jpg" alt="PuzzleSolver tool UI" loading="lazy"><figcaption>PuzzleSolver UI</figcaption></figure>
+      <figure class="fig"><img src="static/web/tool_oseberg.jpg" alt="PuzzleSolver on an Oseberg fragment" loading="lazy"><figcaption>PuzzleSolver on an Oseberg fragment</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="talk">
+  <div class="wrap">
+    <div class="talk">
+      <iframe src="https://texmet-gch2026-talk.vercel.app" title="TEXMET talk slides, GCH 2026" loading="lazy"></iframe>
+      <div>
+        <div class="eyebrow">Talk</div>
+        <h2>GCH 2026, Barcelona</h2>
+        <p>Presented at the Eurographics Workshop on Graphics and Cultural Heritage, ACM JOCCH Special Issue on Visual Heritage session, 3 November 2026.</p>
+        <p class="muted">Click into the slides and use the arrow keys; press F for full screen.</p>
+        <a class="btn" href="https://texmet-gch2026-talk.vercel.app" target="_blank" rel="noopener">Open the slides</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>The reconstruction of fragmented historical textiles presents a significant challenge for archaeologists. The process is often manual, slow, and prone to bias. While AI-powered puzzle solvers have shown promise in other domains, they often fail when applied to archaeological data due to a "domain gap." These models, typically trained on natural images, struggle with the irregular shapes, degradation, and missing information characteristic of ancient textiles.</p>
-          <p>To address this challenge, we introduce <strong>TEXMET</strong>, a large-scale, curated dataset of textile and tapestry images from the Metropolitan Museum of Art. TEXMET is the first benchmark dataset specifically designed for textile reconstruction, containing over 18,000 high-resolution images. The dataset was created through an automated pipeline of downloading, filtering, and curating images from the MET's open-access archive.</p>
-          <p>Our research investigates the performance of state-of-the-art puzzle-solving models on textile data, the potential for domain-specific fine-tuning with TEXMET to improve performance, the impact of various preprocessing techniques, and the capabilities of Large Vision Models (LVMs) in this context.</p>
-        </div>
-      </div>
-    </div>
+<section class="block alt" id="more">
+  <div class="wrap narrow">
+    <div class="eyebrow">Takeaways</div>
+    <h2>Conclusions and lessons</h2>
+    <details open><summary>Conclusion</summary><div>
+      <ul>
+        <li>We introduced <strong>TEXMET</strong>, the first large-scale benchmark dataset for textile reconstruction.</li>
+        <li><strong>DiffAssemble</strong> fine-tuned on TEXMET gives the best results on real Viking textile fragments (26.7% → 64.4% on Oseberg).</li>
+        <li>Models must learn the textile patterns themselves, not shortcuts like outlines: our crop experiments test exactly that.</li>
+        <li>Large Vision Models are useful as assistive tools (metadata, semantic retrieval), not for solving the puzzle itself.</li>
+      </ul>
+    </div></details>
+    <details><summary>Future work</summary><div>
+      <p>Move beyond grid puzzles to irregularly shaped fragments, for example with graph representations that encode boundary shapes or attention focused on contour matching. Build larger, more diverse archaeological datasets for pre-training. Explore hybrids where an LVM's semantic understanding guides the spatial search of a solver like DiffAssemble.</p>
+    </div></details>
+    <details><summary>Reproduction challenges</summary><div>
+      <p>Reproducing published models took far longer than expected: the 4–6 weeks per model initially planned became 8–12 weeks for problematic models like FCViT. That bottleneck shaped the research, which is why we share code and data to help others avoid the same pitfalls.</p>
+    </div></details>
+    <details><summary>Compute</summary><div>
+      <p>Most experiments ran on NTNU's IDUN HPC cluster on H100 and A100 nodes (4 GPUs, 32 CPUs, 200 GB RAM per node); DiffAssemble needed A100 nodes for older PyTorch compatibility. About 3,000 GPU hours in total, plus smaller tests on a local RTX 4090. Slurm scripts are in <a href="https://github.com/hamzafer/hpc-jobs-ntnu" target="_blank" rel="noopener">hpc-jobs-ntnu</a>. We thank IDUN NTNU HPC for the resources.</p>
+    </div></details>
+  </div>
+</section>
 
-    <!-- Oseberg Case Study -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Oseberg Find</h2>
-        <div class="content has-text-justified">
-          <p>Illustrations of Viking textile fragments and domain specifics examined in our benchmarking.</p>
-        </div>
-        <div class="results-grid" aria-label="Oseberg visuals">
-          <div class="result-item">
-            <img src="static/images/Chapter1/oseberg_fragments.png" alt="Oseberg textile fragments overview">
-            <div class="caption">Oseberg fragments</div>
-          </div>
-          <div class="result-item">
-            <img src="static/images/supp/oseberg.png" alt="Oseberg benchmark visualization">
-            <div class="caption">Oseberg benchmark</div>
-          </div>
-          <div class="result-item">
-            <img src="static/images/Chapter2/Oseberg_ship_Ulleland.jpg" alt="Oseberg ship illustration by Ulleland">
-            <div class="caption">Oseberg ship (context)</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Models and Architectures -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Models & Architectures</h2>
-        <div class="content has-text-justified">
-          <p>We evaluated several state-of-the-art models for puzzle solving and image reconstruction:</p>
-          <ul>
-              <li><strong>JPDVT:</strong> A Diffusion-based Vision Transformer model, known for its robustness to missing patches.</li>
-              <li><strong>FCViT:</strong> A Transformer-based model that uses coordinate regression.</li>
-              <li><strong>DiffAssemble:</strong> A graph-based diffusion model that reasons about piece-to-piece relationships.</li>
-          </ul>
-          <p>We also explored the use of other models and techniques, including:</p>
-          <ul>
-              <li><strong>ASUKA:</strong> An inpainting model to reconstruct missing parts of the images.</li>
-              <li><strong>GPT-4o and Gemini:</strong> Large Vision-Language Models (LVMs) to explore their capabilities for tasks like tile arrangement, narrative generation, and semantic retrieval.</li>
-          </ul>
-          <div class="results-grid" aria-label="Architectures gallery">
-            <div class="result-item">
-              <img src="static/images/chapter3/jpdvt_architecture.png" alt="JPDVT architecture diagram">
-              <div class="caption">JPDVT architecture</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/chapter3/fcvit_architecture.png" alt="FCViT architecture diagram">
-              <div class="caption">FCViT architecture</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/chapter3/diffassemble_architecture.png" alt="DiffAssemble architecture diagram">
-              <div class="caption">DiffAssemble architecture</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Dataset Highlights -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">TEXMET Dataset Highlights</h2>
-        <div class="content has-text-justified">
-          <p>Key views from the curation and analysis of TEXMET, showing quality filtering and distributions across departments and time periods.</p>
-        </div>
-        <div class="results-grid" aria-label="Dataset highlights">
-          <div class="result-item">
-            <img src="static/images/chapter4/01_dataset_quality_overview.png" alt="Dataset quality overview">
-            <div class="caption">Quality overview</div>
-          </div>
-          <div class="result-item">
-            <img src="static/images/chapter4/02_cleaning_results.png" alt="Cleaning results summary">
-            <div class="caption">Cleaning results</div>
-          </div>
-          <div class="result-item">
-            <img src="static/images/chapter4/09h_all_departments_distribution.png" alt="Distribution across departments">
-            <div class="caption">Departments distribution</div>
-          </div>
-          <div class="result-item">
-            <img src="static/images/chapter4/11_time_periods_clean_pretty.png" alt="Clean time periods distribution">
-            <div class="caption">Time periods</div>
-          </div>
-          <div class="result-item">
-            <img src="static/images/chapter4/12_object_names_distribution_final.png" alt="Object names distribution">
-            <div class="caption">Object names distribution</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Experiments -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Experiments</h2>
-        <div class="content has-text-justified">
-          <p>Our research involved a series of experiments to evaluate the performance of the selected models and the impact of our TEXMET dataset.</p>
-          <ul>
-              <li><strong>Model Reproduction and Baseline:</strong> We first reproduced the results of the chosen models and established a baseline performance on the ImageNet dataset.</li>
-              <li><strong>Oseberg Benchmarking:</strong> When applied to real-world Viking textile fragments from the Oseberg collection, all models showed a significant drop in performance, highlighting the domain gap.</li>
-              <li><strong>Masking and Inpainting:</strong> We tested the models' resilience to missing information by applying masks and using inpainting techniques.</li>
-              <li><strong>TEXMET Fine-tuning:</strong> This was a key experiment where we fine-tuned the models on our TEXMET dataset. The results were remarkable, especially for the DiffAssemble model, which showed a significant improvement in performance on both TEXMET and the Oseberg dataset.</li>
-              <li><strong>Cropping Strategy:</strong> We used a cropping strategy to remove borders and force the models to learn the textile patterns themselves, rather than relying on edge information.</li>
-          </ul>
-          <p>Our experiments demonstrated that domain-specific fine-tuning with a high-quality dataset like TEXMET is crucial for achieving good performance in textile reconstruction.</p>
-          <div class="results-grid" aria-label="Experiment results">
-            <div class="result-item">
-              <img src="static/images/chapter5/diffSUCCESS_multi_size_30missing.png" alt="DiffAssemble success on multi-size with 30% missing">
-              <div class="caption">DiffAssemble success (multi-size, 30% missing)</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/chapter5/DiffassembleSUCCESS_multi_size_v2.png" alt="DiffAssemble success examples">
-              <div class="caption">DiffAssemble success examples</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/chapter5/DiffassembleFAILURE_multi_size_v2.png" alt="DiffAssemble failure examples">
-              <div class="caption">DiffAssemble failure examples</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/chapter5/FCViT_3x3_Perfect_v_failed_example.png" alt="FCViT perfect vs failed example">
-              <div class="caption">FCViT perfect vs failed</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/supp/success_jpwleg3_6x6.png" alt="JPDVT success 6x6 example">
-              <div class="caption">JPDVT success (6x6)</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/supp/failure_jpwleg3_6x6.png" alt="JPDVT failure 6x6 example">
-              <div class="caption">JPDVT failure (6x6)</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/chapter3/inpainting-example-visual.png" alt="Inpainting example visualization" loading="lazy">
-              <div class="caption">Inpainting example</div>
-            </div>
-            <div class="result-item">
-              <img src="static/images/chapter3/diffassemble_EVOLUTION_WITH_ROTATIONS_12x12_acc1.000_img1925.png" alt="DiffAssemble evolution with rotations 12x12" loading="lazy">
-              <div class="caption">Evolution with rotations (12x12)</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Baselines -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Baselines</h2>
-        <div class="results-grid" aria-label="Baselines">
-          <div class="result-item">
-            <img src="static/images/chapter5/exp2/imagenet_baseline_performance.png" alt="ImageNet baseline visual" loading="lazy">
-            <div class="caption">ImageNet baseline</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Tools & Interfaces -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Tools & Interfaces</h2>
-        <div class="results-grid" aria-label="Tools visuals">
-          <div class="result-item">
-            <img src="static/images/supp/puzzlesolvertool.png" alt="PuzzleSolver tool UI" loading="lazy">
-            <div class="caption">PuzzleSolver tool UI</div>
-          </div>
-          <div class="result-item">
-            <img src="static/images/supp/puzzlesolvertooloseberg.png" alt="PuzzleSolver tool with Oseberg" loading="lazy">
-            <div class="caption">PuzzleSolver with Oseberg</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Conclusion -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Conclusion</h2>
-        <div class="content has-text-justified">
-          <p>Our work makes several key contributions to the field of computational archaeology and computer vision:</p>
-          <ul>
-              <li>We introduced <strong>TEXMET</strong>, the first large-scale benchmark dataset for textile reconstruction.</li>
-              <li>We demonstrated that the <strong>DiffAssemble</strong> model, when fine-tuned on TEXMET, achieves state-of-the-art performance in reconstructing Viking textiles.</li>
-              <li>We showed that it is crucial for models to learn the underlying patterns of the textiles, not just rely on shortcuts like edge information.</li>
-              <li>We explored the capabilities of Large Vision Models (LVMs) and found them to be useful as assistive tools for tasks like metadata generation and semantic retrieval, rather than for solving the reconstruction puzzle itself.</li>
-          </ul>
-          <p>Our findings pave the way for future research in developing specialized architectures and hybrid pipelines that combine the strengths of different models to tackle the challenges of historical textile reconstruction.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Reproduction Challenges -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Reproduction Challenges</h2>
-        <div class="content has-text-justified">
-          <p>This experience underscores the significant hidden costs of reproduction in computer vision research. While reported accuracies and architectural innovations appear promising in published literature, the practical reality of implementation often requires substantially more time and resources than anticipated. The 4–6 weeks per model initially estimated for reproduction proved optimistic, with actual implementation times extending to 8–12 weeks for problematic models like FCViT. This reproduction bottleneck fundamentally shaped the research trajectory, emphasizing the need for better code availability and implementation documentation in the computer vision community.</p>
-          <p>Thats why we are providing code, data and models, to help future researchers avoid similar pitfalls and accelerate progress in the field.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Technical Details -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Technical Details</h2>
-        <div class="content has-text-justified">
-          <p>Most experiments were run on the IDUN NTNU HPC cluster, using both H100 and A100 GPU nodes (4 GPUs per node, 32 CPUs, 200 GB RAM). The DiffAssemble model required A100 nodes due to older PyTorch compatibility. Slurm scripts for all experiments are available in the hpc-jobs-ntnu repository. Some smaller tests were run on a local RTX 4090 GPU. In total, about 3000 GPU hours were used on IDUN. We are grateful to the IDUN NTNU HPC for providing the resources needed for this research.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Future Work -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Future Work</h2>
-        <div class="content has-text-justified">
-          <p>The findings and limitations of this thesis illuminate several promising avenues for future research. The most critical next step is to move beyond grid-based puzzles and develop models that can handle irregularly shaped fragments. This could involve exploring graph representations that encode boundary shapes or developing novel attention mechanisms that focus on contour matching.</p>
-          <p>Second, the success of the fine-tuned DiffAssemble model highlights the immense potential of domain-specific training. Future work should focus on creating even larger, more diverse archaeological datasets. Pre-training models on such a comprehensive "heritage" dataset could lead to a new generation of highly effective, general-purpose reconstruction tools.</p>
-          <p>Finally, while our one-shot LVM experiments showed limitations in spatial reasoning, their success in semantic retrieval was undeniable. Future research could explore hybrid approaches, where the semantic understanding of an LVM is used to guide or constrain the spatial search of a puzzle-solving model like DiffAssemble, potentially creating a system that combines the strengths of both architectures.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Affiliations & Partners -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Affiliations & Partners</h2>
-        <div class="logo-row" aria-label="Partners and affiliations logos">
-          <img src="static/images/FRONTMATTER/NTNU_Logo.png" alt="NTNU logo">
-          <img src="static/images/FRONTMATTER/UEF_Logo.png" alt="UEF logo">
-          <img src="static/images/FRONTMATTER/UGR_Logo.png" alt="UGR logo">
-          <img src="static/images/FRONTMATTER/UJM_Logo.png" alt="UJM logo">
-          <img src="static/images/FRONTMATTER/Erasmus_Logo.jpg" alt="Erasmus+ logo">
-          <img src="static/images/FRONTMATTER/COSI_Logo.jpg" alt="COSI logo">
-        </div>
-      </div>
+<section class="block" id="cite">
+  <div class="wrap narrow">
+    <div class="eyebrow">Cite</div>
+    <h2>Citation</h2>
+    <p>If you use TEXMET, please cite the paper:</p>
+    <div class="bib">
+      <button class="copy" type="button" onclick="copyBib(this)">Copy</button>
+<pre id="bibtex">@article{zafar2026texmet,
+  author  = {Zafar, Muhammad Hamza and Gigilashvili, Davit and Hardeberg, Jon Yngve},
+  title   = {{TEXMET}: A Deep Learning Benchmark for Archaeological Textile Reconstruction},
+  journal = {ACM Journal on Computing and Cultural Heritage},
+  year    = {2026},
+  doi     = {10.1145/3846195}
+}</pre>
     </div>
   </div>
 </section>
 
+<section class="block alt" id="links">
+  <div class="wrap">
+    <div class="eyebrow">Code &amp; data</div>
+    <h2>All resources</h2>
+    <div class="linklist" style="margin-top:18px">
+      <a href="https://huggingface.co/datasets/hzafar/TEXMET" target="_blank" rel="noopener">TEXMET on Hugging Face<small>Full dataset, Parquet, splits</small></a>
+      <a href="https://github.com/hamzafer/TEXMET" target="_blank" rel="noopener">TEXMET on GitHub<small>Download scripts and metadata</small></a>
+      <a href="https://doi.org/10.1145/3846195" target="_blank" rel="noopener">Paper<small>ACM JOCCH, 2026</small></a>
+      <a href="https://github.com/hamzafer/JPDVT-MT-NTNU" target="_blank" rel="noopener">JPDVT-MT-NTNU<small>JPDVT reproduction</small></a>
+      <a href="https://github.com/hamzafer/fcvit-mt-ntnu" target="_blank" rel="noopener">FCViT-MT-NTNU<small>FCViT reproduction</small></a>
+      <a href="https://github.com/hamzafer/DiffAssemble" target="_blank" rel="noopener">DiffAssemble<small>Fine-tuning on TEXMET</small></a>
+      <a href="https://github.com/hamzafer/asuka-misato" target="_blank" rel="noopener">asuka-misato<small>Inpainting fork</small></a>
+      <a href="https://github.com/hamzafer/PuzzleSolverUI" target="_blank" rel="noopener">PuzzleSolverUI<small>Interactive tool</small></a>
+      <a href="https://github.com/hamzafer/hpc-jobs-ntnu" target="_blank" rel="noopener">hpc-jobs-ntnu<small>Slurm scripts</small></a>
+      <a href="https://github.com/topics/thesis-2025" target="_blank" rel="noopener">GitHub topic<small>thesis-2025</small></a>
+      <a href="https://thesis-mt-project-page-1lg4.vercel.app/" target="_blank" rel="noopener">Thesis project page<small>Work in progress</small></a>
+      <a href="https://texmet-gch2026-talk.vercel.app" target="_blank" rel="noopener">GCH 2026 talk<small>Interactive slides</small></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="eyebrow">Affiliations &amp; partners</div>
+    <div class="logos">
+      <img src="static/images/FRONTMATTER/NTNU_Logo.png" alt="NTNU" loading="lazy">
+      <img src="static/images/FRONTMATTER/UEF_Logo.png" alt="University of Eastern Finland" loading="lazy">
+      <img src="static/images/FRONTMATTER/UGR_Logo.png" alt="University of Granada" loading="lazy">
+      <img src="static/images/FRONTMATTER/UJM_Logo.png" alt="Université Jean Monnet" loading="lazy">
+      <img src="static/images/FRONTMATTER/Erasmus_Logo.jpg" alt="Erasmus+" loading="lazy">
+      <img src="static/images/FRONTMATTER/COSI_Logo.jpg" alt="COSI" loading="lazy">
+    </div>
+    <p>Textile images: The Metropolitan Museum of Art Open Access (CC0). Oseberg images: G. A. Pantos, Museum of Cultural History, University of Oslo.</p>
+  </div>
+</footer>
+
+<div id="lb" onclick="this.classList.remove('on')"><img alt=""></div>
+
+<script>
+  // Click-to-zoom for figures
+  document.querySelectorAll('.fig img, .model img').forEach(img => img.addEventListener('click', () => {
+    const lb = document.getElementById('lb'); lb.querySelector('img').src = img.src; lb.querySelector('img').alt = img.alt; lb.classList.add('on');
+  }));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') document.getElementById('lb').classList.remove('on'); });
+  // Gentle reveal on scroll
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  // Hide a figure whose image fails to load
+  document.querySelectorAll('img').forEach(img => img.addEventListener('error', () => { const f = img.closest('figure'); if (f) f.remove(); }, { once: true }));
+  function copyBib(btn) {
+    navigator.clipboard.writeText(document.getElementById('bibtex').innerText).then(() => { btn.textContent = 'Copied'; setTimeout(() => btn.textContent = 'Copy', 1600); });
+  }
+</script>
 </body>
 </html>
