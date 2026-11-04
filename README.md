@@ -1,5 +1,9 @@
 # TEXMET: Curated Textile Dataset from the Metropolitan Museum of Art
 
+[![arXiv](https://img.shields.io/badge/arXiv-2611.04734-b31b1b.svg)](https://arxiv.org/abs/2611.04734) [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3846195-blue.svg)](https://doi.org/10.1145/3846195) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-hzafar%2FTEXMET-yellow.svg)](https://huggingface.co/datasets/hzafar/TEXMET)
+
+**Paper:** M. H. Zafar, D. Gigilashvili, J. Y. Hardeberg. *TEXMET: A Deep Learning Benchmark for Archaeological Textile Reconstruction.* ACM Journal on Computing and Cultural Heritage, 2026. [DOI 10.1145/3846195](https://doi.org/10.1145/3846195) · open-access preprint [arXiv:2611.04734](https://arxiv.org/abs/2611.04734)
+
 **TEXMET** is a high-quality, manually curated dataset of textile and tapestry objects from the Metropolitan Museum of Art's Open Access collection. This dataset has been carefully cleaned, validated, and optimized for computer vision and deep learning applications.
 
 ## Quick Start: Download the Dataset
@@ -36,9 +40,9 @@ python download.py --help
 The dataset metadata, including statistics and distributions, is available in `metadata.json`.
 
 ## Dataset Access
-🤗 A sample of the curated dataset is also available on Hugging Face.
+🤗 The full curated dataset (all 18,644 images with metadata and the paper's train / validation / test splits) is available on Hugging Face.
 
-**[Explore the sample on Hugging Face Datasets](https://huggingface.co/datasets/hzafar/TEXMET)**
+**[Open TEXMET on Hugging Face Datasets](https://huggingface.co/datasets/hzafar/TEXMET)**
 
 ## Citation and Credits
 
