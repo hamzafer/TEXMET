@@ -32,7 +32,7 @@ python download.py --help
 ## Dataset Overview
 
 - **Total Images**: 18,644 high-resolution images
-- **Unique Objects**: 1,697 textile/tapestry objects
+- **Unique Objects**: 18,644 Met objects, one primary image each (train 14,915 / validation 1,864 / test 1,865)
 - **Average Resolution**: 3.3 MP (1557 x 1631 pixels)
 - **Format**: 100% JPEG
 - **Total Size**: 26.5 GB
@@ -46,15 +46,18 @@ The dataset metadata, including statistics and distributions, is available in `m
 
 ## Citation and Credits
 
-### TEXMET Dataset Citation
+### Citing TEXMET
+If you use TEXMET, please cite the paper:
+
 ```bibtex
-@dataset{texmet2025,
-  title={TEXMET: Curated Textile Images from the Metropolitan Museum of Art},
-  author={HAMZA},
-  year={2025},
-  publisher={Thesis Project},
-  version={1.0},
-  note={Manually curated dataset: 1,697 objects, 18,644 images}
+@article{zafar2026texmet,
+  author  = {Zafar, Muhammad Hamza and Gigilashvili, Davit and Hardeberg, Jon Yngve},
+  title   = {{TEXMET}: A Deep Learning Benchmark for Archaeological Textile Reconstruction},
+  journal = {ACM Journal on Computing and Cultural Heritage},
+  year    = {2026},
+  doi     = {10.1145/3846195},
+  eprint  = {2611.04734},
+  archivePrefix = {arXiv}
 }
 ```
 
@@ -77,4 +80,4 @@ This dataset is a curated subset of textiles and tapestries from The Metropolita
 - **Attribution**: The Metropolitan Museum of Art (recommended).
 
 ---
-*Last Updated: July 8, 2025*
+*Last Updated: November 4, 2026*
